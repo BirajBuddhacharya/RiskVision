@@ -1,36 +1,85 @@
 import json
+import os
 
-def save_features(save_feature: dict):  # expecting save_feature to have only one key-value pair
+def save_features(feature_df, target): 
+    custom_labels = {
+    # Stroke dataset
+    'gender': 'Gender',
+    'age': 'Age',
+    'hypertension': 'Hypertension',
+    'heart_disease': 'Heart Disease',
+    'ever_married': 'Ever Married',
+    'work_type': 'Work Type',
+    'Residence_type': 'Residence Type',
+    'avg_glucose_level': 'Average Glucose Level',
+    'bmi': 'BMI',
+    'smoking_status': 'Smoking Status',
+    
+    # Diabetes dataset
+    'Pregnancies': 'Number of Pregnancies',
+    'BloodPressure': 'Blood Pressure',
+    'SkinThickness': 'Skin Thickness',
+    'Insulin': 'Insulin Level',
+    'DiabetesPedigreeFunction': 'Diabetes Pedigree Function',
+    
+    # Heart Disease dataset
+    'cp': 'Chest Pain Type',
+    'chol': 'Cholesterol Level',
+    'restecg': 'Resting ECG Results',
+    'thalach': 'Maximum Heart Rate',
+    'exang': 'Exercise Induced Angina',
+    'oldpeak': 'ST Depression',
+    'slope': 'Slope of Peak Exercise',
+    'ca': 'Number of Major Vessels',
+    'thal': 'Thalassemia Type'
+    }
+    
+    # empty dict to process columns and fill in option and label for each feature
+    local_features_dict = {}
+    
+    # processing columns
+    try: 
+        print("Starting to process columns in feature_df...")
+        for column in feature_df.columns:
+            local_features_dict[column] = {
+                'label': custom_labels[column],
+                'options': list(feature_df[column].unique()) if feature_df[column].dtype == 'object' else None
+            }
+
+    except KeyError: 
+        print('Error find corresponding labal for', column)
+        return 
+
+
+    # reading feature config file to store update data
+    features_config = 'config/features.json'
+    
+    # handling no file found
+    if not os.path.exists(features_config):
+        print('features config file doesnt exist creating new')   
+        try: 
+            with open(features_config, 'w') as fp: 
+                json.dump({}, fp, indent = 4)
+        except FileNotFoundError: 
+            print("Parent dict of featuers config file doesnt exist")
+        
+        
     try:
-        # Attempt to open and load the JSON file, initialize empty if not found
-        try:
-            with open('config/features.json', 'r') as fp:
-                features = json.load(fp)
-        except FileNotFoundError:
-            print("Warning: features.json not found, initializing empty features.")
-            features = {}
+        with open(features_config, 'r') as fp: 
+            global_features = json.load(fp)
+   
+    except json.JSONDecodeError:
+        print(f"Error: Failed to decode JSON (json file may not be in correct format)")
+        return
+    
+    except Exception as e: 
+        print("Unexpected error occured", e)
+        
+    # writing update data in featues config file
+    global_features[target] = local_features_dict
 
-        # Ensure only one key-value pair is passed
-        save_feature_key = list(save_feature.keys())
-
-        if len(save_feature_key) != 1:
-            print("Error: save_feature expects exactly one key, value pair.")
-            return  # Return instead of exiting to prevent abrupt termination
-
-        # Extract the single key-value pair
-        save_feature_key = save_feature_key[0]  # Convert to str from list
-
-        # Add the feature to the existing features
-        features[save_feature_key] = save_feature[save_feature_key]
-
-        # Save the updated features back to the JSON file
-        with open('config/features.json', 'w') as fp:
-            json.dump(features, fp)
-        print(f"Successfully saved feature: {save_feature_key}")
-
-    except json.JSONDecodeError as e:
-        print("Error: Could not decode JSON.")
-        print(e)
-    except Exception as e:
-        print("An unexpected error occurred: ")
-        print(e)
+    with open(features_config, 'w') as fp:
+        print("Updating features config file")
+        json.dump(global_features, fp, indent = 4) 
+    
+    print('Succesfully updated features config file')

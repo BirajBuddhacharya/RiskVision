@@ -1,1 +1,146 @@
-{"stroke_features": ["gender", "age", "hypertension", "heart_disease", "ever_married", "work_type", "Residence_type", "avg_glucose_level", "bmi", "smoking_status"]}
+{
+    "stroke": {
+        "gender": {
+            "label": "Gender",
+            "options": null
+        },
+        "age": {
+            "label": "Age",
+            "options": null
+        },
+        "hypertension": {
+            "label": "Hypertension",
+            "options": null
+        },
+        "heart_disease": {
+            "label": "Heart Disease",
+            "options": null
+        },
+        "ever_married": {
+            "label": "Ever Married",
+            "options": null
+        },
+        "work_type": {
+            "label": "Work Type",
+            "options": [
+                "Private",
+                "Self-employed",
+                "Govt_job",
+                "children",
+                "Never_worked"
+            ]
+        },
+        "Residence_type": {
+            "label": "Residence Type",
+            "options": [
+                "Urban",
+                "Rural"
+            ]
+        },
+        "avg_glucose_level": {
+            "label": "Average Glucose Level",
+            "options": null
+        },
+        "bmi": {
+            "label": "BMI",
+            "options": null
+        },
+        "smoking_status": {
+            "label": "Smoking Status",
+            "options": [
+                "formerly smoked",
+                "never smoked",
+                "smokes",
+                "Unknown"
+            ]
+        }
+    },
+    "heart_disease": {
+        "age": {
+            "label": "Age",
+            "options": null
+        },
+        "gender": {
+            "label": "Gender",
+            "options": null
+        },
+        "cp": {
+            "label": "Chest Pain Type",
+            "options": null
+        },
+        "BloodPressure": {
+            "label": "Blood Pressure",
+            "options": null
+        },
+        "chol": {
+            "label": "Cholesterol Level",
+            "options": null
+        },
+        "avg_glucose_level": {
+            "label": "Average Glucose Level",
+            "options": null
+        },
+        "restecg": {
+            "label": "Resting ECG Results",
+            "options": null
+        },
+        "thalach": {
+            "label": "Maximum Heart Rate",
+            "options": null
+        },
+        "exang": {
+            "label": "Exercise Induced Angina",
+            "options": null
+        },
+        "oldpeak": {
+            "label": "ST Depression",
+            "options": null
+        },
+        "slope": {
+            "label": "Slope of Peak Exercise",
+            "options": null
+        },
+        "ca": {
+            "label": "Number of Major Vessels",
+            "options": null
+        },
+        "thal": {
+            "label": "Thalassemia Type",
+            "options": null
+        }
+    },
+    "diabetes": {
+        "Pregnancies": {
+            "label": "Number of Pregnancies",
+            "options": null
+        },
+        "avg_glucose_level": {
+            "label": "Average Glucose Level",
+            "options": null
+        },
+        "BloodPressure": {
+            "label": "Blood Pressure",
+            "options": null
+        },
+        "SkinThickness": {
+            "label": "Skin Thickness",
+            "options": null
+        },
+        "Insulin": {
+            "label": "Insulin Level",
+            "options": null
+        },
+        "bmi": {
+            "label": "BMI",
+            "options": null
+        },
+        "DiabetesPedigreeFunction": {
+            "label": "Diabetes Pedigree Function",
+            "options": null
+        },
+        "age": {
+            "label": "Age",
+            "options": null
+        }
+    }
+}

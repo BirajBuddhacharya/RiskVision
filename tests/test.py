@@ -1,8 +1,16 @@
-import pickle
-import pandas as pd 
-from sklearn.linear_model import LogisticRegression
+from ucimlrepo import fetch_ucirepo 
+  
+# fetch dataset 
+liver_disorders = fetch_ucirepo(id=60) 
+  
+# data (as pandas dataframes) 
+X = liver_disorders.data.features 
+y = liver_disorders.data.targets 
+  
+# # metadata 
+# print(liver_disorders.metadata) 
+  
+# # variable information 
+# print(liver_disorders.variables)
 
-with open('tests/stroke-predict.pkl', 'rb') as fp: 
-    model = pickle.load(fp)
-    X_test = pd.read_csv("tests/X_test.csv")
-    print(model.predict(X_test))
+print(X)
