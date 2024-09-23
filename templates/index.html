@@ -146,109 +146,28 @@
 
 <body>
   <main>
-    <div class="form-wrapper">
-      <div>
-        <h1>Questionnaire</h1>
-      </div>
-      <hr>
-
-      <form action="/predictRisk" method="post">
-        <!-- Gender -->
-        <div class="wrapper">
-            <label for="gender">Gender:</label>
-            <select id="gender" name="gender">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Other">Other</option>
-            </select>
-        </div>
-    
-        <!-- Age -->
-        <div class="wrapper">
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" required>
-        </div>
-    
-        <!-- Hypertension -->
-        <div class="wrapper">
-            <label for="hypertension">Hypertension:</label>
-            <select id="hypertension" name="hypertension">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select>
-        </div>
-    
-        <!-- Heart Disease -->
-        <div class="wrapper">
-            <label for="heart_disease">Heart Disease:</label>
-            <select id="heart_disease" name="heart_disease">
-                <option value="1">Yes</option>
-                <option value="0">No</option>
-            </select>
-        </div>
-    
-        <!-- Ever Married -->
-        <div class="wrapper">
-            <label for="ever_married">Ever Married:</label>
-            <select id="ever_married" name="ever_married">
-                <option value="Yes">Yes</option>
-                <option value="No">No</option>
-            </select>
-        </div>
-    
-        <!-- Work Type -->
-        <div class="wrapper">
-            <label for="work_type">Work Type:</label>
-            <select id="work_type" name="work_type">
-                <option value="Private">Private</option>
-                <option value="Self-employed">Self-employed</option>
-                <option value="Govt_job">Government Job</option>
-                <option value="children">Children</option>
-                <option value="Never_worked">Never Worked</option>
-            </select>
-        </div>
-    
-        <!-- Residence Type -->
-        <div class="wrapper">
-            <label for="Residence_type">Residence Type:</label>
-            <select id="Residence_type" name="Residence_type">
-                <option value="Urban">Urban</option>
-                <option value="Rural">Rural</option>
-            </select>
-        </div>
-    
-        <!-- Average Glucose Level -->
-        <div class="wrapper">
-            <label for="avg_glucose_level">Average Glucose Level:</label>
-            <input type="number" step="0.01" id="avg_glucose_level" name="avg_glucose_level" required>
-        </div>
-    
-        <!-- Weight -->
-        <div class="wrapper">
-            <label for="weight">Weight (kg):</label>
-            <input type="number" id="weight" name="weight" step="0.1" required>
-        </div>
-    
-        <!-- Height -->
-        <div class="wrapper">
-            <label for="height">Height (m):</label>
-            <input type="number" id="height" name="height" step="0.01" required>
-        </div>
-    
-        <!-- Smoking Status -->
-        <div class="wrapper">
-            <label for="smoking_status">Smoking Status:</label>
-            <select id="smoking_status" name="smoking_status">
-                <option value="formerly smoked">Formerly Smoked</option>
-                <option value="never smoked">Never Smoked</option>
-                <option value="smokes">Smokes</option>
-                <option value="Unknown">Unknown</option>
-            </select>
-        </div>
-        <button type="submit", id = 'submit'>Submit</button>
+    <form action="/predictRisk" method = 'POST'>
+        {% for group_name, features in question_group.items() %}
+          <div id = "{{ group_name }}">
+            <h1>{{ group_name | format_str }}</h1><hr>
+            {% for feature_name, feature in features.items() %}
+              <div class = 'wrapper'>
+                <label for="{{feature_name}}"> {{feature['label']}} </label>
+                {% if not feature['options'] %}
+                  <input type="text" name = "{{feature_name}}" required>
+                {% else %}
+                  <select name="{{feature_name}}" id="{{feature_name}}" required>
+                  {% for option in feature['options'] %}
+                    <option value="{{option}}">{{option}}</option>
+                  {% endfor %}
+                  </select>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+        <button type="submit" id = 'submit'>Submit</button>
     </form>
-    
-    </div>
   </main>
 </body>
 

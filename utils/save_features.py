@@ -1,5 +1,6 @@
 import json
 import os
+from config.config import features_config_loc
 
 def save_features(feature_df, target): 
     custom_labels = {
@@ -52,7 +53,7 @@ def save_features(feature_df, target):
 
 
     # reading feature config file to store update data
-    features_config = 'config/features.json'
+    features_config = features_config_loc
     
     # handling no file found
     if not os.path.exists(features_config):

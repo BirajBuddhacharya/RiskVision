@@ -1,50 +1,97 @@
 import pandas as pd 
-import utils.process_features as pf
 import pickle
-from config import config
+from config.config import features_config_loc
 import json
+import pandas as pd 
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+import pickle
 
 def load_features(): 
     # opening features config file
     print('loading features file')
-    with open("config/features.json", 'r') as fp: 
+    with open(features_config_loc, 'r') as fp: 
         features = json.load(fp)
     
     print("features.json loaded successfully")
     
     # returning features
     return features
+
+def process(features, disease):  
+    # Checking if the disease exists in the features config file 
+    diseases = load_features()
     
-def predictStroke(df): 
+    if disease not in diseases: 
+        print(f"{disease} doesn't exist in features config file")
+        return None  # Return None or raise an exception
+ 
+    # Encoding categorical data
+    print(f"Encoding {disease} data")
+    categorical_columns = features.select_dtypes(include='object').columns
+    if not categorical_columns.empty: 
+        try: 
+            with open(f'models/{disease}/encoder.pkl', 'rb') as fp: 
+                encoder = pickle.load(fp)  # Loading encoder from trained data
+        except FileNotFoundError: 
+            print("Error opening encoder")
+            return None  # Return None or raise an exception
+        
+        encoded_columns = pd.DataFrame(
+            encoder.transform(features[categorical_columns]), 
+            columns=encoder.get_feature_names_out(categorical_columns),
+            index=features.index  # Ensure indices match
+        )
+
+        # Concatenating the original dataframe with encoded columns
+        features = pd.concat([features.drop(categorical_columns, axis=1), encoded_columns], axis=1)
+
+    # Normalizing numerical features
+    print(f"scaling {disease} data")
+    numerical_features = features.select_dtypes(include='number').columns
+    
+    # Debugging 
+    print(numerical_features)
+
+    if not numerical_features.empty:
+        try: 
+            with open(f'models/{disease}/scaler.pkl', 'rb') as fp: 
+                scaler = pickle.load(fp)
+        except FileNotFoundError: 
+            print("Error opening scaler")
+            return None  # Return None or raise an exception
+            
+        features[numerical_features] = scaler.transform(features[numerical_features])
+    
+    print(f"{disease} data processed successfully ")
+    return features
+    
+def predict(df): 
     try: 
-        features = load_features()
+        # loading diseases features config file
+        diseases = load_features()
         
-        # selecting features 
-        stroke_df = df[features['stroke_features']]
+        # initializing empty distionary to store probability of diseases
+        result = {}
         
-        # Processing data using OneHotEncoder and StandardScaler
-        print("Processing data using OneHotEncoder and StandardScaler")
-        stroke_df = pf.process_stroke(stroke_df)
+        # predicting each disease in features config file
+        for disease_name, disease in diseases.items(): 
+            # processing data using standard scaler and OneHotEncoder
+            print(f"processing data for {disease_name}")
+            processed_disease = process(df[disease.keys()], disease_name)
+            
+            # predicting
+            with open(f'models/{disease_name}/{disease_name}.pkl', 'rb') as fp: 
+                model = pickle.load(fp)
+            prediction = model.predict_proba(processed_disease)[:,1] * 100 # turning to percentag
 
-        # Loading the model
-        with open('models/stroke/stroke.pkl', 'rb') as fp:
-            model = pickle.load(fp)
-
-        # Predicting stroke risk
-        print("Predicting stroke risk")
-        result = model.predict_proba(stroke_df)[:,1] * 100 # turning to percentage
-
+            # collecting prediction 
+            result[disease_name] = prediction
+            
         return result
-    
-    except KeyError: 
-        # finding missing colomns
-        set1 = set(features['stroke_features'])
-        set2 = set(df.columns)
-        
-        missing_columns = set1 - set2
-        
-        # printing findings
-        print(f"following stroke features are missing: {missing_columns}")
+
+    except FileNotFoundError: 
+        print(f"Error opening {disease_name} model")
+        exit(1)
     
     except Exception as e: 
         print("Exception occured:")
