@@ -38,18 +38,23 @@ def save_features(feature_df, target):
     # empty dict to process columns and fill in option and label for each feature
     local_features_dict = {}
     
-    # processing columns
-    try: 
-        print("Starting to process columns in feature_df...")
-        for column in feature_df.columns:
+    # assigning labels and optins for each features
+    print("Starting to process columns in feature_df...")
+    for column in feature_df.columns:
+        try:
+            # Try to use the custom label
             local_features_dict[column] = {
-                'label': custom_labels[column],
+                'label': custom_labels[column],  # May raise KeyError
                 'options': list(feature_df[column].unique()) if feature_df[column].dtype == 'object' else None
             }
-
-    except KeyError: 
-        print('Error find corresponding labal for', column)
-        return 
+        except KeyError:
+            # Fallback: assign the column name as the label if custom_labels[column] does not exist
+            local_features_dict[column] = {
+                'label': column,  # Use column as label
+                'options': list(feature_df[column].unique()) if feature_df[column].dtype == 'object' else None
+            }
+            # Continue to the next column
+            continue
 
 
     # reading feature config file to store update data

@@ -1,21 +1,9 @@
 import pandas as pd 
 import pickle
 from config.config import features_config_loc
-import json
 import pandas as pd 
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
 import pickle
-
-def load_features(): 
-    # opening features config file
-    print('loading features file')
-    with open(features_config_loc, 'r') as fp: 
-        features = json.load(fp)
-    
-    print("features.json loaded successfully")
-    
-    # returning features
-    return features
+from utils.modules import load_features
 
 def process(features, disease):  
     # Checking if the disease exists in the features config file 
@@ -48,9 +36,6 @@ def process(features, disease):
     # Normalizing numerical features
     print(f"scaling {disease} data")
     numerical_features = features.select_dtypes(include='number').columns
-    
-    # Debugging 
-    print(numerical_features)
 
     if not numerical_features.empty:
         try: 
@@ -65,10 +50,16 @@ def process(features, disease):
     print(f"{disease} data processed successfully ")
     return features
     
-def predict(df): 
+def predict(df, selectedDiseases): 
     try: 
         # loading diseases features config file
         diseases = load_features()
+        
+        # Debugging
+        print("Selected Diseases in predict: ", selectedDiseases)
+        
+        # selecting only user selected disease
+        diseases = {key: value for key, value in diseases.items() if key in selectedDiseases}
         
         # initializing empty distionary to store probability of diseases
         result = {}

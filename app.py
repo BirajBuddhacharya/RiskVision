@@ -1,11 +1,12 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, session
 import pandas as pd
 from utils import predict
-import json 
-from config.config import features_config_loc
+from utils.modules import load_features
+import os 
 
 # Initializing Flask app
 app = Flask(__name__)
+app.secret_key = os.urandom(24)
 
 # formating strings for frontend
 @app.template_filter('format_str')
@@ -13,18 +14,24 @@ def format_str(string):
     return string.replace('_', ' ').title()
 
 @app.route('/')
-def index():
-    def load_and_group(features_config_loc): 
+def diseasesInput():
+    diseases_config = load_features() 
+    diseases = list(diseases_config.keys())
+    return render_template('diseasesInput.html', diseases = diseases)
+
+@app.route('/questionere', methods = ['POST'])
+def questionere(): 
+    def load_and_group(): 
         # finding common questions
-        try:
-            with open(features_config_loc, 'r') as fp: 
-                diseases = json.load(fp)
-                print("features config file opened sucessfully")
+        diseases = load_features() # loading feature files
 
-        except FileNotFoundError: 
-            print("Error finding diseases config file")
-            exit
-
+        # selecting only user selected disease
+        selectedDiseases = request.form.getlist('selectedDiseases[]')
+        diseases = {key: value for key, value in diseases.items() if key in selectedDiseases}
+        
+        # storing user selected diseases in session to use in predict page
+        session['selectedDiseases'] = selectedDiseases
+        
         # initializing empty list to track duplicate features 
         features = []
         
@@ -47,14 +54,13 @@ def index():
                 if feature_key not in question_group['common']
             }
         
-        # returning grouped data
-        return question_group
+        # returning grouped data and user selected diseases
+        return question_group, selectedDiseases
     
     # loading features and grouping them on the basic of common and disease
-    question_group = load_and_group(features_config_loc)
-
-    return render_template('index.html', question_group = question_group)
-
+    question_group, selectedDiseases = load_and_group()
+    
+    return render_template('index.html', question_group = question_group, selectedDiseases = selectedDiseases)
 
 @app.route('/predictRisk', methods=['POST'])
 def predictRisk():
@@ -77,7 +83,7 @@ def predictRisk():
         # dataframe
         print("Making pandas dataframe of collected data")
         df = pd.DataFrame([data])
-
+        
         # returning data frame
         return df
 
@@ -85,7 +91,7 @@ def predictRisk():
     df = collect_data(request.form)
     
     # predicting stroke risk 
-    diseases_risk = predict.predict(df)
+    diseases_risk = predict.predict(df, session['selectedDiseases'])
     
     # Displaying result
     print("Displaying results")

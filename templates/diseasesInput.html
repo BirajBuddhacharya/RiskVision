@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/questionere" method="POST">
+        <label for="diseasesSelect">Select Diseases: </label>
+        {% for disease in diseases %}
+            <input type = 'checkbox' name = 'selectedDiseases[]' value="{{ disease }}">
+            <label for="{{ disease }}">{{ disease }}</label>
+        {% endfor %}
+        <input type="submit" value="Submit">
+    </form>    
+</body>
+
+</html>

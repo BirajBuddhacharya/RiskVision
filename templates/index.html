@@ -148,25 +148,28 @@
   <main>
     <form action="/predictRisk" method = 'POST'>
         {% for group_name, features in question_group.items() %}
-          <div id = "{{ group_name }}">
-            <h1>{{ group_name | format_str }}</h1><hr>
-            {% for feature_name, feature in features.items() %}
-              <div class = 'wrapper'>
-                <label for="{{feature_name}}"> {{feature['label']}} </label>
-                {% if not feature['options'] %}
-                  <input type="text" name = "{{feature_name}}" required>
-                {% else %}
-                  <select name="{{feature_name}}" id="{{feature_name}}" required>
-                  {% for option in feature['options'] %}
-                    <option value="{{option}}">{{option}}</option>
-                  {% endfor %}
-                  </select>
-                {% endif %}
+          {% if features | length != 0 %}
+            <div id = "{{ group_name }}">
+              <h1>{{ group_name | format_str }}</h1><hr>
+              {% for feature_name, feature in features.items() %}
+                <div class = 'wrapper'>
+                  <label for="{{feature_name}}"> {{feature['label']}} </label>
+                  {% if not feature['options'] %}
+                    <input type="text" name = "{{feature_name}}" required>
+                  {% else %}
+                    <select name="{{feature_name}}" id="{{feature_name}}" required>
+                    {% for option in feature['options'] %}
+                      <option value="{{option}}">{{option}}</option>
+                    {% endfor %}
+                    </select>
+                  {% endif %}
+                </div>
+                {% endfor %}
               </div>
-            {% endfor %}
-          </div>
+          {% endif %}
         {% endfor %}
-        <button type="submit" id = 'submit'>Submit</button>
+        <input type="hidden" name="selectedDiseases[]" value = '{{ selectedDiseases }}'>
+        <input type="submit" value="submit">
     </form>
   </main>
 </body>

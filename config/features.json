@@ -2,7 +2,11 @@
     "stroke": {
         "gender": {
             "label": "Gender",
-            "options": null
+            "options": [
+                "Male",
+                "Female",
+                "Other"
+            ]
         },
         "age": {
             "label": "Age",
@@ -18,7 +22,10 @@
         },
         "ever_married": {
             "label": "Ever Married",
-            "options": null
+            "options": [
+                "Yes",
+                "No"
+            ]
         },
         "work_type": {
             "label": "Work Type",
@@ -62,7 +69,10 @@
         },
         "gender": {
             "label": "Gender",
-            "options": null
+            "options": [
+                "Male",
+                "Female"
+            ]
         },
         "cp": {
             "label": "Chest Pain Type",
