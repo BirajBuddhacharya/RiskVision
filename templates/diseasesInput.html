@@ -5,17 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href= "{{ url_for('static', filename = 'css/global.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/diseasesInput.css') }}">
+    <style>
+        .disease-option-wrapper {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* Toggle checked background color */
+        .disease-option-wrapper.checked {
+            background-color: lightgreen;
+        }
+    </style>
 </head>
 
 <body>
-    <form action="/questionere" method="POST">
-        <label for="diseasesSelect">Select Diseases: </label>
-        {% for disease in diseases %}
-            <input type = 'checkbox' name = 'selectedDiseases[]' value="{{ disease }}">
-            <label for="{{ disease }}">{{ disease }}</label>
-        {% endfor %}
-        <input type="submit" value="Submit">
-    </form>    
+    <main class='card-wrapper'>
+        <section class='form-wrapper'>
+            <form action="/questionere" method="POST">
+                <h1>SELECT DISEASES</h1>
+                {% for disease in diseases %}
+                <div class="disease-option-wrapper" data-disease="{{ disease }}">
+                    <input type="checkbox" name="selectedDiseases[]" value="{{ disease }}" class="hidden-checkbox" style="display:none;">
+                    <label>{{ disease | format_str }}</label>
+                </div>
+                {% endfor %}
+                <input type="submit" value="Submit">
+            </form>
+
+            <script>
+                // Get all divs with class 'disease-option-wrapper'
+                const diseaseDivs = document.querySelectorAll('.disease-option-wrapper');
+                
+                diseaseDivs.forEach((diseaseDiv) => {
+                    const hiddenCheckbox = diseaseDiv.querySelector('.hidden-checkbox');
+                    
+                    diseaseDiv.addEventListener('click', function () {
+                        // Toggle 'checked' class
+                        this.classList.toggle('checked');
+                        
+                        // Simulate checkbox behavior
+                        if (this.classList.contains('checked')) {
+                            hiddenCheckbox.checked = true;
+                        } else {
+                            hiddenCheckbox.checked = false;
+                        }
+                    });
+                });
+            </script>
+        </section>
+        <section class='display-img-wrapper'></section>
+    </main>
 </body>
 
 </html>

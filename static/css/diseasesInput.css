@@ -1,0 +1,69 @@
+body{
+    display: flex; 
+    justify-content: center;
+    margin: 0px;
+    height: 100vh; 
+    width: 100vw;
+    background-image: url('../img/diseases-input-wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter:blur(10px);
+    /* overflow: hidden; */
+}
+
+.card-wrapper{
+    margin: 5% 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-grow: 1;
+    border-radius: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+.display-img-wrapper{
+    background-image: url('../img/diseases-input-display.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-wrapper{
+    display:grid;
+    place-items:center;
+}
+.disease-option-wrapper{
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 1px !important;
+    border:none !important;
+}
+.disease-option-wrapper:hover, input[type='submit']:hover{
+    background-color:purple;
+    cursor: pointer;
+    color: white;   
+
+}
+.disease-option-wrapper.checked{
+    background-color: purple !important;
+    color: white;
+}
+.disease-option-wrapper > *:hover{
+    cursor: pointer;
+}
+form {
+    display:flex;
+    flex-direction: column;
+}
+input[type='submit']{
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius:30px;
+    border:none;
+    font-size:16px;
+}
+
+form > h1{
+    margin: 20px;
+    color: white;
+}

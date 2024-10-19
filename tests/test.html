@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Checkbox Button</title>
+    <style>
+        /* Style for the div acting as a button */
+        .checkbox-button {
+            width: 30px;
+            height: 30px;
+            background-color: lightgray;
+            border: 2px solid #000;
+            display: inline-block;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        /* Change color when clicked (checked state) */
+        .checkbox-button.checked {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Form with a hidden input field -->
+    <form id="myForm" action="/submit" method="POST">
+        <div class="checkbox-button" id="checkboxDiv"></div>
+        <input type="hidden" name="checkboxValue" id="checkboxValue" value="0"> <!-- hidden field -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Get the div and hidden input elements
+        const checkboxDiv = document.getElementById('checkboxDiv');
+        const checkboxValue = document.getElementById('checkboxValue');
+
+        // Add click event listener to the div
+        checkboxDiv.addEventListener('click', function() {
+            // Toggle the checked state
+            this.classList.toggle('checked');
+
+            // Update hidden input value based on the div state
+            if (this.classList.contains('checked')) {
+                checkboxValue.value = "1"; // Checked state
+            } else {
+                checkboxValue.value = "0"; // Unchecked state
+            }
+        });
+    </script>
+
+</body>
+</html>
