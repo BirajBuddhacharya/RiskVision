@@ -68,23 +68,36 @@ def feature_selection(diseases):
         
     return user_chosen_features
         
-def encode(X, encoder = OneHotEncoder(sparse_output=False), scaler = StandardScaler()): 
-    # Encoding categorical data  
-    # Columns to encode
-    categorical_columns = X.select_dtypes(include='object').columns
-    # Encoding
-    encoded_columns = pd.DataFrame(encoder.fit_transform(X[categorical_columns]))  # Corrected typo
-    # Naming columns
-    encoded_columns.columns = encoder.get_feature_names_out(categorical_columns)
-    # Concatenating with original dataframe
-    X = pd.concat([X.drop(categorical_columns, axis=1), encoded_columns], axis=1)
+def encode(X, encoder=None, scaler=None, pre_processor_flag = True):
+    # Initialize encoder and scaler if not provided
+    if encoder is None:
+        encoder = OneHotEncoder(sparse_output=False, handle_unknown='ignore')
+
+    if scaler is None:
+        scaler = StandardScaler()
     
+    # Encoding categorical data  
+    categorical_columns = X.select_dtypes(include='object').columns
+    
+    # Check if there are any categorical columns
+    if len(categorical_columns) > 0:
+        # Training encoder 
+        if pre_processor_flag: 
+            encoder.fit(X[categorical_columns])
+        
+        encoded_columns = pd.DataFrame(encoder.transform(X[categorical_columns]), 
+                                       columns=encoder.get_feature_names_out(categorical_columns))
+        # Concatenating with original dataframe
+        X = pd.concat([X.drop(categorical_columns, axis=1), encoded_columns], axis=1)
+
     # Normalizing numerical features 
-    # Features to scale
     numerical_features = X.select_dtypes(include=['int', 'float']).columns
-    # Training scaler
-    scaler.fit(X[numerical_features])
-    # Scaling
-    X[numerical_features] = scaler.transform(X[numerical_features])
+    
+    # Check if there are any numerical features
+    if len(numerical_features) > 0:
+        # Training scaler 
+        if pre_processor_flag: 
+            scaler.fit(X[numerical_features])
+        X[numerical_features] = scaler.transform(X[numerical_features])
     
     return X, encoder, scaler

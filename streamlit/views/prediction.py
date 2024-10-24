@@ -37,6 +37,8 @@ def predict(user_input, models):
 
         # Encoding training data
         X, encoder, scaler = encode(X)
+        # Debugging
+        print(X)
 
         # Training the model
         model.fit(X, y)
@@ -45,8 +47,10 @@ def predict(user_input, models):
         disease_df = pd.DataFrame([disease_data])
 
         # Ensure encoding is consistent
-        disease_df, _, _ = encode(disease_df, encoder=encoder, scaler=scaler)
+        disease_df, _, _ = encode(disease_df, encoder=encoder, scaler=scaler, pre_processor_flag=False)
 
+        # Debugging 
+        print(disease_df)
         # Predicting risk
         risk = model.predict_proba(disease_df)[:,1]
 
