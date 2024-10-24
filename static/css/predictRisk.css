@@ -1,0 +1,9 @@
+body{
+    background-image: url('../img/diseases-input-wallpaper.jpg');
+    backdrop-filter:blur(10px);
+}
+.flex-child{
+    flex-grow:1;
+    display: grid;
+    place-items: center;
+}

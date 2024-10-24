@@ -83,8 +83,31 @@ main {
     }
 }
 
-/* ...................... form css ........................... */
-.error { 
-    color: red ;
-    border: 3px solid red;
+/* ---------------card design css-------------- */
+body{
+    display: flex; 
+    justify-content: center;
+    margin: 0px;
+    height: 100vh; 
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.card-wrapper{
+    margin: 5% 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-grow: 1;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.display-img-wrapper{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }

@@ -1,36 +1,26 @@
-body{
-    display: flex; 
-    justify-content: center;
-    margin: 0px;
-    height: 100vh; 
-    width: 100vw;
-    background-image: url('../img/diseases-input-wallpaper.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter:blur(10px);
-    /* overflow: hidden; */
-}
-
-.card-wrapper{
-    margin: 5% 10%;
-    background-color: rgba(0, 0, 0, 0.4);
-    flex-grow: 1;
-    border-radius: 20px;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    overflow: hidden;
-}
-.display-img-wrapper{
-    background-image: url('../img/diseases-input-display.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+/* ----------form css-------------- */
 .form-wrapper{
     display:grid;
     place-items:center;
+    flex-grow:1;
 }
+form {
+    display:flex;
+    flex-direction: column;
+}
+input[type='submit']{
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius:30px;
+    border:none;
+    font-size:16px;
+}
+
+form > h1{
+    margin: 20px;
+    color: white;
+}
+
 .disease-option-wrapper{
     padding: 10px;
     text-align: center;
@@ -51,19 +41,13 @@ body{
 .disease-option-wrapper > *:hover{
     cursor: pointer;
 }
-form {
-    display:flex;
-    flex-direction: column;
-}
-input[type='submit']{
-    margin-top: 10px;
-    padding: 10px 0px;
-    border-radius:30px;
-    border:none;
-    font-size:16px;
-}
 
-form > h1{
-    margin: 20px;
-    color: white;
+/* -----------card design css------------- */
+.display-img-wrapper{
+    background-image: url('../img/diseases-input-display.jpg');
+    flex-grow: 1;
+}
+body{
+    background-image: url('../img/diseases-input-wallpaper.jpg');
+    backdrop-filter:blur(10px);
 }

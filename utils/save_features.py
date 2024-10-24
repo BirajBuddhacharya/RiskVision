@@ -18,10 +18,10 @@ def save_features(feature_df, target):
     
     # Diabetes dataset
     'Pregnancies': 'Number of Pregnancies',
-    'BloodPressure': 'Blood Pressure',
-    'SkinThickness': 'Skin Thickness',
+    'BloodPressure': 'Systolic Blood Pressure',
+    'SkinThickness': 'Triceps skin fold Thickness',
     'Insulin': 'Insulin Level',
-    'DiabetesPedigreeFunction': 'Diabetes Pedigree Function',
+    'DiabetesPedigreeFunction': 'Diabetes Pedigree Function ',
     
     # Heart Disease dataset
     'cp': 'Chest Pain Type',
@@ -31,10 +31,27 @@ def save_features(feature_df, target):
     'exang': 'Exercise Induced Angina',
     'oldpeak': 'ST Depression',
     'slope': 'Slope of Peak Exercise',
-    'ca': 'Number of Major Vessels',
+    'ca': 'Vessels colored by flourosopy',
     'thal': 'Thalassemia Type'
     }
     
+    custom_desc = {
+    # Stroke dataset
+    'avg_glucose_level': 'Normal: 70-99 mg/dL',
+    'bmi': 'Normal: 18.5 - 24.9 kg/m²',
+    
+    # Diabetes dataset
+    'BloodPressure': 'Normal: 120 mm Hg',
+    'Insulin': 'Normal: 16-166 mIU/L',
+    'SkinThickness': 'Normal: 10-20 mm',
+    
+    # Heart Disease dataset
+    'chol': 'Normal: <200 mg/dL',
+    'thalach': 'Normal: 60-100 bpm at rest',
+    'oldpeak': 'Normal: ~0 mm',
+    'slope': 'Normal: < 1',
+    
+}
     # empty dict to process columns and fill in option and label for each feature
     local_features_dict = {}
     
@@ -45,13 +62,15 @@ def save_features(feature_df, target):
             # Try to use the custom label
             local_features_dict[column] = {
                 'label': custom_labels[column],  # May raise KeyError
-                'options': list(feature_df[column].unique()) if feature_df[column].dtype == 'object' else None
+                'options': list(feature_df[column].unique()) if feature_df[column].dtype == 'object' else None,
+                'desc': custom_desc.get(column, None)
             }
         except KeyError:
             # Fallback: assign the column name as the label if custom_labels[column] does not exist
             local_features_dict[column] = {
                 'label': column,  # Use column as label
-                'options': list(feature_df[column].unique()) if feature_df[column].dtype == 'object' else None
+                'options': list(feature_df[column].unique()) if feature_df[column].dtype == 'object' else None,
+                'desc': custom_desc.get(column, None)
             }
             # Continue to the next column
             continue

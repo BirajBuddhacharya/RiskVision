@@ -6,26 +6,29 @@
                 "Male",
                 "Female",
                 "Other"
-            ]
+            ],
+            "desc": null
         },
         "age": {
             "label": "Age",
-            "options": null
+            "options": null,
+            "desc": null
         },
         "hypertension": {
             "label": "Hypertension",
-            "options": null
-        },
-        "heart_disease": {
-            "label": "Heart Disease",
-            "options": null
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "desc": null
         },
         "ever_married": {
             "label": "Ever Married",
             "options": [
                 "Yes",
                 "No"
-            ]
+            ],
+            "desc": null
         },
         "work_type": {
             "label": "Work Type",
@@ -35,22 +38,26 @@
                 "Govt_job",
                 "children",
                 "Never_worked"
-            ]
+            ],
+            "desc": null
         },
         "Residence_type": {
             "label": "Residence Type",
             "options": [
                 "Urban",
                 "Rural"
-            ]
+            ],
+            "desc": null
         },
         "avg_glucose_level": {
             "label": "Average Glucose Level",
-            "options": null
+            "options": null,
+            "desc": "Normal: 70-99 mg/dL"
         },
         "bmi": {
             "label": "BMI",
-            "options": null
+            "options": null,
+            "desc": "Normal: 18.5 - 24.9 kg/m\u00b2"
         },
         "smoking_status": {
             "label": "Smoking Status",
@@ -59,98 +66,142 @@
                 "never smoked",
                 "smokes",
                 "Unknown"
-            ]
+            ],
+            "desc": null
         }
     },
     "heart_disease": {
         "age": {
             "label": "Age",
-            "options": null
+            "options": null,
+            "desc": null
         },
         "gender": {
             "label": "Gender",
             "options": [
                 "Male",
                 "Female"
-            ]
+            ],
+            "desc": null
         },
         "cp": {
             "label": "Chest Pain Type",
-            "options": null
+            "options": [
+                "No Pain",
+                "Mild Pain (Non-Cardiac/Occasional)",
+                "Moderate Pain (Potentially Cardiac)",
+                "Severe Pain (Emergency/Cardiac)"
+            ],
+            "desc": null
         },
         "BloodPressure": {
-            "label": "Blood Pressure",
-            "options": null
+            "label": "Systolic Blood Pressure",
+            "options": null,
+            "desc": "Normal: 120 mm Hg"
         },
         "chol": {
             "label": "Cholesterol Level",
-            "options": null
+            "options": null,
+            "desc": "Normal: <200 mg/dL"
         },
         "avg_glucose_level": {
             "label": "Average Glucose Level",
-            "options": null
+            "options": null,
+            "desc": "Normal: 70-99 mg/dL"
         },
         "restecg": {
             "label": "Resting ECG Results",
-            "options": null
+            "options": [
+                "Abnormal but Non-Specific",
+                "Normal ECG",
+                "Definite Abnormalities"
+            ],
+            "desc": null
         },
         "thalach": {
             "label": "Maximum Heart Rate",
-            "options": null
+            "options": null,
+            "desc": "Normal: 60-100 bpm at rest"
         },
         "exang": {
             "label": "Exercise Induced Angina",
-            "options": null
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "desc": null
         },
         "oldpeak": {
             "label": "ST Depression",
-            "options": null
+            "options": null,
+            "desc": "Normal: ~0 mm"
         },
         "slope": {
             "label": "Slope of Peak Exercise",
-            "options": null
+            "options": null,
+            "desc": "Normal: < 1"
         },
         "ca": {
-            "label": "Number of Major Vessels",
-            "options": null
+            "label": "Vessels colored by flourosopy",
+            "options": [
+                "Two",
+                "Zero",
+                "One",
+                "Three",
+                "Four"
+            ],
+            "desc": null
         },
         "thal": {
             "label": "Thalassemia Type",
-            "options": null
+            "options": [
+                "Normal",
+                "Reversable Defect",
+                "Fixed Defect"
+            ],
+            "desc": null
         }
     },
     "diabetes": {
         "Pregnancies": {
             "label": "Number of Pregnancies",
-            "options": null
+            "options": null,
+            "desc": null
         },
         "avg_glucose_level": {
             "label": "Average Glucose Level",
-            "options": null
+            "options": null,
+            "desc": "Normal: 70-99 mg/dL"
         },
         "BloodPressure": {
-            "label": "Blood Pressure",
-            "options": null
+            "label": "Systolic Blood Pressure",
+            "options": null,
+            "desc": "Normal: 120 mm Hg"
         },
         "SkinThickness": {
-            "label": "Skin Thickness",
-            "options": null
+            "label": "Triceps skin fold Thickness",
+            "options": null,
+            "desc": "Normal: 10-20 mm"
         },
         "Insulin": {
             "label": "Insulin Level",
-            "options": null
+            "options": null,
+            "desc": "Normal: 16-166 mIU/L"
         },
         "bmi": {
             "label": "BMI",
-            "options": null
+            "options": null,
+            "desc": "Normal: 18.5 - 24.9 kg/m\u00b2"
         },
         "DiabetesPedigreeFunction": {
-            "label": "Diabetes Pedigree Function",
-            "options": null
+            "label": "Diabetes Pedigree Function ",
+            "options": null,
+            "desc": null
         },
         "age": {
             "label": "Age",
-            "options": null
+            "options": null,
+            "desc": null
         }
     }
 }

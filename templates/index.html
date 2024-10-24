@@ -1,177 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>questionnaire</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/global.css') }}"
+    />
+    <style>
+      :root {
+        background: url("{{ url_for('static', filename = 'img/background.jpg') }}")
+          no-repeat fixed center/cover;
+        color: white;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>questionnaire</title>
-  <link rel="stylesheet" href= "{{ url_for('static', filename = 'css/global.css') }}">
-  <style>
-    :root {
-      background: url("{{ url_for('static', filename = 'img/background.jpg') }}") no-repeat fixed center/cover;
-      color: white;
-    }
+      body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+      }
 
-    body {
-      display: grid;
-      place-items: center;
-      height: 100vh;
-    }
-
-    main {
-      margin-top: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: auto;
-      background-color: rgba(0, 0, 0, 0.8);
-      border-radius: 25px;
-      padding: 20px;
-    }
-
-    h1 {
-      font-size: 35px;
-      color: white;
-      text-align: center;
-      margin: auto auto 0px auto;
-    }
-
-    form {
-      margin-top: 30px;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-    input[type="file"]{margin:0px;}
-
-    #name_wrapper {
-      display: grid;
-      grid-template-areas: 'firstname lastname';
-      grid-gap: 10px;
-      width: 100%;
-    }
-
-    #name_wrapper>* {
-      width: 1fr;
-    }
-    select {
-      box-sizing:border-box;
-      width:60%;
-      height:35px;
-
-      border-radius: 10px;
-      text-align:center;
-    }
-    input,
-    textarea {
-      border-radius: 10px;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid#ccc;
-    }
-
-    #submit {
-      border: none;
-      display: block;
-      margin: 0 auto;
-      border-radius: 30px;
-      height: 52px;
-      width: 160px;
-      text-align: center;
-      font-size: 23px;
-    }
-    
-    #submit:hover {
-      background-color: black;
-      color: white;
-    }
-
-    .wrapper,
-    #gender_wrapper,
-    #birth_date_wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 20px;
-      gap: 10px;  
-    }
-
-    input[type='radio'],input[type="checkbox"] {
-      height: 20px;
-      width: 20px;
-      margin: 0;
-    }
-
-    input[type='date'] {
-      width: 100%;
-      margin: 0px;
-    }
-
-    label {
-      text-align: left;
-    }
-
-    label[for='date'] {
-      width: 250px;
-    }
-
-    input::placeholder {
-      font-family: Montserrat;
-    }
-    input[type="file"]::-webkit-file-upload-button {
-        background:transparent;
-        font-family: "Montserrat";
-        padding: 10px 20px;
-        border:1px solid white;
-        border-radius: 15px;
-        color:white;
-        margin-right: 30px;
-    }
-    input[type="file"]::-webkit-file-upload-button:hover{
-        background-color: black;
-        
-    }
-    @media only screen and (max-width: 767px) {
       main {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-radius: 25px;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        margin: auto auto 0px auto;
+      }
+
+      form {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      input[type="file"] {
+        margin: 0px;
+      }
+
+      #name_wrapper {
+        display: grid;
+        grid-template-areas: "firstname lastname";
+        grid-gap: 10px;
         width: 100%;
       }
 
-      main>* {
-        margin: 10px 5%;
+      #name_wrapper > * {
+        width: 1fr;
       }
-    }
-  </style>
-</head>
+      select {
+        box-sizing: border-box;
+        width: 60%;
+        height: 35px;
 
-<body>
-  <main>
-    <form action="/predictRisk" method = 'POST'>
-        {% for group_name, features in question_group.items() %}
-          {% if features | length != 0 %}
-            <div id = "{{ group_name }}">
-              <h1>{{ group_name | format_str }}</h1><hr>
+        border-radius: 10px;
+        text-align: center;
+      }
+      input,
+      textarea {
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid#ccc;
+      }
+
+      #submit {
+        border: none;
+        display: block;
+        margin: 0 auto;
+        border-radius: 30px;
+        height: 52px;
+        width: 160px;
+        text-align: center;
+        font-size: 23px;
+      }
+
+      #submit:hover {
+        background-color: black;
+        color: white;
+      }
+
+      .wrapper,
+      #gender_wrapper,
+      #birth_date_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        gap: 10px;
+      }
+
+      input[type="radio"],
+      input[type="checkbox"] {
+        height: 20px;
+        width: 20px;
+        margin: 0;
+      }
+
+      input[type="date"] {
+        width: 100%;
+        margin: 0px;
+      }
+
+      label {
+        text-align: left;
+      }
+
+      label[for="date"] {
+        width: 250px;
+      }
+
+      input::placeholder {
+        font-family: Montserrat;
+      }
+      input[type="file"]::-webkit-file-upload-button {
+        background: transparent;
+        font-family: "Montserrat";
+        padding: 10px 20px;
+        border: 1px solid white;
+        border-radius: 15px;
+        color: white;
+        margin-right: 30px;
+      }
+      input[type="file"]::-webkit-file-upload-button:hover {
+        background-color: black;
+      }
+      @media only screen and (max-width: 767px) {
+        main {
+          width: 100%;
+        }
+
+        main > * {
+          margin: 10px 5%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <form action="/predictRisk" method="POST">
+        {% for group_name, features in question_group.items() %} 
+          {% if features|length != 0 %}
+            <div id="{{ group_name }}">
+              <h1>{{ group_name | format_str }}</h1>
+              <hr />
               {% for feature_name, feature in features.items() %}
-                <div class = 'wrapper'>
-                  <label for="{{feature_name}}"> {{feature['label']}} </label>
-                  {% if not feature['options'] %}
-                    <input type="text" name = "{{feature_name}}" required>
+              <div class="wrapper">
+                <label for="{{feature_name}}"> {{feature['label']}} </label>
+                {% if not feature['options'] %}
+                  {% if feature['desc'] %}
+                    <input type="text" name="{{feature_name}}" placeholder="{{ feature['desc'] }}" required />
                   {% else %}
-                    <select name="{{feature_name}}" id="{{feature_name}}" required>
-                    {% for option in feature['options'] %}
-                      <option value="{{option}}">{{option}}</option>
-                    {% endfor %}
-                    </select>
+                    <input type="text" name="{{feature_name}}" required />
+                  {% endif %}
+                {% else %}
+                <select name="{{feature_name}}" id="{{feature_name}}" required>
+                  {% for option in feature['options'] %}
+                  <option value="{{option}}">{{option}}</option>
+                  {% endfor %}
+                </select>
                   {% endif %}
                 </div>
                 {% endfor %}
               </div>
-          {% endif %}
+          {% endif %} 
         {% endfor %}
-        <input type="hidden" name="selectedDiseases[]" value = '{{ selectedDiseases }}'>
-        <input type="submit" value="submit">
-    </form>
-  </main>
-</body>
-
+        <input
+          type="hidden"
+          name="selectedDiseases[]"
+          value="{{ selectedDiseases }}"
+        />
+        <input type="submit" value="submit" />
+      </form>
+    </main>
+  </body>
 </html>

@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    {{ diseases_risk }}
-</body>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/global.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename = 'css/predictRisk.css')}}"
+    />
+  </head>
+  <body>
+    <main class="card-wrapper">
+        {% for disease, prediction in diseases_risk.items() %}
+        <div class="flex-child" id = '{{ disease }}-wrapper'>
+            <div style="text-align: center; display:flex; flex-direction: column;">
+            <h1>{{disease | format_str | upper}}</h1>
+            <span>{{prediction[0] | round(2)}} %</span>
+            <span>chance of having {{disease | format_str}}</span>
+            </div>
+        </div>
+        {% endfor %}
+    </main>
+  </body>
 </html>
