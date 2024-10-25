@@ -1,1026 +1,1026 @@
-age,gender,cp,BloodPressure,chol,avg_glucose_level,restecg,thalach,exang,oldpeak,slope,ca,thal,heart_disease
-52,Male,No Pain,125,212,0,Abnormal but Non-Specific,168,No,1.0,2,Two,Normal,0
-53,Male,No Pain,140,203,1,Normal ECG,155,Yes,3.1,0,Zero,Normal,0
-70,Male,No Pain,145,174,0,Abnormal but Non-Specific,125,Yes,2.6,0,Zero,Normal,0
-61,Male,No Pain,148,203,0,Abnormal but Non-Specific,161,No,0.0,2,One,Normal,0
-62,Female,No Pain,138,294,1,Abnormal but Non-Specific,106,No,1.9,1,Three,Reversable Defect,0
-58,Female,No Pain,100,248,0,Normal ECG,122,No,1.0,1,Zero,Reversable Defect,1
-58,Male,No Pain,114,318,0,Definite Abnormalities,140,No,4.4,0,Three,Fixed Defect,0
-55,Male,No Pain,160,289,0,Normal ECG,145,Yes,0.8,1,One,Normal,0
-46,Male,No Pain,120,249,0,Normal ECG,144,No,0.8,2,Zero,Normal,0
-54,Male,No Pain,122,286,0,Normal ECG,116,Yes,3.2,1,Two,Reversable Defect,0
-71,Female,No Pain,112,149,0,Abnormal but Non-Specific,125,No,1.6,1,Zero,Reversable Defect,1
-43,Female,No Pain,132,341,1,Normal ECG,136,Yes,3.0,1,Zero,Normal,0
-34,Female,Mild Pain (Non-Cardiac/Occasional),118,210,0,Abnormal but Non-Specific,192,No,0.7,2,Zero,Reversable Defect,1
-51,Male,No Pain,140,298,0,Abnormal but Non-Specific,122,Yes,4.2,1,Three,Normal,0
-52,Male,No Pain,128,204,1,Abnormal but Non-Specific,156,Yes,1.0,1,Zero,Normal,0
-34,Female,Mild Pain (Non-Cardiac/Occasional),118,210,0,Abnormal but Non-Specific,192,No,0.7,2,Zero,Reversable Defect,1
-51,Female,Moderate Pain (Potentially Cardiac),140,308,0,Normal ECG,142,No,1.5,2,One,Reversable Defect,1
-54,Male,No Pain,124,266,0,Normal ECG,109,Yes,2.2,1,One,Normal,0
-50,Female,Mild Pain (Non-Cardiac/Occasional),120,244,0,Abnormal but Non-Specific,162,No,1.1,2,Zero,Reversable Defect,1
-58,Male,Moderate Pain (Potentially Cardiac),140,211,1,Normal ECG,165,No,0.0,2,Zero,Reversable Defect,1
-60,Male,Moderate Pain (Potentially Cardiac),140,185,0,Normal ECG,155,No,3.0,1,Zero,Reversable Defect,0
-67,Female,No Pain,106,223,0,Abnormal but Non-Specific,142,No,0.3,2,Two,Reversable Defect,1
-45,Male,No Pain,104,208,0,Normal ECG,148,Yes,3.0,1,Zero,Reversable Defect,1
-63,Female,Moderate Pain (Potentially Cardiac),135,252,0,Normal ECG,172,No,0.0,2,Zero,Reversable Defect,1
-42,Female,Moderate Pain (Potentially Cardiac),120,209,0,Abnormal but Non-Specific,173,No,0.0,1,Zero,Reversable Defect,1
-61,Female,No Pain,145,307,0,Normal ECG,146,Yes,1.0,1,Zero,Normal,0
-44,Male,Moderate Pain (Potentially Cardiac),130,233,0,Abnormal but Non-Specific,179,Yes,0.4,2,Zero,Reversable Defect,1
-58,Female,Mild Pain (Non-Cardiac/Occasional),136,319,1,Normal ECG,152,No,0.0,2,Two,Reversable Defect,0
-56,Male,Moderate Pain (Potentially Cardiac),130,256,1,Normal ECG,142,Yes,0.6,1,One,Fixed Defect,0
-55,Female,No Pain,180,327,0,Definite Abnormalities,117,Yes,3.4,1,Zero,Reversable Defect,0
-44,Male,No Pain,120,169,0,Abnormal but Non-Specific,144,Yes,2.8,0,Zero,Fixed Defect,0
-50,Female,Mild Pain (Non-Cardiac/Occasional),120,244,0,Abnormal but Non-Specific,162,No,1.1,2,Zero,Reversable Defect,1
-57,Male,No Pain,130,131,0,Abnormal but Non-Specific,115,Yes,1.2,1,One,Normal,0
-70,Male,Moderate Pain (Potentially Cardiac),160,269,0,Abnormal but Non-Specific,112,Yes,2.9,1,One,Normal,0
-50,Male,Moderate Pain (Potentially Cardiac),129,196,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-46,Male,Moderate Pain (Potentially Cardiac),150,231,0,Abnormal but Non-Specific,147,No,3.6,1,Zero,Reversable Defect,0
-51,Male,Severe Pain (Emergency/Cardiac),125,213,0,Normal ECG,125,Yes,1.4,2,One,Reversable Defect,1
-59,Male,No Pain,138,271,0,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
-64,Male,No Pain,128,263,0,Abnormal but Non-Specific,105,Yes,0.2,1,One,Normal,1
-57,Male,Moderate Pain (Potentially Cardiac),128,229,0,Normal ECG,150,No,0.4,1,One,Normal,0
-65,Female,Moderate Pain (Potentially Cardiac),160,360,0,Normal ECG,151,No,0.8,2,Zero,Reversable Defect,1
-54,Male,Moderate Pain (Potentially Cardiac),120,258,0,Normal ECG,147,No,0.4,1,Zero,Normal,1
-61,Female,No Pain,130,330,0,Normal ECG,169,No,0.0,2,Zero,Reversable Defect,0
-46,Male,No Pain,120,249,0,Normal ECG,144,No,0.8,2,Zero,Normal,0
-55,Female,Mild Pain (Non-Cardiac/Occasional),132,342,0,Abnormal but Non-Specific,166,No,1.2,2,Zero,Reversable Defect,1
-42,Male,No Pain,140,226,0,Abnormal but Non-Specific,178,No,0.0,2,Zero,Reversable Defect,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),135,203,0,Abnormal but Non-Specific,132,No,0.0,1,Zero,Fixed Defect,1
-66,Female,No Pain,178,228,1,Abnormal but Non-Specific,165,Yes,1.0,1,Two,Normal,0
-66,Female,Moderate Pain (Potentially Cardiac),146,278,0,Normal ECG,152,No,0.0,1,One,Reversable Defect,1
-60,Male,No Pain,117,230,1,Abnormal but Non-Specific,160,Yes,1.4,2,Two,Normal,0
-58,Female,Severe Pain (Emergency/Cardiac),150,283,1,Normal ECG,162,No,1.0,2,Zero,Reversable Defect,1
-57,Female,No Pain,140,241,0,Abnormal but Non-Specific,123,Yes,0.2,1,Zero,Normal,0
-38,Male,Moderate Pain (Potentially Cardiac),138,175,0,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
-49,Male,Moderate Pain (Potentially Cardiac),120,188,0,Abnormal but Non-Specific,139,No,2.0,1,Three,Normal,0
-55,Male,No Pain,140,217,0,Abnormal but Non-Specific,111,Yes,5.6,0,Zero,Normal,0
-55,Male,No Pain,140,217,0,Abnormal but Non-Specific,111,Yes,5.6,0,Zero,Normal,0
-56,Male,Severe Pain (Emergency/Cardiac),120,193,0,Normal ECG,162,No,1.9,1,Zero,Normal,1
-48,Male,Mild Pain (Non-Cardiac/Occasional),130,245,0,Normal ECG,180,No,0.2,1,Zero,Reversable Defect,1
-67,Male,Moderate Pain (Potentially Cardiac),152,212,0,Normal ECG,150,No,0.8,1,Zero,Normal,0
-57,Male,Mild Pain (Non-Cardiac/Occasional),154,232,0,Normal ECG,164,No,0.0,2,One,Reversable Defect,0
-29,Male,Mild Pain (Non-Cardiac/Occasional),130,204,0,Normal ECG,202,No,0.0,2,Zero,Reversable Defect,1
-66,Female,Moderate Pain (Potentially Cardiac),146,278,0,Normal ECG,152,No,0.0,1,One,Reversable Defect,1
-67,Male,No Pain,100,299,0,Normal ECG,125,Yes,0.9,1,Two,Reversable Defect,0
-59,Male,Moderate Pain (Potentially Cardiac),150,212,1,Abnormal but Non-Specific,157,No,1.6,2,Zero,Reversable Defect,1
-29,Male,Mild Pain (Non-Cardiac/Occasional),130,204,0,Normal ECG,202,No,0.0,2,Zero,Reversable Defect,1
-59,Male,Severe Pain (Emergency/Cardiac),170,288,0,Normal ECG,159,No,0.2,1,Zero,Normal,0
-53,Male,Moderate Pain (Potentially Cardiac),130,197,1,Normal ECG,152,No,1.2,0,Zero,Reversable Defect,1
-42,Male,No Pain,136,315,0,Abnormal but Non-Specific,125,Yes,1.8,1,Zero,Fixed Defect,0
-37,Female,Moderate Pain (Potentially Cardiac),120,215,0,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-62,Female,No Pain,160,164,0,Normal ECG,145,No,6.2,0,Three,Normal,0
-59,Male,No Pain,170,326,0,Normal ECG,140,Yes,3.4,0,Zero,Normal,0
-61,Male,No Pain,140,207,0,Normal ECG,138,Yes,1.9,2,One,Normal,0
-56,Male,No Pain,125,249,1,Normal ECG,144,Yes,1.2,1,One,Reversable Defect,0
-59,Male,No Pain,140,177,0,Abnormal but Non-Specific,162,Yes,0.0,2,One,Normal,0
-48,Male,No Pain,130,256,1,Normal ECG,150,Yes,0.0,2,Two,Normal,0
-47,Male,Moderate Pain (Potentially Cardiac),138,257,0,Normal ECG,156,No,0.0,2,Zero,Reversable Defect,1
-48,Male,Moderate Pain (Potentially Cardiac),124,255,1,Abnormal but Non-Specific,175,No,0.0,2,Two,Reversable Defect,1
-63,Male,No Pain,140,187,0,Normal ECG,144,Yes,4.0,2,Two,Normal,0
-52,Male,Mild Pain (Non-Cardiac/Occasional),134,201,0,Abnormal but Non-Specific,158,No,0.8,2,One,Reversable Defect,1
-52,Male,Mild Pain (Non-Cardiac/Occasional),134,201,0,Abnormal but Non-Specific,158,No,0.8,2,One,Reversable Defect,1
-50,Male,Moderate Pain (Potentially Cardiac),140,233,0,Abnormal but Non-Specific,163,No,0.6,1,One,Normal,0
-49,Male,Moderate Pain (Potentially Cardiac),118,149,0,Normal ECG,126,No,0.8,2,Three,Reversable Defect,0
-46,Male,Moderate Pain (Potentially Cardiac),150,231,0,Abnormal but Non-Specific,147,No,3.6,1,Zero,Reversable Defect,0
-38,Male,Moderate Pain (Potentially Cardiac),138,175,0,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
-37,Female,Moderate Pain (Potentially Cardiac),120,215,0,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-44,Male,Mild Pain (Non-Cardiac/Occasional),120,220,0,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-58,Male,Moderate Pain (Potentially Cardiac),140,211,1,Normal ECG,165,No,0.0,2,Zero,Reversable Defect,1
-59,Female,No Pain,174,249,0,Abnormal but Non-Specific,143,Yes,0.0,1,Zero,Reversable Defect,0
-62,Female,No Pain,140,268,0,Normal ECG,160,No,3.6,0,Two,Reversable Defect,0
-68,Male,No Pain,144,193,1,Abnormal but Non-Specific,141,No,3.4,1,Two,Normal,0
-54,Female,Moderate Pain (Potentially Cardiac),108,267,0,Normal ECG,167,No,0.0,2,Zero,Reversable Defect,1
-62,Female,No Pain,124,209,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-63,Male,No Pain,140,187,0,Normal ECG,144,Yes,4.0,2,Two,Normal,0
-44,Male,No Pain,120,169,0,Abnormal but Non-Specific,144,Yes,2.8,0,Zero,Fixed Defect,0
-62,Male,Mild Pain (Non-Cardiac/Occasional),128,208,1,Normal ECG,140,No,0.0,2,Zero,Reversable Defect,1
-45,Female,No Pain,138,236,0,Normal ECG,152,Yes,0.2,1,Zero,Reversable Defect,1
-57,Female,No Pain,128,303,0,Normal ECG,159,No,0.0,2,One,Reversable Defect,1
-53,Male,No Pain,123,282,0,Abnormal but Non-Specific,95,Yes,2.0,1,Two,Normal,0
-65,Male,No Pain,110,248,0,Normal ECG,158,No,0.6,2,Two,Fixed Defect,0
-76,Female,Moderate Pain (Potentially Cardiac),140,197,0,Definite Abnormalities,116,No,1.1,1,Zero,Reversable Defect,1
-43,Female,Moderate Pain (Potentially Cardiac),122,213,0,Abnormal but Non-Specific,165,No,0.2,1,Zero,Reversable Defect,1
-57,Male,Moderate Pain (Potentially Cardiac),150,126,1,Abnormal but Non-Specific,173,No,0.2,2,One,Normal,1
-54,Male,Mild Pain (Non-Cardiac/Occasional),108,309,0,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
-47,Male,Moderate Pain (Potentially Cardiac),138,257,0,Normal ECG,156,No,0.0,2,Zero,Reversable Defect,1
-52,Male,Severe Pain (Emergency/Cardiac),118,186,0,Normal ECG,190,No,0.0,1,Zero,Fixed Defect,1
-47,Male,No Pain,110,275,0,Normal ECG,118,Yes,1.0,1,One,Reversable Defect,0
-51,Male,No Pain,140,299,0,Abnormal but Non-Specific,173,Yes,1.6,2,Zero,Normal,0
-62,Male,Mild Pain (Non-Cardiac/Occasional),120,281,0,Normal ECG,103,No,1.4,1,One,Normal,0
-40,Male,No Pain,152,223,0,Abnormal but Non-Specific,181,No,0.0,2,Zero,Normal,0
-54,Male,No Pain,110,206,0,Normal ECG,108,Yes,0.0,1,One,Reversable Defect,0
-44,Male,No Pain,110,197,0,Normal ECG,177,No,0.0,2,One,Reversable Defect,0
-53,Male,No Pain,142,226,0,Normal ECG,111,Yes,0.0,2,Zero,Normal,1
-48,Male,No Pain,130,256,1,Normal ECG,150,Yes,0.0,2,Two,Normal,0
-57,Male,No Pain,110,335,0,Abnormal but Non-Specific,143,Yes,3.0,1,One,Normal,0
-59,Male,Moderate Pain (Potentially Cardiac),126,218,1,Abnormal but Non-Specific,134,No,2.2,1,One,Fixed Defect,0
-61,Female,No Pain,145,307,0,Normal ECG,146,Yes,1.0,1,Zero,Normal,0
-63,Male,No Pain,130,254,0,Normal ECG,147,No,1.4,1,One,Normal,0
-43,Male,No Pain,120,177,0,Normal ECG,120,Yes,2.5,1,Zero,Normal,0
-29,Male,Mild Pain (Non-Cardiac/Occasional),130,204,0,Normal ECG,202,No,0.0,2,Zero,Reversable Defect,1
-42,Male,Mild Pain (Non-Cardiac/Occasional),120,295,0,Abnormal but Non-Specific,162,No,0.0,2,Zero,Reversable Defect,1
-54,Male,Mild Pain (Non-Cardiac/Occasional),108,309,0,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
-44,Male,No Pain,120,169,0,Abnormal but Non-Specific,144,Yes,2.8,0,Zero,Fixed Defect,0
-60,Male,No Pain,145,282,0,Normal ECG,142,Yes,2.8,1,Two,Normal,0
-65,Female,Moderate Pain (Potentially Cardiac),140,417,1,Normal ECG,157,No,0.8,2,One,Reversable Defect,1
-61,Male,No Pain,120,260,0,Abnormal but Non-Specific,140,Yes,3.6,1,One,Normal,0
-60,Female,Severe Pain (Emergency/Cardiac),150,240,0,Abnormal but Non-Specific,171,No,0.9,2,Zero,Reversable Defect,1
-66,Male,No Pain,120,302,0,Normal ECG,151,No,0.4,1,Zero,Reversable Defect,1
-53,Male,Moderate Pain (Potentially Cardiac),130,197,1,Normal ECG,152,No,1.2,0,Zero,Reversable Defect,1
-52,Male,Moderate Pain (Potentially Cardiac),138,223,0,Abnormal but Non-Specific,169,No,0.0,2,Four,Reversable Defect,1
-57,Male,No Pain,140,192,0,Abnormal but Non-Specific,148,No,0.4,1,Zero,Fixed Defect,1
-60,Female,Severe Pain (Emergency/Cardiac),150,240,0,Abnormal but Non-Specific,171,No,0.9,2,Zero,Reversable Defect,1
-51,Female,Moderate Pain (Potentially Cardiac),130,256,0,Normal ECG,149,No,0.5,2,Zero,Reversable Defect,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),135,203,0,Abnormal but Non-Specific,132,No,0.0,1,Zero,Fixed Defect,1
-50,Male,Moderate Pain (Potentially Cardiac),129,196,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-54,Male,Mild Pain (Non-Cardiac/Occasional),108,309,0,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
-58,Female,No Pain,170,225,1,Normal ECG,146,Yes,2.8,1,Two,Fixed Defect,0
-55,Female,Mild Pain (Non-Cardiac/Occasional),132,342,0,Abnormal but Non-Specific,166,No,1.2,2,Zero,Reversable Defect,1
-64,Female,No Pain,180,325,0,Abnormal but Non-Specific,154,Yes,0.0,2,Zero,Reversable Defect,1
-47,Male,Moderate Pain (Potentially Cardiac),138,257,0,Normal ECG,156,No,0.0,2,Zero,Reversable Defect,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),110,235,0,Abnormal but Non-Specific,153,No,0.0,2,Zero,Reversable Defect,1
-57,Male,No Pain,152,274,0,Abnormal but Non-Specific,88,Yes,1.2,1,One,Normal,0
-63,Female,No Pain,124,197,0,Abnormal but Non-Specific,136,Yes,0.0,1,Zero,Reversable Defect,0
-61,Male,Severe Pain (Emergency/Cardiac),134,234,0,Abnormal but Non-Specific,145,No,2.6,1,Two,Reversable Defect,0
-34,Male,Severe Pain (Emergency/Cardiac),118,182,0,Normal ECG,174,No,0.0,2,Zero,Reversable Defect,1
-47,Male,No Pain,112,204,0,Abnormal but Non-Specific,143,No,0.1,2,Zero,Reversable Defect,1
-40,Male,No Pain,110,167,0,Normal ECG,114,Yes,2.0,1,Zero,Normal,0
-51,Female,Moderate Pain (Potentially Cardiac),120,295,0,Normal ECG,157,No,0.6,2,Zero,Reversable Defect,1
-41,Male,No Pain,110,172,0,Normal ECG,158,No,0.0,2,Zero,Normal,0
-52,Male,Severe Pain (Emergency/Cardiac),152,298,1,Abnormal but Non-Specific,178,No,1.2,1,Zero,Normal,1
-39,Male,Moderate Pain (Potentially Cardiac),140,321,0,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
-58,Male,No Pain,114,318,0,Definite Abnormalities,140,No,4.4,0,Three,Fixed Defect,0
-54,Male,Mild Pain (Non-Cardiac/Occasional),192,283,0,Normal ECG,195,No,0.0,2,One,Normal,0
-58,Male,No Pain,125,300,0,Normal ECG,171,No,0.0,2,Two,Normal,0
-54,Male,Moderate Pain (Potentially Cardiac),120,258,0,Normal ECG,147,No,0.4,1,Zero,Normal,1
-63,Male,No Pain,130,330,1,Normal ECG,132,Yes,1.8,2,Three,Normal,0
-54,Male,Mild Pain (Non-Cardiac/Occasional),108,309,0,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
-40,Male,Severe Pain (Emergency/Cardiac),140,199,0,Abnormal but Non-Specific,178,Yes,1.4,2,Zero,Normal,1
-54,Male,Moderate Pain (Potentially Cardiac),120,258,0,Normal ECG,147,No,0.4,1,Zero,Normal,1
-67,Female,Moderate Pain (Potentially Cardiac),115,564,0,Normal ECG,160,No,1.6,1,Zero,Normal,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),120,157,0,Abnormal but Non-Specific,182,No,0.0,2,Zero,Reversable Defect,1
-77,Male,No Pain,125,304,0,Normal ECG,162,Yes,0.0,2,Three,Reversable Defect,0
-51,Male,Moderate Pain (Potentially Cardiac),100,222,0,Abnormal but Non-Specific,143,Yes,1.2,1,Zero,Reversable Defect,1
-77,Male,No Pain,125,304,0,Normal ECG,162,Yes,0.0,2,Three,Reversable Defect,0
-48,Male,No Pain,124,274,0,Normal ECG,166,No,0.5,1,Zero,Normal,0
-56,Male,No Pain,125,249,1,Normal ECG,144,Yes,1.2,1,One,Reversable Defect,0
-59,Male,No Pain,170,326,0,Normal ECG,140,Yes,3.4,0,Zero,Normal,0
-56,Male,No Pain,132,184,0,Normal ECG,105,Yes,2.1,1,One,Fixed Defect,0
-57,Female,No Pain,120,354,0,Abnormal but Non-Specific,163,Yes,0.6,2,Zero,Reversable Defect,1
-43,Male,Moderate Pain (Potentially Cardiac),130,315,0,Abnormal but Non-Specific,162,No,1.9,2,One,Reversable Defect,1
-45,Female,Mild Pain (Non-Cardiac/Occasional),112,160,0,Abnormal but Non-Specific,138,No,0.0,1,Zero,Reversable Defect,1
-43,Male,No Pain,150,247,0,Abnormal but Non-Specific,171,No,1.5,2,Zero,Reversable Defect,1
-56,Male,No Pain,130,283,1,Normal ECG,103,Yes,1.6,0,Zero,Normal,0
-56,Male,Mild Pain (Non-Cardiac/Occasional),120,240,0,Abnormal but Non-Specific,169,No,0.0,0,Zero,Reversable Defect,1
-39,Female,Moderate Pain (Potentially Cardiac),94,199,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-54,Male,No Pain,110,239,0,Abnormal but Non-Specific,126,Yes,2.8,1,One,Normal,0
-56,Female,No Pain,200,288,1,Normal ECG,133,Yes,4.0,0,Two,Normal,0
-56,Male,No Pain,130,283,1,Normal ECG,103,Yes,1.6,0,Zero,Normal,0
-64,Male,No Pain,120,246,0,Normal ECG,96,Yes,2.2,0,One,Reversable Defect,0
-44,Male,No Pain,110,197,0,Normal ECG,177,No,0.0,2,One,Reversable Defect,0
-56,Female,No Pain,134,409,0,Normal ECG,150,Yes,1.9,1,Two,Normal,0
-63,Male,No Pain,140,187,0,Normal ECG,144,Yes,4.0,2,Two,Normal,0
-64,Male,Severe Pain (Emergency/Cardiac),110,211,0,Normal ECG,144,Yes,1.8,1,Zero,Reversable Defect,1
-60,Male,No Pain,140,293,0,Normal ECG,170,No,1.2,1,Two,Normal,0
-42,Male,Moderate Pain (Potentially Cardiac),130,180,0,Abnormal but Non-Specific,150,No,0.0,2,Zero,Reversable Defect,1
-45,Male,Mild Pain (Non-Cardiac/Occasional),128,308,0,Normal ECG,170,No,0.0,2,Zero,Reversable Defect,1
-57,Male,No Pain,165,289,1,Normal ECG,124,No,1.0,1,Three,Normal,0
-40,Male,No Pain,110,167,0,Normal ECG,114,Yes,2.0,1,Zero,Normal,0
-56,Male,No Pain,125,249,1,Normal ECG,144,Yes,1.2,1,One,Reversable Defect,0
-63,Male,No Pain,130,254,0,Normal ECG,147,No,1.4,1,One,Normal,0
-64,Male,Moderate Pain (Potentially Cardiac),125,309,0,Abnormal but Non-Specific,131,Yes,1.8,1,Zero,Normal,0
-41,Male,Moderate Pain (Potentially Cardiac),112,250,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-56,Male,Mild Pain (Non-Cardiac/Occasional),130,221,0,Normal ECG,163,No,0.0,2,Zero,Normal,1
-67,Female,Moderate Pain (Potentially Cardiac),115,564,0,Normal ECG,160,No,1.6,1,Zero,Normal,1
-69,Male,Severe Pain (Emergency/Cardiac),160,234,1,Normal ECG,131,No,0.1,1,One,Reversable Defect,1
-67,Male,No Pain,160,286,0,Normal ECG,108,Yes,1.5,1,Three,Reversable Defect,0
-59,Male,Moderate Pain (Potentially Cardiac),150,212,1,Abnormal but Non-Specific,157,No,1.6,2,Zero,Reversable Defect,1
-58,Male,No Pain,100,234,0,Abnormal but Non-Specific,156,No,0.1,2,One,Normal,0
-45,Male,No Pain,115,260,0,Normal ECG,185,No,0.0,2,Zero,Reversable Defect,1
-60,Female,Moderate Pain (Potentially Cardiac),102,318,0,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,1
-50,Male,No Pain,144,200,0,Normal ECG,126,Yes,0.9,1,Zero,Normal,0
-62,Female,No Pain,124,209,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-34,Male,Severe Pain (Emergency/Cardiac),118,182,0,Normal ECG,174,No,0.0,2,Zero,Reversable Defect,1
-52,Male,Severe Pain (Emergency/Cardiac),152,298,1,Abnormal but Non-Specific,178,No,1.2,1,Zero,Normal,1
-64,Male,Severe Pain (Emergency/Cardiac),170,227,0,Normal ECG,155,No,0.6,1,Zero,Normal,1
-66,Female,Moderate Pain (Potentially Cardiac),146,278,0,Normal ECG,152,No,0.0,1,One,Reversable Defect,1
-42,Male,Severe Pain (Emergency/Cardiac),148,244,0,Normal ECG,178,No,0.8,2,Two,Reversable Defect,1
-59,Male,Moderate Pain (Potentially Cardiac),126,218,1,Abnormal but Non-Specific,134,No,2.2,1,One,Fixed Defect,0
-41,Male,Moderate Pain (Potentially Cardiac),112,250,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-38,Male,Moderate Pain (Potentially Cardiac),138,175,0,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
-62,Male,Mild Pain (Non-Cardiac/Occasional),120,281,0,Normal ECG,103,No,1.4,1,One,Normal,0
-42,Male,Moderate Pain (Potentially Cardiac),120,240,1,Abnormal but Non-Specific,194,No,0.8,0,Zero,Normal,1
-67,Male,No Pain,100,299,0,Normal ECG,125,Yes,0.9,1,Two,Reversable Defect,0
-50,Male,No Pain,150,243,0,Normal ECG,128,No,2.6,1,Zero,Normal,0
-43,Male,Moderate Pain (Potentially Cardiac),130,315,0,Abnormal but Non-Specific,162,No,1.9,2,One,Reversable Defect,1
-45,Male,Mild Pain (Non-Cardiac/Occasional),128,308,0,Normal ECG,170,No,0.0,2,Zero,Reversable Defect,1
-49,Male,Mild Pain (Non-Cardiac/Occasional),130,266,0,Abnormal but Non-Specific,171,No,0.6,2,Zero,Reversable Defect,1
-65,Male,No Pain,135,254,0,Normal ECG,127,No,2.8,1,One,Normal,0
-41,Male,Mild Pain (Non-Cardiac/Occasional),120,157,0,Abnormal but Non-Specific,182,No,0.0,2,Zero,Reversable Defect,1
-46,Male,No Pain,140,311,0,Abnormal but Non-Specific,120,Yes,1.8,1,Two,Normal,0
-54,Male,No Pain,122,286,0,Normal ECG,116,Yes,3.2,1,Two,Reversable Defect,0
-57,Female,Mild Pain (Non-Cardiac/Occasional),130,236,0,Normal ECG,174,No,0.0,1,One,Reversable Defect,0
-63,Male,No Pain,130,254,0,Normal ECG,147,No,1.4,1,One,Normal,0
-64,Male,Severe Pain (Emergency/Cardiac),110,211,0,Normal ECG,144,Yes,1.8,1,Zero,Reversable Defect,1
-39,Female,Moderate Pain (Potentially Cardiac),94,199,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-51,Male,No Pain,140,261,0,Normal ECG,186,Yes,0.0,2,Zero,Reversable Defect,1
-54,Male,Moderate Pain (Potentially Cardiac),150,232,0,Normal ECG,165,No,1.6,2,Zero,Normal,1
-49,Male,Moderate Pain (Potentially Cardiac),118,149,0,Normal ECG,126,No,0.8,2,Three,Reversable Defect,0
-44,Female,Moderate Pain (Potentially Cardiac),118,242,0,Abnormal but Non-Specific,149,No,0.3,1,One,Reversable Defect,1
-52,Male,Mild Pain (Non-Cardiac/Occasional),128,205,1,Abnormal but Non-Specific,184,No,0.0,2,Zero,Reversable Defect,1
-66,Female,No Pain,178,228,1,Abnormal but Non-Specific,165,Yes,1.0,1,Two,Normal,0
-58,Male,No Pain,125,300,0,Normal ECG,171,No,0.0,2,Two,Normal,0
-56,Male,Mild Pain (Non-Cardiac/Occasional),120,236,0,Abnormal but Non-Specific,178,No,0.8,2,Zero,Reversable Defect,1
-60,Male,No Pain,125,258,0,Normal ECG,141,Yes,2.8,1,One,Normal,0
-41,Female,Mild Pain (Non-Cardiac/Occasional),126,306,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-49,Female,No Pain,130,269,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-64,Male,Severe Pain (Emergency/Cardiac),170,227,0,Normal ECG,155,No,0.6,1,Zero,Normal,1
-49,Male,Moderate Pain (Potentially Cardiac),118,149,0,Normal ECG,126,No,0.8,2,Three,Reversable Defect,0
-57,Male,Mild Pain (Non-Cardiac/Occasional),124,261,0,Abnormal but Non-Specific,141,No,0.3,2,Zero,Normal,0
-60,Male,No Pain,117,230,1,Abnormal but Non-Specific,160,Yes,1.4,2,Two,Normal,0
-62,Female,No Pain,150,244,0,Abnormal but Non-Specific,154,Yes,1.4,1,Zero,Reversable Defect,0
-54,Female,Mild Pain (Non-Cardiac/Occasional),132,288,1,Normal ECG,159,Yes,0.0,2,One,Reversable Defect,1
-67,Male,Moderate Pain (Potentially Cardiac),152,212,0,Normal ECG,150,No,0.8,1,Zero,Normal,0
-38,Male,Moderate Pain (Potentially Cardiac),138,175,0,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
-60,Male,Moderate Pain (Potentially Cardiac),140,185,0,Normal ECG,155,No,3.0,1,Zero,Reversable Defect,0
-51,Male,Moderate Pain (Potentially Cardiac),125,245,1,Normal ECG,166,No,2.4,1,Zero,Reversable Defect,1
-44,Male,Mild Pain (Non-Cardiac/Occasional),130,219,0,Normal ECG,188,No,0.0,2,Zero,Reversable Defect,1
-54,Male,Mild Pain (Non-Cardiac/Occasional),192,283,0,Normal ECG,195,No,0.0,2,One,Normal,0
-46,Male,No Pain,140,311,0,Abnormal but Non-Specific,120,Yes,1.8,1,Two,Normal,0
-39,Female,Moderate Pain (Potentially Cardiac),138,220,0,Abnormal but Non-Specific,152,No,0.0,1,Zero,Reversable Defect,1
-42,Male,Moderate Pain (Potentially Cardiac),130,180,0,Abnormal but Non-Specific,150,No,0.0,2,Zero,Reversable Defect,1
-47,Male,No Pain,110,275,0,Normal ECG,118,Yes,1.0,1,One,Reversable Defect,0
-45,Female,Mild Pain (Non-Cardiac/Occasional),112,160,0,Abnormal but Non-Specific,138,No,0.0,1,Zero,Reversable Defect,1
-55,Male,No Pain,132,353,0,Abnormal but Non-Specific,132,Yes,1.2,1,One,Normal,0
-57,Male,No Pain,165,289,1,Normal ECG,124,No,1.0,1,Three,Normal,0
-35,Male,No Pain,120,198,0,Abnormal but Non-Specific,130,Yes,1.6,1,Zero,Normal,0
-62,Female,No Pain,140,394,0,Normal ECG,157,No,1.2,1,Zero,Reversable Defect,1
-35,Female,No Pain,138,183,0,Abnormal but Non-Specific,182,No,1.4,2,Zero,Reversable Defect,1
-64,Female,No Pain,180,325,0,Abnormal but Non-Specific,154,Yes,0.0,2,Zero,Reversable Defect,1
-38,Male,Severe Pain (Emergency/Cardiac),120,231,0,Abnormal but Non-Specific,182,Yes,3.8,1,Zero,Normal,0
-66,Male,No Pain,120,302,0,Normal ECG,151,No,0.4,1,Zero,Reversable Defect,1
-44,Male,Moderate Pain (Potentially Cardiac),120,226,0,Abnormal but Non-Specific,169,No,0.0,2,Zero,Reversable Defect,1
-54,Male,Moderate Pain (Potentially Cardiac),150,232,0,Normal ECG,165,No,1.6,2,Zero,Normal,1
-48,Male,No Pain,122,222,0,Normal ECG,186,No,0.0,2,Zero,Reversable Defect,1
-55,Female,Mild Pain (Non-Cardiac/Occasional),132,342,0,Abnormal but Non-Specific,166,No,1.2,2,Zero,Reversable Defect,1
-58,Female,No Pain,170,225,1,Normal ECG,146,Yes,2.8,1,Two,Fixed Defect,0
-45,Male,No Pain,104,208,0,Normal ECG,148,Yes,3.0,1,Zero,Reversable Defect,1
-53,Male,No Pain,123,282,0,Abnormal but Non-Specific,95,Yes,2.0,1,Two,Normal,0
-67,Male,No Pain,120,237,0,Abnormal but Non-Specific,71,No,1.0,1,Zero,Reversable Defect,0
-58,Male,Moderate Pain (Potentially Cardiac),132,224,0,Normal ECG,173,No,3.2,2,Two,Normal,0
-71,Female,Moderate Pain (Potentially Cardiac),110,265,1,Normal ECG,130,No,0.0,2,One,Reversable Defect,1
-43,Male,No Pain,110,211,0,Abnormal but Non-Specific,161,No,0.0,2,Zero,Normal,1
-44,Male,Mild Pain (Non-Cardiac/Occasional),120,263,0,Abnormal but Non-Specific,173,No,0.0,2,Zero,Normal,1
-39,Female,Moderate Pain (Potentially Cardiac),138,220,0,Abnormal but Non-Specific,152,No,0.0,1,Zero,Reversable Defect,1
-54,Male,No Pain,110,206,0,Normal ECG,108,Yes,0.0,1,One,Reversable Defect,0
-66,Male,No Pain,160,228,0,Normal ECG,138,No,2.3,2,Zero,Fixed Defect,1
-56,Male,No Pain,130,283,1,Normal ECG,103,Yes,1.6,0,Zero,Normal,0
-57,Male,No Pain,132,207,0,Abnormal but Non-Specific,168,Yes,0.0,2,Zero,Normal,1
-44,Male,Mild Pain (Non-Cardiac/Occasional),130,219,0,Normal ECG,188,No,0.0,2,Zero,Reversable Defect,1
-55,Male,No Pain,160,289,0,Normal ECG,145,Yes,0.8,1,One,Normal,0
-41,Female,Mild Pain (Non-Cardiac/Occasional),105,198,0,Abnormal but Non-Specific,168,No,0.0,2,One,Reversable Defect,1
-45,Female,Mild Pain (Non-Cardiac/Occasional),130,234,0,Normal ECG,175,No,0.6,1,Zero,Reversable Defect,1
-35,Male,Mild Pain (Non-Cardiac/Occasional),122,192,0,Abnormal but Non-Specific,174,No,0.0,2,Zero,Reversable Defect,1
-41,Female,Mild Pain (Non-Cardiac/Occasional),130,204,0,Normal ECG,172,No,1.4,2,Zero,Reversable Defect,1
-64,Male,Severe Pain (Emergency/Cardiac),110,211,0,Normal ECG,144,Yes,1.8,1,Zero,Reversable Defect,1
-58,Male,Moderate Pain (Potentially Cardiac),132,224,0,Normal ECG,173,No,3.2,2,Two,Normal,0
-71,Female,Moderate Pain (Potentially Cardiac),110,265,1,Normal ECG,130,No,0.0,2,One,Reversable Defect,1
-64,Female,Moderate Pain (Potentially Cardiac),140,313,0,Abnormal but Non-Specific,133,No,0.2,2,Zero,Normal,1
-71,Female,Mild Pain (Non-Cardiac/Occasional),160,302,0,Abnormal but Non-Specific,162,No,0.4,2,Two,Reversable Defect,1
-58,Female,Moderate Pain (Potentially Cardiac),120,340,0,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
-40,Male,No Pain,152,223,0,Abnormal but Non-Specific,181,No,0.0,2,Zero,Normal,0
-52,Male,Moderate Pain (Potentially Cardiac),138,223,0,Abnormal but Non-Specific,169,No,0.0,2,Four,Reversable Defect,1
-58,Male,No Pain,128,259,0,Normal ECG,130,Yes,3.0,1,Two,Normal,0
-61,Male,Moderate Pain (Potentially Cardiac),150,243,1,Abnormal but Non-Specific,137,Yes,1.0,1,Zero,Reversable Defect,1
-59,Male,Moderate Pain (Potentially Cardiac),150,212,1,Abnormal but Non-Specific,157,No,1.6,2,Zero,Reversable Defect,1
-56,Female,No Pain,200,288,1,Normal ECG,133,Yes,4.0,0,Two,Normal,0
-67,Male,No Pain,100,299,0,Normal ECG,125,Yes,0.9,1,Two,Reversable Defect,0
-67,Male,No Pain,120,237,0,Abnormal but Non-Specific,71,No,1.0,1,Zero,Reversable Defect,0
-58,Male,No Pain,150,270,0,Normal ECG,111,Yes,0.8,2,Zero,Normal,0
-35,Male,Mild Pain (Non-Cardiac/Occasional),122,192,0,Abnormal but Non-Specific,174,No,0.0,2,Zero,Reversable Defect,1
-52,Male,Mild Pain (Non-Cardiac/Occasional),120,325,0,Abnormal but Non-Specific,172,No,0.2,2,Zero,Reversable Defect,1
-46,Female,Mild Pain (Non-Cardiac/Occasional),105,204,0,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
-51,Male,Moderate Pain (Potentially Cardiac),94,227,0,Abnormal but Non-Specific,154,Yes,0.0,2,One,Normal,1
-55,Female,Mild Pain (Non-Cardiac/Occasional),132,342,0,Abnormal but Non-Specific,166,No,1.2,2,Zero,Reversable Defect,1
-60,Male,No Pain,145,282,0,Normal ECG,142,Yes,2.8,1,Two,Normal,0
-52,Female,Moderate Pain (Potentially Cardiac),136,196,0,Normal ECG,169,No,0.1,1,Zero,Reversable Defect,1
-62,Male,No Pain,120,267,0,Abnormal but Non-Specific,99,Yes,1.8,1,Two,Normal,0
-44,Female,Moderate Pain (Potentially Cardiac),118,242,0,Abnormal but Non-Specific,149,No,0.3,1,One,Reversable Defect,1
-44,Male,Mild Pain (Non-Cardiac/Occasional),120,220,0,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-59,Male,Moderate Pain (Potentially Cardiac),126,218,1,Abnormal but Non-Specific,134,No,2.2,1,One,Fixed Defect,0
-56,Female,Mild Pain (Non-Cardiac/Occasional),140,294,0,Normal ECG,153,No,1.3,1,Zero,Reversable Defect,1
-61,Male,No Pain,120,260,0,Abnormal but Non-Specific,140,Yes,3.6,1,One,Normal,0
-48,Male,No Pain,130,256,1,Normal ECG,150,Yes,0.0,2,Two,Normal,0
-70,Male,Moderate Pain (Potentially Cardiac),160,269,0,Abnormal but Non-Specific,112,Yes,2.9,1,One,Normal,0
-74,Female,Mild Pain (Non-Cardiac/Occasional),120,269,0,Normal ECG,121,Yes,0.2,2,One,Reversable Defect,1
-40,Male,Severe Pain (Emergency/Cardiac),140,199,0,Abnormal but Non-Specific,178,Yes,1.4,2,Zero,Normal,1
-42,Male,Severe Pain (Emergency/Cardiac),148,244,0,Normal ECG,178,No,0.8,2,Two,Reversable Defect,1
-64,Female,Moderate Pain (Potentially Cardiac),140,313,0,Abnormal but Non-Specific,133,No,0.2,2,Zero,Normal,1
-63,Female,Moderate Pain (Potentially Cardiac),135,252,0,Normal ECG,172,No,0.0,2,Zero,Reversable Defect,1
-59,Male,No Pain,140,177,0,Abnormal but Non-Specific,162,Yes,0.0,2,One,Normal,0
-53,Female,Moderate Pain (Potentially Cardiac),128,216,0,Normal ECG,115,No,0.0,2,Zero,Normal,1
-53,Female,No Pain,130,264,0,Normal ECG,143,No,0.4,1,Zero,Reversable Defect,1
-48,Female,Moderate Pain (Potentially Cardiac),130,275,0,Abnormal but Non-Specific,139,No,0.2,2,Zero,Reversable Defect,1
-45,Male,No Pain,142,309,0,Normal ECG,147,Yes,0.0,1,Three,Normal,0
-66,Male,Mild Pain (Non-Cardiac/Occasional),160,246,0,Abnormal but Non-Specific,120,Yes,0.0,1,Three,Fixed Defect,0
-48,Male,Mild Pain (Non-Cardiac/Occasional),130,245,0,Normal ECG,180,No,0.2,1,Zero,Reversable Defect,1
-56,Female,Mild Pain (Non-Cardiac/Occasional),140,294,0,Normal ECG,153,No,1.3,1,Zero,Reversable Defect,1
-54,Male,Mild Pain (Non-Cardiac/Occasional),192,283,0,Normal ECG,195,No,0.0,2,One,Normal,0
-57,Male,No Pain,150,276,0,Normal ECG,112,Yes,0.6,1,One,Fixed Defect,0
-70,Male,No Pain,130,322,0,Normal ECG,109,No,2.4,1,Three,Reversable Defect,0
-53,Female,Moderate Pain (Potentially Cardiac),128,216,0,Normal ECG,115,No,0.0,2,Zero,Normal,1
-37,Female,Moderate Pain (Potentially Cardiac),120,215,0,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-63,Female,No Pain,108,269,0,Abnormal but Non-Specific,169,Yes,1.8,1,Two,Reversable Defect,0
-37,Male,Moderate Pain (Potentially Cardiac),130,250,0,Abnormal but Non-Specific,187,No,3.5,0,Zero,Reversable Defect,1
-54,Female,Moderate Pain (Potentially Cardiac),110,214,0,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
-60,Male,No Pain,130,206,0,Normal ECG,132,Yes,2.4,1,Two,Normal,0
-58,Male,No Pain,150,270,0,Normal ECG,111,Yes,0.8,2,Zero,Normal,0
-57,Male,Moderate Pain (Potentially Cardiac),150,126,1,Abnormal but Non-Specific,173,No,0.2,2,One,Normal,1
-54,Male,Moderate Pain (Potentially Cardiac),125,273,0,Normal ECG,152,No,0.5,0,One,Reversable Defect,1
-56,Male,Moderate Pain (Potentially Cardiac),130,256,1,Normal ECG,142,Yes,0.6,1,One,Fixed Defect,0
-60,Male,No Pain,130,253,0,Abnormal but Non-Specific,144,Yes,1.4,2,One,Normal,0
-38,Male,Moderate Pain (Potentially Cardiac),138,175,0,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
-44,Male,Moderate Pain (Potentially Cardiac),120,226,0,Abnormal but Non-Specific,169,No,0.0,2,Zero,Reversable Defect,1
-65,Female,Moderate Pain (Potentially Cardiac),155,269,0,Abnormal but Non-Specific,148,No,0.8,2,Zero,Reversable Defect,1
-52,Male,Moderate Pain (Potentially Cardiac),172,199,1,Abnormal but Non-Specific,162,No,0.5,2,Zero,Normal,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),120,157,0,Abnormal but Non-Specific,182,No,0.0,2,Zero,Reversable Defect,1
-66,Male,Mild Pain (Non-Cardiac/Occasional),160,246,0,Abnormal but Non-Specific,120,Yes,0.0,1,Three,Fixed Defect,0
-50,Male,No Pain,150,243,0,Normal ECG,128,No,2.6,1,Zero,Normal,0
-54,Female,Moderate Pain (Potentially Cardiac),108,267,0,Normal ECG,167,No,0.0,2,Zero,Reversable Defect,1
-43,Male,No Pain,132,247,1,Normal ECG,143,Yes,0.1,1,Four,Normal,0
-62,Female,Moderate Pain (Potentially Cardiac),130,263,0,Abnormal but Non-Specific,97,No,1.2,1,One,Normal,0
-66,Male,No Pain,120,302,0,Normal ECG,151,No,0.4,1,Zero,Reversable Defect,1
-50,Male,No Pain,144,200,0,Normal ECG,126,Yes,0.9,1,Zero,Normal,0
-57,Male,No Pain,110,335,0,Abnormal but Non-Specific,143,Yes,3.0,1,One,Normal,0
-57,Male,No Pain,110,201,0,Abnormal but Non-Specific,126,Yes,1.5,1,Zero,Fixed Defect,1
-57,Male,Mild Pain (Non-Cardiac/Occasional),124,261,0,Abnormal but Non-Specific,141,No,0.3,2,Zero,Normal,0
-46,Female,No Pain,138,243,0,Normal ECG,152,Yes,0.0,1,Zero,Reversable Defect,1
-59,Male,No Pain,164,176,1,Normal ECG,90,No,1.0,1,Two,Fixed Defect,0
-67,Male,No Pain,160,286,0,Normal ECG,108,Yes,1.5,1,Three,Reversable Defect,0
-59,Male,Severe Pain (Emergency/Cardiac),134,204,0,Abnormal but Non-Specific,162,No,0.8,2,Two,Reversable Defect,0
-53,Female,Moderate Pain (Potentially Cardiac),128,216,0,Normal ECG,115,No,0.0,2,Zero,Normal,1
-48,Male,No Pain,122,222,0,Normal ECG,186,No,0.0,2,Zero,Reversable Defect,1
-62,Male,Moderate Pain (Potentially Cardiac),130,231,0,Abnormal but Non-Specific,146,No,1.8,1,Three,Normal,1
-43,Female,Moderate Pain (Potentially Cardiac),122,213,0,Abnormal but Non-Specific,165,No,0.2,1,Zero,Reversable Defect,1
-53,Male,Moderate Pain (Potentially Cardiac),130,246,1,Normal ECG,173,No,0.0,2,Three,Reversable Defect,1
-57,Female,Mild Pain (Non-Cardiac/Occasional),130,236,0,Normal ECG,174,No,0.0,1,One,Reversable Defect,0
-53,Male,Moderate Pain (Potentially Cardiac),130,246,1,Normal ECG,173,No,0.0,2,Three,Reversable Defect,1
-58,Male,Moderate Pain (Potentially Cardiac),112,230,0,Normal ECG,165,No,2.5,1,One,Normal,0
-48,Male,Mild Pain (Non-Cardiac/Occasional),110,229,0,Abnormal but Non-Specific,168,No,1.0,0,Zero,Normal,0
-58,Male,Moderate Pain (Potentially Cardiac),105,240,0,Normal ECG,154,Yes,0.6,1,Zero,Normal,1
-51,Male,Moderate Pain (Potentially Cardiac),110,175,0,Abnormal but Non-Specific,123,No,0.6,2,Zero,Reversable Defect,1
-43,Female,No Pain,132,341,1,Normal ECG,136,Yes,3.0,1,Zero,Normal,0
-55,Male,No Pain,132,353,0,Abnormal but Non-Specific,132,Yes,1.2,1,One,Normal,0
-54,Female,Moderate Pain (Potentially Cardiac),110,214,0,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
-58,Male,Mild Pain (Non-Cardiac/Occasional),120,284,0,Normal ECG,160,No,1.8,1,Zero,Reversable Defect,0
-46,Female,Moderate Pain (Potentially Cardiac),142,177,0,Normal ECG,160,Yes,1.4,0,Zero,Reversable Defect,1
-66,Male,No Pain,160,228,0,Normal ECG,138,No,2.3,2,Zero,Fixed Defect,1
-59,Male,Mild Pain (Non-Cardiac/Occasional),140,221,0,Abnormal but Non-Specific,164,Yes,0.0,2,Zero,Reversable Defect,1
-64,Female,No Pain,130,303,0,Abnormal but Non-Specific,122,No,2.0,1,Two,Reversable Defect,1
-67,Male,No Pain,120,237,0,Abnormal but Non-Specific,71,No,1.0,1,Zero,Reversable Defect,0
-52,Male,Severe Pain (Emergency/Cardiac),118,186,0,Normal ECG,190,No,0.0,1,Zero,Fixed Defect,1
-58,Male,No Pain,146,218,0,Abnormal but Non-Specific,105,No,2.0,1,One,Normal,0
-58,Male,Moderate Pain (Potentially Cardiac),132,224,0,Normal ECG,173,No,3.2,2,Two,Normal,0
-59,Male,No Pain,110,239,0,Normal ECG,142,Yes,1.2,1,One,Normal,0
-58,Male,No Pain,150,270,0,Normal ECG,111,Yes,0.8,2,Zero,Normal,0
-35,Male,No Pain,126,282,0,Normal ECG,156,Yes,0.0,2,Zero,Normal,0
-51,Male,Moderate Pain (Potentially Cardiac),110,175,0,Abnormal but Non-Specific,123,No,0.6,2,Zero,Reversable Defect,1
-42,Female,Moderate Pain (Potentially Cardiac),120,209,0,Abnormal but Non-Specific,173,No,0.0,1,Zero,Reversable Defect,1
-77,Male,No Pain,125,304,0,Normal ECG,162,Yes,0.0,2,Three,Reversable Defect,0
-64,Male,No Pain,120,246,0,Normal ECG,96,Yes,2.2,0,One,Reversable Defect,0
-63,Male,Severe Pain (Emergency/Cardiac),145,233,1,Normal ECG,150,No,2.3,0,Zero,Fixed Defect,1
-58,Female,Mild Pain (Non-Cardiac/Occasional),136,319,1,Normal ECG,152,No,0.0,2,Two,Reversable Defect,0
-45,Male,Severe Pain (Emergency/Cardiac),110,264,0,Abnormal but Non-Specific,132,No,1.2,1,Zero,Normal,0
-51,Male,Moderate Pain (Potentially Cardiac),110,175,0,Abnormal but Non-Specific,123,No,0.6,2,Zero,Reversable Defect,1
-62,Female,No Pain,160,164,0,Normal ECG,145,No,6.2,0,Three,Normal,0
-63,Male,No Pain,130,330,1,Normal ECG,132,Yes,1.8,2,Three,Normal,0
-66,Female,Moderate Pain (Potentially Cardiac),146,278,0,Normal ECG,152,No,0.0,1,One,Reversable Defect,1
-68,Male,Moderate Pain (Potentially Cardiac),180,274,1,Normal ECG,150,Yes,1.6,1,Zero,Normal,0
-40,Male,No Pain,110,167,0,Normal ECG,114,Yes,2.0,1,Zero,Normal,0
-66,Male,No Pain,160,228,0,Normal ECG,138,No,2.3,2,Zero,Fixed Defect,1
-63,Male,Severe Pain (Emergency/Cardiac),145,233,1,Normal ECG,150,No,2.3,0,Zero,Fixed Defect,1
-49,Male,Moderate Pain (Potentially Cardiac),120,188,0,Abnormal but Non-Specific,139,No,2.0,1,Three,Normal,0
-71,Female,No Pain,112,149,0,Abnormal but Non-Specific,125,No,1.6,1,Zero,Reversable Defect,1
-70,Male,Mild Pain (Non-Cardiac/Occasional),156,245,0,Normal ECG,143,No,0.0,2,Zero,Reversable Defect,1
-46,Female,Mild Pain (Non-Cardiac/Occasional),105,204,0,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
-61,Male,No Pain,140,207,0,Normal ECG,138,Yes,1.9,2,One,Normal,0
-56,Male,Moderate Pain (Potentially Cardiac),130,256,1,Normal ECG,142,Yes,0.6,1,One,Fixed Defect,0
-58,Male,Moderate Pain (Potentially Cardiac),140,211,1,Normal ECG,165,No,0.0,2,Zero,Reversable Defect,1
-58,Male,No Pain,100,234,0,Abnormal but Non-Specific,156,No,0.1,2,One,Normal,0
-46,Female,No Pain,138,243,0,Normal ECG,152,Yes,0.0,1,Zero,Reversable Defect,1
-46,Male,Moderate Pain (Potentially Cardiac),150,231,0,Abnormal but Non-Specific,147,No,3.6,1,Zero,Reversable Defect,0
-41,Female,Mild Pain (Non-Cardiac/Occasional),105,198,0,Abnormal but Non-Specific,168,No,0.0,2,One,Reversable Defect,1
-56,Male,No Pain,125,249,1,Normal ECG,144,Yes,1.2,1,One,Reversable Defect,0
-57,Male,No Pain,150,276,0,Normal ECG,112,Yes,0.6,1,One,Fixed Defect,0
-70,Male,No Pain,130,322,0,Normal ECG,109,No,2.4,1,Three,Reversable Defect,0
-59,Male,Severe Pain (Emergency/Cardiac),170,288,0,Normal ECG,159,No,0.2,1,Zero,Normal,0
-41,Female,Mild Pain (Non-Cardiac/Occasional),130,204,0,Normal ECG,172,No,1.4,2,Zero,Reversable Defect,1
-54,Male,Moderate Pain (Potentially Cardiac),125,273,0,Normal ECG,152,No,0.5,0,One,Reversable Defect,1
-52,Male,Moderate Pain (Potentially Cardiac),138,223,0,Abnormal but Non-Specific,169,No,0.0,2,Four,Reversable Defect,1
-62,Female,No Pain,124,209,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-65,Female,Moderate Pain (Potentially Cardiac),160,360,0,Normal ECG,151,No,0.8,2,Zero,Reversable Defect,1
-57,Female,No Pain,128,303,0,Normal ECG,159,No,0.0,2,One,Reversable Defect,1
-42,Female,No Pain,102,265,0,Normal ECG,122,No,0.6,1,Zero,Reversable Defect,1
-57,Female,No Pain,120,354,0,Abnormal but Non-Specific,163,Yes,0.6,2,Zero,Reversable Defect,1
-58,Female,Mild Pain (Non-Cardiac/Occasional),136,319,1,Normal ECG,152,No,0.0,2,Two,Reversable Defect,0
-45,Male,No Pain,142,309,0,Normal ECG,147,Yes,0.0,1,Three,Normal,0
-51,Female,No Pain,130,305,0,Abnormal but Non-Specific,142,Yes,1.2,1,Zero,Normal,0
-54,Female,Moderate Pain (Potentially Cardiac),160,201,0,Abnormal but Non-Specific,163,No,0.0,2,One,Reversable Defect,1
-57,Male,Moderate Pain (Potentially Cardiac),150,168,0,Abnormal but Non-Specific,174,No,1.6,2,Zero,Reversable Defect,1
-43,Male,No Pain,132,247,1,Normal ECG,143,Yes,0.1,1,Four,Normal,0
-47,Male,Moderate Pain (Potentially Cardiac),108,243,0,Abnormal but Non-Specific,152,No,0.0,2,Zero,Reversable Defect,0
-67,Male,Moderate Pain (Potentially Cardiac),152,212,0,Normal ECG,150,No,0.8,1,Zero,Normal,0
-65,Female,No Pain,150,225,0,Normal ECG,114,No,1.0,1,Three,Normal,0
-60,Female,Moderate Pain (Potentially Cardiac),102,318,0,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,1
-37,Male,Moderate Pain (Potentially Cardiac),130,250,0,Abnormal but Non-Specific,187,No,3.5,0,Zero,Reversable Defect,1
-41,Female,Moderate Pain (Potentially Cardiac),112,268,0,Normal ECG,172,Yes,0.0,2,Zero,Reversable Defect,1
-57,Female,No Pain,120,354,0,Abnormal but Non-Specific,163,Yes,0.6,2,Zero,Reversable Defect,1
-59,Female,No Pain,174,249,0,Abnormal but Non-Specific,143,Yes,0.0,1,Zero,Reversable Defect,0
-67,Male,No Pain,120,229,0,Normal ECG,129,Yes,2.6,1,Two,Normal,0
-47,Male,Moderate Pain (Potentially Cardiac),130,253,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-58,Male,Mild Pain (Non-Cardiac/Occasional),120,284,0,Normal ECG,160,No,1.8,1,Zero,Reversable Defect,0
-62,Female,No Pain,150,244,0,Abnormal but Non-Specific,154,Yes,1.4,1,Zero,Reversable Defect,0
-60,Male,No Pain,140,293,0,Normal ECG,170,No,1.2,1,Two,Normal,0
-57,Male,No Pain,152,274,0,Abnormal but Non-Specific,88,Yes,1.2,1,One,Normal,0
-57,Male,Moderate Pain (Potentially Cardiac),150,168,0,Abnormal but Non-Specific,174,No,1.6,2,Zero,Reversable Defect,1
-47,Male,Moderate Pain (Potentially Cardiac),130,253,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-52,Male,Mild Pain (Non-Cardiac/Occasional),128,205,1,Abnormal but Non-Specific,184,No,0.0,2,Zero,Reversable Defect,1
-53,Male,Moderate Pain (Potentially Cardiac),130,246,1,Normal ECG,173,No,0.0,2,Three,Reversable Defect,1
-55,Male,No Pain,160,289,0,Normal ECG,145,Yes,0.8,1,One,Normal,0
-51,Female,Moderate Pain (Potentially Cardiac),120,295,0,Normal ECG,157,No,0.6,2,Zero,Reversable Defect,1
-52,Male,No Pain,112,230,0,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,0
-63,Female,No Pain,150,407,0,Normal ECG,154,No,4.0,1,Three,Normal,0
-49,Female,Mild Pain (Non-Cardiac/Occasional),134,271,0,Abnormal but Non-Specific,162,No,0.0,1,Zero,Reversable Defect,1
-66,Female,No Pain,178,228,1,Abnormal but Non-Specific,165,Yes,1.0,1,Two,Normal,0
-49,Female,Mild Pain (Non-Cardiac/Occasional),134,271,0,Abnormal but Non-Specific,162,No,0.0,1,Zero,Reversable Defect,1
-65,Female,No Pain,150,225,0,Normal ECG,114,No,1.0,1,Three,Normal,0
-69,Male,Severe Pain (Emergency/Cardiac),160,234,1,Normal ECG,131,No,0.1,1,One,Reversable Defect,1
-47,Male,Moderate Pain (Potentially Cardiac),108,243,0,Abnormal but Non-Specific,152,No,0.0,2,Zero,Reversable Defect,0
-39,Female,Moderate Pain (Potentially Cardiac),138,220,0,Abnormal but Non-Specific,152,No,0.0,1,Zero,Reversable Defect,1
-43,Male,No Pain,150,247,0,Abnormal but Non-Specific,171,No,1.5,2,Zero,Reversable Defect,1
-51,Male,No Pain,140,261,0,Normal ECG,186,Yes,0.0,2,Zero,Reversable Defect,1
-69,Male,Moderate Pain (Potentially Cardiac),140,254,0,Normal ECG,146,No,2.0,1,Three,Normal,0
-48,Male,Moderate Pain (Potentially Cardiac),124,255,1,Abnormal but Non-Specific,175,No,0.0,2,Two,Reversable Defect,1
-52,Male,Severe Pain (Emergency/Cardiac),118,186,0,Normal ECG,190,No,0.0,1,Zero,Fixed Defect,1
-43,Male,No Pain,110,211,0,Abnormal but Non-Specific,161,No,0.0,2,Zero,Normal,1
-67,Female,Moderate Pain (Potentially Cardiac),115,564,0,Normal ECG,160,No,1.6,1,Zero,Normal,1
-38,Male,Moderate Pain (Potentially Cardiac),138,175,0,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
-44,Male,Mild Pain (Non-Cardiac/Occasional),130,219,0,Normal ECG,188,No,0.0,2,Zero,Reversable Defect,1
-47,Male,No Pain,110,275,0,Normal ECG,118,Yes,1.0,1,One,Reversable Defect,0
-61,Male,Moderate Pain (Potentially Cardiac),150,243,1,Abnormal but Non-Specific,137,Yes,1.0,1,Zero,Reversable Defect,1
-67,Male,No Pain,160,286,0,Normal ECG,108,Yes,1.5,1,Three,Reversable Defect,0
-60,Female,Severe Pain (Emergency/Cardiac),150,240,0,Abnormal but Non-Specific,171,No,0.9,2,Zero,Reversable Defect,1
-64,Female,Moderate Pain (Potentially Cardiac),140,313,0,Abnormal but Non-Specific,133,No,0.2,2,Zero,Normal,1
-58,Female,No Pain,130,197,0,Abnormal but Non-Specific,131,No,0.6,1,Zero,Reversable Defect,1
-41,Male,Moderate Pain (Potentially Cardiac),130,214,0,Normal ECG,168,No,2.0,1,Zero,Reversable Defect,1
-48,Male,Mild Pain (Non-Cardiac/Occasional),110,229,0,Abnormal but Non-Specific,168,No,1.0,0,Zero,Normal,0
-57,Male,Moderate Pain (Potentially Cardiac),150,126,1,Abnormal but Non-Specific,173,No,0.2,2,One,Normal,1
-57,Male,No Pain,165,289,1,Normal ECG,124,No,1.0,1,Three,Normal,0
-57,Male,Moderate Pain (Potentially Cardiac),128,229,0,Normal ECG,150,No,0.4,1,One,Normal,0
-39,Male,Moderate Pain (Potentially Cardiac),140,321,0,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
-58,Male,No Pain,128,216,0,Normal ECG,131,Yes,2.2,1,Three,Normal,0
-51,Female,No Pain,130,305,0,Abnormal but Non-Specific,142,Yes,1.2,1,Zero,Normal,0
-63,Female,No Pain,150,407,0,Normal ECG,154,No,4.0,1,Three,Normal,0
-51,Male,No Pain,140,298,0,Abnormal but Non-Specific,122,Yes,4.2,1,Three,Normal,0
-35,Male,Mild Pain (Non-Cardiac/Occasional),122,192,0,Abnormal but Non-Specific,174,No,0.0,2,Zero,Reversable Defect,1
-65,Male,No Pain,110,248,0,Normal ECG,158,No,0.6,2,Two,Fixed Defect,0
-62,Male,Mild Pain (Non-Cardiac/Occasional),120,281,0,Normal ECG,103,No,1.4,1,One,Normal,0
-41,Male,No Pain,110,172,0,Normal ECG,158,No,0.0,2,Zero,Normal,0
-65,Male,No Pain,135,254,0,Normal ECG,127,No,2.8,1,One,Normal,0
-54,Female,Mild Pain (Non-Cardiac/Occasional),132,288,1,Normal ECG,159,Yes,0.0,2,One,Reversable Defect,1
-61,Male,Moderate Pain (Potentially Cardiac),150,243,1,Abnormal but Non-Specific,137,Yes,1.0,1,Zero,Reversable Defect,1
-57,Female,No Pain,128,303,0,Normal ECG,159,No,0.0,2,One,Reversable Defect,1
-57,Male,Moderate Pain (Potentially Cardiac),150,168,0,Abnormal but Non-Specific,174,No,1.6,2,Zero,Reversable Defect,1
-64,Male,Moderate Pain (Potentially Cardiac),125,309,0,Abnormal but Non-Specific,131,Yes,1.8,1,Zero,Normal,0
-55,Male,No Pain,132,353,0,Abnormal but Non-Specific,132,Yes,1.2,1,One,Normal,0
-51,Male,Moderate Pain (Potentially Cardiac),125,245,1,Normal ECG,166,No,2.4,1,Zero,Reversable Defect,1
-59,Male,No Pain,135,234,0,Abnormal but Non-Specific,161,No,0.5,1,Zero,Normal,1
-68,Male,Moderate Pain (Potentially Cardiac),180,274,1,Normal ECG,150,Yes,1.6,1,Zero,Normal,0
-57,Male,Mild Pain (Non-Cardiac/Occasional),154,232,0,Normal ECG,164,No,0.0,2,One,Reversable Defect,0
-54,Male,No Pain,140,239,0,Abnormal but Non-Specific,160,No,1.2,2,Zero,Reversable Defect,1
-46,Female,Moderate Pain (Potentially Cardiac),142,177,0,Normal ECG,160,Yes,1.4,0,Zero,Reversable Defect,1
-71,Female,No Pain,112,149,0,Abnormal but Non-Specific,125,No,1.6,1,Zero,Reversable Defect,1
-35,Female,No Pain,138,183,0,Abnormal but Non-Specific,182,No,1.4,2,Zero,Reversable Defect,1
-46,Female,Moderate Pain (Potentially Cardiac),142,177,0,Normal ECG,160,Yes,1.4,0,Zero,Reversable Defect,1
-45,Female,Mild Pain (Non-Cardiac/Occasional),130,234,0,Normal ECG,175,No,0.6,1,Zero,Reversable Defect,1
-47,Male,Moderate Pain (Potentially Cardiac),108,243,0,Abnormal but Non-Specific,152,No,0.0,2,Zero,Reversable Defect,0
-44,Female,Moderate Pain (Potentially Cardiac),118,242,0,Abnormal but Non-Specific,149,No,0.3,1,One,Reversable Defect,1
-61,Male,No Pain,120,260,0,Abnormal but Non-Specific,140,Yes,3.6,1,One,Normal,0
-41,Female,Mild Pain (Non-Cardiac/Occasional),130,204,0,Normal ECG,172,No,1.4,2,Zero,Reversable Defect,1
-56,Female,No Pain,200,288,1,Normal ECG,133,Yes,4.0,0,Two,Normal,0
-55,Female,No Pain,180,327,0,Definite Abnormalities,117,Yes,3.4,1,Zero,Reversable Defect,0
-54,Female,Mild Pain (Non-Cardiac/Occasional),132,288,1,Normal ECG,159,Yes,0.0,2,One,Reversable Defect,1
-43,Male,No Pain,120,177,0,Normal ECG,120,Yes,2.5,1,Zero,Normal,0
-44,Male,No Pain,112,290,0,Normal ECG,153,No,0.0,2,One,Reversable Defect,0
-54,Male,No Pain,110,206,0,Normal ECG,108,Yes,0.0,1,One,Reversable Defect,0
-44,Male,Mild Pain (Non-Cardiac/Occasional),120,220,0,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-49,Male,Moderate Pain (Potentially Cardiac),120,188,0,Abnormal but Non-Specific,139,No,2.0,1,Three,Normal,0
-60,Male,No Pain,130,206,0,Normal ECG,132,Yes,2.4,1,Two,Normal,0
-41,Female,Mild Pain (Non-Cardiac/Occasional),105,198,0,Abnormal but Non-Specific,168,No,0.0,2,One,Reversable Defect,1
-49,Male,Moderate Pain (Potentially Cardiac),120,188,0,Abnormal but Non-Specific,139,No,2.0,1,Three,Normal,0
-61,Male,No Pain,148,203,0,Abnormal but Non-Specific,161,No,0.0,2,One,Normal,0
-59,Male,No Pain,140,177,0,Abnormal but Non-Specific,162,Yes,0.0,2,One,Normal,0
-58,Male,Mild Pain (Non-Cardiac/Occasional),125,220,0,Abnormal but Non-Specific,144,No,0.4,1,Four,Normal,1
-67,Female,Moderate Pain (Potentially Cardiac),152,277,0,Abnormal but Non-Specific,172,No,0.0,2,One,Reversable Defect,1
-61,Male,No Pain,148,203,0,Abnormal but Non-Specific,161,No,0.0,2,One,Normal,0
-58,Male,Moderate Pain (Potentially Cardiac),112,230,0,Normal ECG,165,No,2.5,1,One,Normal,0
-51,Female,Moderate Pain (Potentially Cardiac),130,256,0,Normal ECG,149,No,0.5,2,Zero,Reversable Defect,1
-62,Female,No Pain,160,164,0,Normal ECG,145,No,6.2,0,Three,Normal,0
-62,Female,No Pain,124,209,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-59,Male,Severe Pain (Emergency/Cardiac),178,270,0,Normal ECG,145,No,4.2,0,Zero,Normal,1
-69,Male,Severe Pain (Emergency/Cardiac),160,234,1,Normal ECG,131,No,0.1,1,One,Reversable Defect,1
-60,Female,No Pain,150,258,0,Normal ECG,157,No,2.6,1,Two,Normal,0
-65,Female,Moderate Pain (Potentially Cardiac),155,269,0,Abnormal but Non-Specific,148,No,0.8,2,Zero,Reversable Defect,1
-63,Female,No Pain,124,197,0,Abnormal but Non-Specific,136,Yes,0.0,1,Zero,Reversable Defect,0
-53,Female,No Pain,138,234,0,Normal ECG,160,No,0.0,2,Zero,Reversable Defect,1
-54,Female,Moderate Pain (Potentially Cardiac),108,267,0,Normal ECG,167,No,0.0,2,Zero,Reversable Defect,1
-76,Female,Moderate Pain (Potentially Cardiac),140,197,0,Definite Abnormalities,116,No,1.1,1,Zero,Reversable Defect,1
-50,Female,Moderate Pain (Potentially Cardiac),120,219,0,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
-52,Male,Mild Pain (Non-Cardiac/Occasional),120,325,0,Abnormal but Non-Specific,172,No,0.2,2,Zero,Reversable Defect,1
-46,Male,No Pain,120,249,0,Normal ECG,144,No,0.8,2,Zero,Normal,0
-64,Male,Severe Pain (Emergency/Cardiac),170,227,0,Normal ECG,155,No,0.6,1,Zero,Normal,1
-58,Male,No Pain,128,259,0,Normal ECG,130,Yes,3.0,1,Two,Normal,0
-44,Male,Moderate Pain (Potentially Cardiac),140,235,0,Normal ECG,180,No,0.0,2,Zero,Reversable Defect,1
-62,Female,No Pain,140,394,0,Normal ECG,157,No,1.2,1,Zero,Reversable Defect,1
-59,Male,Severe Pain (Emergency/Cardiac),134,204,0,Abnormal but Non-Specific,162,No,0.8,2,Two,Reversable Defect,0
-54,Male,Moderate Pain (Potentially Cardiac),125,273,0,Normal ECG,152,No,0.5,0,One,Reversable Defect,1
-48,Male,Mild Pain (Non-Cardiac/Occasional),110,229,0,Abnormal but Non-Specific,168,No,1.0,0,Zero,Normal,0
-70,Male,No Pain,130,322,0,Normal ECG,109,No,2.4,1,Three,Reversable Defect,0
-67,Female,No Pain,106,223,0,Abnormal but Non-Specific,142,No,0.3,2,Two,Reversable Defect,1
-51,Female,Moderate Pain (Potentially Cardiac),120,295,0,Normal ECG,157,No,0.6,2,Zero,Reversable Defect,1
-68,Male,Moderate Pain (Potentially Cardiac),118,277,0,Abnormal but Non-Specific,151,No,1.0,2,One,Normal,1
-69,Male,Moderate Pain (Potentially Cardiac),140,254,0,Normal ECG,146,No,2.0,1,Three,Normal,0
-54,Male,No Pain,122,286,0,Normal ECG,116,Yes,3.2,1,Two,Reversable Defect,0
-43,Female,No Pain,132,341,1,Normal ECG,136,Yes,3.0,1,Zero,Normal,0
-53,Male,Moderate Pain (Potentially Cardiac),130,197,1,Normal ECG,152,No,1.2,0,Zero,Reversable Defect,1
-58,Male,No Pain,100,234,0,Abnormal but Non-Specific,156,No,0.1,2,One,Normal,0
-67,Male,No Pain,125,254,1,Abnormal but Non-Specific,163,No,0.2,1,Two,Normal,0
-59,Male,No Pain,140,177,0,Abnormal but Non-Specific,162,Yes,0.0,2,One,Normal,0
-48,Male,No Pain,122,222,0,Normal ECG,186,No,0.0,2,Zero,Reversable Defect,1
-39,Female,Moderate Pain (Potentially Cardiac),94,199,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-67,Male,No Pain,120,237,0,Abnormal but Non-Specific,71,No,1.0,1,Zero,Reversable Defect,0
-58,Female,No Pain,130,197,0,Abnormal but Non-Specific,131,No,0.6,1,Zero,Reversable Defect,1
-65,Female,Moderate Pain (Potentially Cardiac),155,269,0,Abnormal but Non-Specific,148,No,0.8,2,Zero,Reversable Defect,1
-42,Female,Moderate Pain (Potentially Cardiac),120,209,0,Abnormal but Non-Specific,173,No,0.0,1,Zero,Reversable Defect,1
-44,Male,No Pain,112,290,0,Normal ECG,153,No,0.0,2,One,Reversable Defect,0
-56,Male,No Pain,132,184,0,Normal ECG,105,Yes,2.1,1,One,Fixed Defect,0
-53,Female,No Pain,138,234,0,Normal ECG,160,No,0.0,2,Zero,Reversable Defect,1
-50,Female,No Pain,110,254,0,Normal ECG,159,No,0.0,2,Zero,Reversable Defect,1
-41,Male,Moderate Pain (Potentially Cardiac),130,214,0,Normal ECG,168,No,2.0,1,Zero,Reversable Defect,1
-54,Female,Moderate Pain (Potentially Cardiac),160,201,0,Abnormal but Non-Specific,163,No,0.0,2,One,Reversable Defect,1
-42,Male,Moderate Pain (Potentially Cardiac),120,240,1,Abnormal but Non-Specific,194,No,0.8,0,Zero,Normal,1
-54,Female,Moderate Pain (Potentially Cardiac),135,304,1,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-60,Male,No Pain,145,282,0,Normal ECG,142,Yes,2.8,1,Two,Normal,0
-34,Male,Severe Pain (Emergency/Cardiac),118,182,0,Normal ECG,174,No,0.0,2,Zero,Reversable Defect,1
-44,Male,No Pain,112,290,0,Normal ECG,153,No,0.0,2,One,Reversable Defect,0
-60,Male,No Pain,125,258,0,Normal ECG,141,Yes,2.8,1,One,Normal,0
-43,Male,No Pain,150,247,0,Abnormal but Non-Specific,171,No,1.5,2,Zero,Reversable Defect,1
-52,Male,Severe Pain (Emergency/Cardiac),152,298,1,Abnormal but Non-Specific,178,No,1.2,1,Zero,Normal,1
-70,Male,No Pain,130,322,0,Normal ECG,109,No,2.4,1,Three,Reversable Defect,0
-62,Female,No Pain,140,394,0,Normal ECG,157,No,1.2,1,Zero,Reversable Defect,1
-58,Male,No Pain,146,218,0,Abnormal but Non-Specific,105,No,2.0,1,One,Normal,0
-46,Male,Mild Pain (Non-Cardiac/Occasional),101,197,1,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
-44,Male,Moderate Pain (Potentially Cardiac),140,235,0,Normal ECG,180,No,0.0,2,Zero,Reversable Defect,1
-55,Male,Mild Pain (Non-Cardiac/Occasional),130,262,0,Abnormal but Non-Specific,155,No,0.0,2,Zero,Reversable Defect,1
-43,Male,No Pain,120,177,0,Normal ECG,120,Yes,2.5,1,Zero,Normal,0
-55,Male,No Pain,132,353,0,Abnormal but Non-Specific,132,Yes,1.2,1,One,Normal,0
-40,Male,Severe Pain (Emergency/Cardiac),140,199,0,Abnormal but Non-Specific,178,Yes,1.4,2,Zero,Normal,1
-64,Male,Moderate Pain (Potentially Cardiac),125,309,0,Abnormal but Non-Specific,131,Yes,1.8,1,Zero,Normal,0
-59,Male,No Pain,164,176,1,Normal ECG,90,No,1.0,1,Two,Fixed Defect,0
-61,Female,No Pain,145,307,0,Normal ECG,146,Yes,1.0,1,Zero,Normal,0
-54,Male,No Pain,122,286,0,Normal ECG,116,Yes,3.2,1,Two,Reversable Defect,0
-74,Female,Mild Pain (Non-Cardiac/Occasional),120,269,0,Normal ECG,121,Yes,0.2,2,One,Reversable Defect,1
-63,Female,No Pain,108,269,0,Abnormal but Non-Specific,169,Yes,1.8,1,Two,Reversable Defect,0
-70,Male,Moderate Pain (Potentially Cardiac),160,269,0,Abnormal but Non-Specific,112,Yes,2.9,1,One,Normal,0
-63,Female,No Pain,108,269,0,Abnormal but Non-Specific,169,Yes,1.8,1,Two,Reversable Defect,0
-64,Male,No Pain,145,212,0,Normal ECG,132,No,2.0,1,Two,Fixed Defect,0
-61,Male,No Pain,148,203,0,Abnormal but Non-Specific,161,No,0.0,2,One,Normal,0
-59,Male,Mild Pain (Non-Cardiac/Occasional),140,221,0,Abnormal but Non-Specific,164,Yes,0.0,2,Zero,Reversable Defect,1
-38,Male,Moderate Pain (Potentially Cardiac),138,175,0,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
-58,Male,Mild Pain (Non-Cardiac/Occasional),120,284,0,Normal ECG,160,No,1.8,1,Zero,Reversable Defect,0
-63,Female,Mild Pain (Non-Cardiac/Occasional),140,195,0,Abnormal but Non-Specific,179,No,0.0,2,Two,Reversable Defect,1
-62,Female,Moderate Pain (Potentially Cardiac),130,263,0,Abnormal but Non-Specific,97,No,1.2,1,One,Normal,0
-46,Male,No Pain,140,311,0,Abnormal but Non-Specific,120,Yes,1.8,1,Two,Normal,0
-58,Female,Moderate Pain (Potentially Cardiac),120,340,0,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
-63,Female,Mild Pain (Non-Cardiac/Occasional),140,195,0,Abnormal but Non-Specific,179,No,0.0,2,Two,Reversable Defect,1
-47,Male,Moderate Pain (Potentially Cardiac),130,253,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-71,Female,Moderate Pain (Potentially Cardiac),110,265,1,Normal ECG,130,No,0.0,2,One,Reversable Defect,1
-66,Male,No Pain,112,212,0,Normal ECG,132,Yes,0.1,2,One,Reversable Defect,0
-42,Male,No Pain,136,315,0,Abnormal but Non-Specific,125,Yes,1.8,1,Zero,Fixed Defect,0
-64,Male,No Pain,145,212,0,Normal ECG,132,No,2.0,1,Two,Fixed Defect,0
-55,Female,No Pain,180,327,0,Definite Abnormalities,117,Yes,3.4,1,Zero,Reversable Defect,0
-43,Female,No Pain,132,341,1,Normal ECG,136,Yes,3.0,1,Zero,Normal,0
-55,Female,No Pain,128,205,0,Definite Abnormalities,130,Yes,2.0,1,One,Normal,0
-58,Female,No Pain,170,225,1,Normal ECG,146,Yes,2.8,1,Two,Fixed Defect,0
-55,Male,No Pain,140,217,0,Abnormal but Non-Specific,111,Yes,5.6,0,Zero,Normal,0
-51,Female,No Pain,130,305,0,Abnormal but Non-Specific,142,Yes,1.2,1,Zero,Normal,0
-50,Female,Moderate Pain (Potentially Cardiac),120,219,0,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
-43,Male,No Pain,115,303,0,Abnormal but Non-Specific,181,No,1.2,1,Zero,Reversable Defect,1
-41,Female,Mild Pain (Non-Cardiac/Occasional),126,306,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-49,Male,Mild Pain (Non-Cardiac/Occasional),130,266,0,Abnormal but Non-Specific,171,No,0.6,2,Zero,Reversable Defect,1
-65,Male,No Pain,110,248,0,Normal ECG,158,No,0.6,2,Two,Fixed Defect,0
-57,Male,No Pain,152,274,0,Abnormal but Non-Specific,88,Yes,1.2,1,One,Normal,0
-48,Male,No Pain,130,256,1,Normal ECG,150,Yes,0.0,2,Two,Normal,0
-62,Female,No Pain,138,294,1,Abnormal but Non-Specific,106,No,1.9,1,Three,Reversable Defect,0
-61,Male,Severe Pain (Emergency/Cardiac),134,234,0,Abnormal but Non-Specific,145,No,2.6,1,Two,Reversable Defect,0
-59,Male,Severe Pain (Emergency/Cardiac),178,270,0,Normal ECG,145,No,4.2,0,Zero,Normal,1
-69,Male,Moderate Pain (Potentially Cardiac),140,254,0,Normal ECG,146,No,2.0,1,Three,Normal,0
-58,Male,Moderate Pain (Potentially Cardiac),132,224,0,Normal ECG,173,No,3.2,2,Two,Normal,0
-38,Male,Severe Pain (Emergency/Cardiac),120,231,0,Abnormal but Non-Specific,182,Yes,3.8,1,Zero,Normal,0
-69,Female,Severe Pain (Emergency/Cardiac),140,239,0,Abnormal but Non-Specific,151,No,1.8,2,Two,Reversable Defect,1
-65,Male,Severe Pain (Emergency/Cardiac),138,282,1,Normal ECG,174,No,1.4,1,One,Reversable Defect,0
-45,Male,Severe Pain (Emergency/Cardiac),110,264,0,Abnormal but Non-Specific,132,No,1.2,1,Zero,Normal,0
-49,Male,Mild Pain (Non-Cardiac/Occasional),130,266,0,Abnormal but Non-Specific,171,No,0.6,2,Zero,Reversable Defect,1
-45,Female,Mild Pain (Non-Cardiac/Occasional),130,234,0,Normal ECG,175,No,0.6,1,Zero,Reversable Defect,1
-61,Male,No Pain,138,166,0,Normal ECG,125,Yes,3.6,1,One,Reversable Defect,0
-52,Male,No Pain,125,212,0,Abnormal but Non-Specific,168,No,1.0,2,Two,Normal,0
-53,Female,No Pain,130,264,0,Normal ECG,143,No,0.4,1,Zero,Reversable Defect,1
-59,Female,No Pain,174,249,0,Abnormal but Non-Specific,143,Yes,0.0,1,Zero,Reversable Defect,0
-58,Female,Moderate Pain (Potentially Cardiac),120,340,0,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
-65,Male,Severe Pain (Emergency/Cardiac),138,282,1,Normal ECG,174,No,1.4,1,One,Reversable Defect,0
-58,Female,No Pain,130,197,0,Abnormal but Non-Specific,131,No,0.6,1,Zero,Reversable Defect,1
-46,Female,No Pain,138,243,0,Normal ECG,152,Yes,0.0,1,Zero,Reversable Defect,1
-56,Female,No Pain,134,409,0,Normal ECG,150,Yes,1.9,1,Two,Normal,0
-64,Male,No Pain,128,263,0,Abnormal but Non-Specific,105,Yes,0.2,1,One,Normal,1
-65,Male,No Pain,120,177,0,Abnormal but Non-Specific,140,No,0.4,2,Zero,Normal,1
-44,Male,Moderate Pain (Potentially Cardiac),120,226,0,Abnormal but Non-Specific,169,No,0.0,2,Zero,Reversable Defect,1
-50,Male,No Pain,150,243,0,Normal ECG,128,No,2.6,1,Zero,Normal,0
-47,Male,Moderate Pain (Potentially Cardiac),108,243,0,Abnormal but Non-Specific,152,No,0.0,2,Zero,Reversable Defect,0
-64,Female,No Pain,130,303,0,Abnormal but Non-Specific,122,No,2.0,1,Two,Reversable Defect,1
-71,Female,No Pain,112,149,0,Abnormal but Non-Specific,125,No,1.6,1,Zero,Reversable Defect,1
-45,Female,Mild Pain (Non-Cardiac/Occasional),130,234,0,Normal ECG,175,No,0.6,1,Zero,Reversable Defect,1
-62,Male,No Pain,120,267,0,Abnormal but Non-Specific,99,Yes,1.8,1,Two,Normal,0
-41,Male,Mild Pain (Non-Cardiac/Occasional),120,157,0,Abnormal but Non-Specific,182,No,0.0,2,Zero,Reversable Defect,1
-66,Female,Severe Pain (Emergency/Cardiac),150,226,0,Abnormal but Non-Specific,114,No,2.6,0,Zero,Reversable Defect,1
-56,Male,No Pain,130,283,1,Normal ECG,103,Yes,1.6,0,Zero,Normal,0
-41,Female,Mild Pain (Non-Cardiac/Occasional),126,306,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),110,235,0,Abnormal but Non-Specific,153,No,0.0,2,Zero,Reversable Defect,1
-57,Female,Mild Pain (Non-Cardiac/Occasional),130,236,0,Normal ECG,174,No,0.0,1,One,Reversable Defect,0
-39,Female,Moderate Pain (Potentially Cardiac),138,220,0,Abnormal but Non-Specific,152,No,0.0,1,Zero,Reversable Defect,1
-64,Male,Moderate Pain (Potentially Cardiac),125,309,0,Abnormal but Non-Specific,131,Yes,1.8,1,Zero,Normal,0
-59,Male,No Pain,138,271,0,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
-61,Male,No Pain,138,166,0,Normal ECG,125,Yes,3.6,1,One,Reversable Defect,0
-58,Male,No Pain,114,318,0,Definite Abnormalities,140,No,4.4,0,Three,Fixed Defect,0
-47,Male,No Pain,112,204,0,Abnormal but Non-Specific,143,No,0.1,2,Zero,Reversable Defect,1
-58,Female,No Pain,100,248,0,Normal ECG,122,No,1.0,1,Zero,Reversable Defect,1
-66,Female,Severe Pain (Emergency/Cardiac),150,226,0,Abnormal but Non-Specific,114,No,2.6,0,Zero,Reversable Defect,1
-65,Female,Moderate Pain (Potentially Cardiac),140,417,1,Normal ECG,157,No,0.8,2,One,Reversable Defect,1
-35,Male,Mild Pain (Non-Cardiac/Occasional),122,192,0,Abnormal but Non-Specific,174,No,0.0,2,Zero,Reversable Defect,1
-57,Male,Mild Pain (Non-Cardiac/Occasional),124,261,0,Abnormal but Non-Specific,141,No,0.3,2,Zero,Normal,0
-29,Male,Mild Pain (Non-Cardiac/Occasional),130,204,0,Normal ECG,202,No,0.0,2,Zero,Reversable Defect,1
-66,Male,Mild Pain (Non-Cardiac/Occasional),160,246,0,Abnormal but Non-Specific,120,Yes,0.0,1,Three,Fixed Defect,0
-61,Female,No Pain,130,330,0,Normal ECG,169,No,0.0,2,Zero,Reversable Defect,0
-52,Male,No Pain,125,212,0,Abnormal but Non-Specific,168,No,1.0,2,Two,Normal,0
-68,Male,Moderate Pain (Potentially Cardiac),118,277,0,Abnormal but Non-Specific,151,No,1.0,2,One,Normal,1
-54,Male,Moderate Pain (Potentially Cardiac),120,258,0,Normal ECG,147,No,0.4,1,Zero,Normal,1
-63,Male,No Pain,130,330,1,Normal ECG,132,Yes,1.8,2,Three,Normal,0
-58,Male,No Pain,100,234,0,Abnormal but Non-Specific,156,No,0.1,2,One,Normal,0
-60,Male,No Pain,130,253,0,Abnormal but Non-Specific,144,Yes,1.4,2,One,Normal,0
-63,Male,No Pain,130,254,0,Normal ECG,147,No,1.4,1,One,Normal,0
-41,Female,Moderate Pain (Potentially Cardiac),112,268,0,Normal ECG,172,Yes,0.0,2,Zero,Reversable Defect,1
-68,Male,Moderate Pain (Potentially Cardiac),180,274,1,Normal ECG,150,Yes,1.6,1,Zero,Normal,0
-42,Male,Mild Pain (Non-Cardiac/Occasional),120,295,0,Abnormal but Non-Specific,162,No,0.0,2,Zero,Reversable Defect,1
-59,Male,No Pain,170,326,0,Normal ECG,140,Yes,3.4,0,Zero,Normal,0
-59,Male,No Pain,164,176,1,Normal ECG,90,No,1.0,1,Two,Fixed Defect,0
-43,Male,No Pain,120,177,0,Normal ECG,120,Yes,2.5,1,Zero,Normal,0
-60,Male,Moderate Pain (Potentially Cardiac),140,185,0,Normal ECG,155,No,3.0,1,Zero,Reversable Defect,0
-63,Female,No Pain,150,407,0,Normal ECG,154,No,4.0,1,Three,Normal,0
-52,Male,No Pain,128,204,1,Abnormal but Non-Specific,156,Yes,1.0,1,Zero,Normal,0
-58,Male,No Pain,125,300,0,Normal ECG,171,No,0.0,2,Two,Normal,0
-56,Female,No Pain,200,288,1,Normal ECG,133,Yes,4.0,0,Two,Normal,0
-54,Female,Moderate Pain (Potentially Cardiac),135,304,1,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-58,Male,Moderate Pain (Potentially Cardiac),105,240,0,Normal ECG,154,Yes,0.6,1,Zero,Normal,1
-55,Female,Mild Pain (Non-Cardiac/Occasional),135,250,0,Normal ECG,161,No,1.4,1,Zero,Reversable Defect,1
-53,Male,No Pain,140,203,1,Normal ECG,155,Yes,3.1,0,Zero,Normal,0
-63,Female,Mild Pain (Non-Cardiac/Occasional),140,195,0,Abnormal but Non-Specific,179,No,0.0,2,Two,Reversable Defect,1
-39,Male,No Pain,118,219,0,Abnormal but Non-Specific,140,No,1.2,1,Zero,Normal,0
-35,Male,No Pain,126,282,0,Normal ECG,156,Yes,0.0,2,Zero,Normal,0
-50,Female,Moderate Pain (Potentially Cardiac),120,219,0,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
-67,Male,Moderate Pain (Potentially Cardiac),152,212,0,Normal ECG,150,No,0.8,1,Zero,Normal,0
-66,Male,No Pain,112,212,0,Normal ECG,132,Yes,0.1,2,One,Reversable Defect,0
-35,Male,No Pain,126,282,0,Normal ECG,156,Yes,0.0,2,Zero,Normal,0
-41,Male,Moderate Pain (Potentially Cardiac),130,214,0,Normal ECG,168,No,2.0,1,Zero,Reversable Defect,1
-35,Male,No Pain,120,198,0,Abnormal but Non-Specific,130,Yes,1.6,1,Zero,Normal,0
-71,Female,Mild Pain (Non-Cardiac/Occasional),160,302,0,Abnormal but Non-Specific,162,No,0.4,2,Two,Reversable Defect,1
-57,Male,No Pain,110,201,0,Abnormal but Non-Specific,126,Yes,1.5,1,Zero,Fixed Defect,1
-51,Male,Moderate Pain (Potentially Cardiac),94,227,0,Abnormal but Non-Specific,154,Yes,0.0,2,One,Normal,1
-58,Male,No Pain,128,216,0,Normal ECG,131,Yes,2.2,1,Three,Normal,0
-57,Male,Moderate Pain (Potentially Cardiac),128,229,0,Normal ECG,150,No,0.4,1,One,Normal,0
-56,Female,Mild Pain (Non-Cardiac/Occasional),140,294,0,Normal ECG,153,No,1.3,1,Zero,Reversable Defect,1
-60,Female,Moderate Pain (Potentially Cardiac),120,178,1,Abnormal but Non-Specific,96,No,0.0,2,Zero,Reversable Defect,1
-45,Male,Severe Pain (Emergency/Cardiac),110,264,0,Abnormal but Non-Specific,132,No,1.2,1,Zero,Normal,0
-56,Male,Mild Pain (Non-Cardiac/Occasional),130,221,0,Normal ECG,163,No,0.0,2,Zero,Normal,1
-35,Male,No Pain,120,198,0,Abnormal but Non-Specific,130,Yes,1.6,1,Zero,Normal,0
-45,Female,Mild Pain (Non-Cardiac/Occasional),112,160,0,Abnormal but Non-Specific,138,No,0.0,1,Zero,Reversable Defect,1
-66,Female,Severe Pain (Emergency/Cardiac),150,226,0,Abnormal but Non-Specific,114,No,2.6,0,Zero,Reversable Defect,1
-51,Male,Severe Pain (Emergency/Cardiac),125,213,0,Normal ECG,125,Yes,1.4,2,One,Reversable Defect,1
-70,Male,Mild Pain (Non-Cardiac/Occasional),156,245,0,Normal ECG,143,No,0.0,2,Zero,Reversable Defect,1
-55,Female,No Pain,128,205,0,Definite Abnormalities,130,Yes,2.0,1,One,Normal,0
-56,Male,Moderate Pain (Potentially Cardiac),130,256,1,Normal ECG,142,Yes,0.6,1,One,Fixed Defect,0
-55,Female,Mild Pain (Non-Cardiac/Occasional),135,250,0,Normal ECG,161,No,1.4,1,Zero,Reversable Defect,1
-52,Male,No Pain,108,233,1,Abnormal but Non-Specific,147,No,0.1,2,Three,Normal,1
-64,Male,Moderate Pain (Potentially Cardiac),140,335,0,Abnormal but Non-Specific,158,No,0.0,2,Zero,Reversable Defect,0
-45,Male,No Pain,115,260,0,Normal ECG,185,No,0.0,2,Zero,Reversable Defect,1
-67,Female,Moderate Pain (Potentially Cardiac),152,277,0,Abnormal but Non-Specific,172,No,0.0,2,One,Reversable Defect,1
-68,Female,Moderate Pain (Potentially Cardiac),120,211,0,Normal ECG,115,No,1.5,1,Zero,Reversable Defect,1
-74,Female,Mild Pain (Non-Cardiac/Occasional),120,269,0,Normal ECG,121,Yes,0.2,2,One,Reversable Defect,1
-60,Female,No Pain,150,258,0,Normal ECG,157,No,2.6,1,Two,Normal,0
-48,Male,No Pain,124,274,0,Normal ECG,166,No,0.5,1,Zero,Normal,0
-56,Male,Mild Pain (Non-Cardiac/Occasional),130,221,0,Normal ECG,163,No,0.0,2,Zero,Normal,1
-46,Male,No Pain,140,311,0,Abnormal but Non-Specific,120,Yes,1.8,1,Two,Normal,0
-55,Female,Mild Pain (Non-Cardiac/Occasional),135,250,0,Normal ECG,161,No,1.4,1,Zero,Reversable Defect,1
-44,Male,Mild Pain (Non-Cardiac/Occasional),120,220,0,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-52,Male,No Pain,112,230,0,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,0
-51,Male,Moderate Pain (Potentially Cardiac),94,227,0,Abnormal but Non-Specific,154,Yes,0.0,2,One,Normal,1
-44,Female,Moderate Pain (Potentially Cardiac),108,141,0,Abnormal but Non-Specific,175,No,0.6,1,Zero,Reversable Defect,1
-52,Male,No Pain,128,204,1,Abnormal but Non-Specific,156,Yes,1.0,1,Zero,Normal,0
-50,Male,Moderate Pain (Potentially Cardiac),129,196,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-59,Male,No Pain,110,239,0,Normal ECG,142,Yes,1.2,1,One,Normal,0
-67,Male,No Pain,120,229,0,Normal ECG,129,Yes,2.6,1,Two,Normal,0
-58,Male,No Pain,125,300,0,Normal ECG,171,No,0.0,2,Two,Normal,0
-52,Male,No Pain,128,255,0,Abnormal but Non-Specific,161,Yes,0.0,2,One,Normal,0
-44,Male,Moderate Pain (Potentially Cardiac),140,235,0,Normal ECG,180,No,0.0,2,Zero,Reversable Defect,1
-41,Female,Moderate Pain (Potentially Cardiac),112,268,0,Normal ECG,172,Yes,0.0,2,Zero,Reversable Defect,1
-63,Male,No Pain,130,330,1,Normal ECG,132,Yes,1.8,2,Three,Normal,0
-58,Male,Mild Pain (Non-Cardiac/Occasional),125,220,0,Abnormal but Non-Specific,144,No,0.4,1,Four,Normal,1
-60,Female,Moderate Pain (Potentially Cardiac),102,318,0,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,1
-51,Male,Moderate Pain (Potentially Cardiac),100,222,0,Abnormal but Non-Specific,143,Yes,1.2,1,Zero,Reversable Defect,1
-64,Male,Moderate Pain (Potentially Cardiac),140,335,0,Abnormal but Non-Specific,158,No,0.0,2,Zero,Reversable Defect,0
-60,Male,No Pain,117,230,1,Abnormal but Non-Specific,160,Yes,1.4,2,Two,Normal,0
-44,Male,Moderate Pain (Potentially Cardiac),120,226,0,Abnormal but Non-Specific,169,No,0.0,2,Zero,Reversable Defect,1
-58,Male,Mild Pain (Non-Cardiac/Occasional),125,220,0,Abnormal but Non-Specific,144,No,0.4,1,Four,Normal,1
-55,Male,Mild Pain (Non-Cardiac/Occasional),130,262,0,Abnormal but Non-Specific,155,No,0.0,2,Zero,Reversable Defect,1
-65,Female,Moderate Pain (Potentially Cardiac),160,360,0,Normal ECG,151,No,0.8,2,Zero,Reversable Defect,1
-48,Male,Mild Pain (Non-Cardiac/Occasional),130,245,0,Normal ECG,180,No,0.2,1,Zero,Reversable Defect,1
-65,Male,No Pain,120,177,0,Abnormal but Non-Specific,140,No,0.4,2,Zero,Normal,1
-51,Female,Moderate Pain (Potentially Cardiac),130,256,0,Normal ECG,149,No,0.5,2,Zero,Reversable Defect,1
-48,Male,Moderate Pain (Potentially Cardiac),124,255,1,Abnormal but Non-Specific,175,No,0.0,2,Two,Reversable Defect,1
-64,Male,No Pain,120,246,0,Normal ECG,96,Yes,2.2,0,One,Reversable Defect,0
-66,Male,No Pain,160,228,0,Normal ECG,138,No,2.3,2,Zero,Fixed Defect,1
-46,Female,Mild Pain (Non-Cardiac/Occasional),105,204,0,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
-61,Female,No Pain,130,330,0,Normal ECG,169,No,0.0,2,Zero,Reversable Defect,0
-57,Male,No Pain,150,276,0,Normal ECG,112,Yes,0.6,1,One,Fixed Defect,0
-49,Female,No Pain,130,269,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-56,Male,Mild Pain (Non-Cardiac/Occasional),130,221,0,Normal ECG,163,No,0.0,2,Zero,Normal,1
-58,Female,Severe Pain (Emergency/Cardiac),150,283,1,Normal ECG,162,No,1.0,2,Zero,Reversable Defect,1
-63,Male,No Pain,140,187,0,Normal ECG,144,Yes,4.0,2,Two,Normal,0
-57,Male,No Pain,110,335,0,Abnormal but Non-Specific,143,Yes,3.0,1,One,Normal,0
-57,Male,No Pain,110,335,0,Abnormal but Non-Specific,143,Yes,3.0,1,One,Normal,0
-68,Male,No Pain,144,193,1,Abnormal but Non-Specific,141,No,3.4,1,Two,Normal,0
-46,Male,Mild Pain (Non-Cardiac/Occasional),101,197,1,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
-71,Female,Moderate Pain (Potentially Cardiac),110,265,1,Normal ECG,130,No,0.0,2,One,Reversable Defect,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),135,203,0,Abnormal but Non-Specific,132,No,0.0,1,Zero,Fixed Defect,1
-45,Female,No Pain,138,236,0,Normal ECG,152,Yes,0.2,1,Zero,Reversable Defect,1
-62,Female,No Pain,150,244,0,Abnormal but Non-Specific,154,Yes,1.4,1,Zero,Reversable Defect,0
-65,Female,No Pain,150,225,0,Normal ECG,114,No,1.0,1,Three,Normal,0
-48,Female,Moderate Pain (Potentially Cardiac),130,275,0,Abnormal but Non-Specific,139,No,0.2,2,Zero,Reversable Defect,1
-51,Male,Moderate Pain (Potentially Cardiac),100,222,0,Abnormal but Non-Specific,143,Yes,1.2,1,Zero,Reversable Defect,1
-61,Female,No Pain,145,307,0,Normal ECG,146,Yes,1.0,1,Zero,Normal,0
-53,Male,No Pain,123,282,0,Abnormal but Non-Specific,95,Yes,2.0,1,Two,Normal,0
-59,Male,Severe Pain (Emergency/Cardiac),134,204,0,Abnormal but Non-Specific,162,No,0.8,2,Two,Reversable Defect,0
-34,Female,Mild Pain (Non-Cardiac/Occasional),118,210,0,Abnormal but Non-Specific,192,No,0.7,2,Zero,Reversable Defect,1
-44,Male,No Pain,120,169,0,Abnormal but Non-Specific,144,Yes,2.8,0,Zero,Fixed Defect,0
-58,Male,No Pain,146,218,0,Abnormal but Non-Specific,105,No,2.0,1,One,Normal,0
-64,Female,No Pain,130,303,0,Abnormal but Non-Specific,122,No,2.0,1,Two,Reversable Defect,1
-56,Male,Mild Pain (Non-Cardiac/Occasional),120,240,0,Abnormal but Non-Specific,169,No,0.0,0,Zero,Reversable Defect,1
-54,Male,Moderate Pain (Potentially Cardiac),150,232,0,Normal ECG,165,No,1.6,2,Zero,Normal,1
-55,Male,No Pain,160,289,0,Normal ECG,145,Yes,0.8,1,One,Normal,0
-67,Male,No Pain,125,254,1,Abnormal but Non-Specific,163,No,0.2,1,Two,Normal,0
-51,Male,No Pain,140,298,0,Abnormal but Non-Specific,122,Yes,4.2,1,Three,Normal,0
-62,Female,No Pain,138,294,1,Abnormal but Non-Specific,106,No,1.9,1,Three,Reversable Defect,0
-62,Male,Mild Pain (Non-Cardiac/Occasional),120,281,0,Normal ECG,103,No,1.4,1,One,Normal,0
-54,Male,No Pain,110,239,0,Abnormal but Non-Specific,126,Yes,2.8,1,One,Normal,0
-54,Male,No Pain,110,239,0,Abnormal but Non-Specific,126,Yes,2.8,1,One,Normal,0
-68,Male,No Pain,144,193,1,Abnormal but Non-Specific,141,No,3.4,1,Two,Normal,0
-60,Female,Moderate Pain (Potentially Cardiac),120,178,1,Abnormal but Non-Specific,96,No,0.0,2,Zero,Reversable Defect,1
-61,Male,Severe Pain (Emergency/Cardiac),134,234,0,Abnormal but Non-Specific,145,No,2.6,1,Two,Reversable Defect,0
-62,Male,Mild Pain (Non-Cardiac/Occasional),128,208,1,Normal ECG,140,No,0.0,2,Zero,Reversable Defect,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),135,203,0,Abnormal but Non-Specific,132,No,0.0,1,Zero,Fixed Defect,1
-65,Female,No Pain,150,225,0,Normal ECG,114,No,1.0,1,Three,Normal,0
-59,Male,Severe Pain (Emergency/Cardiac),170,288,0,Normal ECG,159,No,0.2,1,Zero,Normal,0
-43,Male,No Pain,115,303,0,Abnormal but Non-Specific,181,No,1.2,1,Zero,Reversable Defect,1
-67,Male,No Pain,120,229,0,Normal ECG,129,Yes,2.6,1,Two,Normal,0
-63,Male,Severe Pain (Emergency/Cardiac),145,233,1,Normal ECG,150,No,2.3,0,Zero,Fixed Defect,1
-63,Female,No Pain,124,197,0,Abnormal but Non-Specific,136,Yes,0.0,1,Zero,Reversable Defect,0
-52,Male,No Pain,112,230,0,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,0
-58,Female,No Pain,130,197,0,Abnormal but Non-Specific,131,No,0.6,1,Zero,Reversable Defect,1
-53,Male,No Pain,142,226,0,Normal ECG,111,Yes,0.0,2,Zero,Normal,1
-57,Male,No Pain,150,276,0,Normal ECG,112,Yes,0.6,1,One,Fixed Defect,0
-44,Male,Moderate Pain (Potentially Cardiac),130,233,0,Abnormal but Non-Specific,179,Yes,0.4,2,Zero,Reversable Defect,1
-51,Male,Moderate Pain (Potentially Cardiac),94,227,0,Abnormal but Non-Specific,154,Yes,0.0,2,One,Normal,1
-54,Female,Moderate Pain (Potentially Cardiac),110,214,0,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
-40,Male,No Pain,110,167,0,Normal ECG,114,Yes,2.0,1,Zero,Normal,0
-57,Male,Mild Pain (Non-Cardiac/Occasional),124,261,0,Abnormal but Non-Specific,141,No,0.3,2,Zero,Normal,0
-62,Female,No Pain,140,268,0,Normal ECG,160,No,3.6,0,Two,Reversable Defect,0
-53,Male,No Pain,140,203,1,Normal ECG,155,Yes,3.1,0,Zero,Normal,0
-62,Male,Mild Pain (Non-Cardiac/Occasional),128,208,1,Normal ECG,140,No,0.0,2,Zero,Reversable Defect,1
-58,Male,Moderate Pain (Potentially Cardiac),105,240,0,Normal ECG,154,Yes,0.6,1,Zero,Normal,1
-70,Male,Mild Pain (Non-Cardiac/Occasional),156,245,0,Normal ECG,143,No,0.0,2,Zero,Reversable Defect,1
-45,Male,No Pain,115,260,0,Normal ECG,185,No,0.0,2,Zero,Reversable Defect,1
-42,Male,Severe Pain (Emergency/Cardiac),148,244,0,Normal ECG,178,No,0.8,2,Two,Reversable Defect,1
-58,Female,No Pain,170,225,1,Normal ECG,146,Yes,2.8,1,Two,Fixed Defect,0
-61,Male,No Pain,140,207,0,Normal ECG,138,Yes,1.9,2,One,Normal,0
-62,Female,No Pain,140,268,0,Normal ECG,160,No,3.6,0,Two,Reversable Defect,0
-60,Male,No Pain,130,253,0,Abnormal but Non-Specific,144,Yes,1.4,2,One,Normal,0
-54,Male,No Pain,140,239,0,Abnormal but Non-Specific,160,No,1.2,2,Zero,Reversable Defect,1
-61,Male,No Pain,138,166,0,Normal ECG,125,Yes,3.6,1,One,Reversable Defect,0
-63,Female,Moderate Pain (Potentially Cardiac),135,252,0,Normal ECG,172,No,0.0,2,Zero,Reversable Defect,1
-42,Male,Moderate Pain (Potentially Cardiac),130,180,0,Abnormal but Non-Specific,150,No,0.0,2,Zero,Reversable Defect,1
-57,Male,Moderate Pain (Potentially Cardiac),128,229,0,Normal ECG,150,No,0.4,1,One,Normal,0
-44,Male,Moderate Pain (Potentially Cardiac),130,233,0,Abnormal but Non-Specific,179,Yes,0.4,2,Zero,Reversable Defect,1
-54,Male,No Pain,124,266,0,Normal ECG,109,Yes,2.2,1,One,Normal,0
-51,Male,Moderate Pain (Potentially Cardiac),100,222,0,Abnormal but Non-Specific,143,Yes,1.2,1,Zero,Reversable Defect,1
-58,Male,Mild Pain (Non-Cardiac/Occasional),125,220,0,Abnormal but Non-Specific,144,No,0.4,1,Four,Normal,1
-68,Male,Moderate Pain (Potentially Cardiac),118,277,0,Abnormal but Non-Specific,151,No,1.0,2,One,Normal,1
-55,Male,No Pain,140,217,0,Abnormal but Non-Specific,111,Yes,5.6,0,Zero,Normal,0
-42,Male,No Pain,136,315,0,Abnormal but Non-Specific,125,Yes,1.8,1,Zero,Fixed Defect,0
-49,Male,Moderate Pain (Potentially Cardiac),118,149,0,Normal ECG,126,No,0.8,2,Three,Reversable Defect,0
-53,Female,No Pain,138,234,0,Normal ECG,160,No,0.0,2,Zero,Reversable Defect,1
-52,Male,Moderate Pain (Potentially Cardiac),172,199,1,Abnormal but Non-Specific,162,No,0.5,2,Zero,Normal,1
-51,Male,Severe Pain (Emergency/Cardiac),125,213,0,Normal ECG,125,Yes,1.4,2,One,Reversable Defect,1
-51,Male,No Pain,140,261,0,Normal ECG,186,Yes,0.0,2,Zero,Reversable Defect,1
-70,Male,No Pain,145,174,0,Abnormal but Non-Specific,125,Yes,2.6,0,Zero,Normal,0
-35,Female,No Pain,138,183,0,Abnormal but Non-Specific,182,No,1.4,2,Zero,Reversable Defect,1
-58,Male,Moderate Pain (Potentially Cardiac),112,230,0,Normal ECG,165,No,2.5,1,One,Normal,0
-59,Male,Severe Pain (Emergency/Cardiac),160,273,0,Normal ECG,125,No,0.0,2,Zero,Reversable Defect,0
-60,Male,No Pain,140,293,0,Normal ECG,170,No,1.2,1,Two,Normal,0
-56,Male,No Pain,132,184,0,Normal ECG,105,Yes,2.1,1,One,Fixed Defect,0
-35,Female,No Pain,138,183,0,Abnormal but Non-Specific,182,No,1.4,2,Zero,Reversable Defect,1
-61,Male,No Pain,138,166,0,Normal ECG,125,Yes,3.6,1,One,Reversable Defect,0
-58,Female,Severe Pain (Emergency/Cardiac),150,283,1,Normal ECG,162,No,1.0,2,Zero,Reversable Defect,1
-52,Male,No Pain,128,255,0,Abnormal but Non-Specific,161,Yes,0.0,2,One,Normal,0
-58,Male,Mild Pain (Non-Cardiac/Occasional),120,284,0,Normal ECG,160,No,1.8,1,Zero,Reversable Defect,0
-37,Male,Moderate Pain (Potentially Cardiac),130,250,0,Abnormal but Non-Specific,187,No,3.5,0,Zero,Reversable Defect,1
-52,Male,No Pain,128,255,0,Abnormal but Non-Specific,161,Yes,0.0,2,One,Normal,0
-67,Male,No Pain,120,229,0,Normal ECG,129,Yes,2.6,1,Two,Normal,0
-65,Male,Severe Pain (Emergency/Cardiac),138,282,1,Normal ECG,174,No,1.4,1,One,Reversable Defect,0
-46,Male,Mild Pain (Non-Cardiac/Occasional),101,197,1,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
-68,Female,Moderate Pain (Potentially Cardiac),120,211,0,Normal ECG,115,No,1.5,1,Zero,Reversable Defect,1
-43,Male,No Pain,115,303,0,Abnormal but Non-Specific,181,No,1.2,1,Zero,Reversable Defect,1
-68,Female,Moderate Pain (Potentially Cardiac),120,211,0,Normal ECG,115,No,1.5,1,Zero,Reversable Defect,1
-51,Male,No Pain,140,299,0,Abnormal but Non-Specific,173,Yes,1.6,2,Zero,Normal,0
-52,Male,No Pain,112,230,0,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,0
-64,Male,Moderate Pain (Potentially Cardiac),140,335,0,Abnormal but Non-Specific,158,No,0.0,2,Zero,Reversable Defect,0
-59,Male,Severe Pain (Emergency/Cardiac),170,288,0,Normal ECG,159,No,0.2,1,Zero,Normal,0
-52,Male,No Pain,125,212,0,Abnormal but Non-Specific,168,No,1.0,2,Two,Normal,0
-59,Male,Severe Pain (Emergency/Cardiac),160,273,0,Normal ECG,125,No,0.0,2,Zero,Reversable Defect,0
-60,Female,Severe Pain (Emergency/Cardiac),150,240,0,Abnormal but Non-Specific,171,No,0.9,2,Zero,Reversable Defect,1
-41,Male,Moderate Pain (Potentially Cardiac),112,250,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-41,Male,Mild Pain (Non-Cardiac/Occasional),110,235,0,Abnormal but Non-Specific,153,No,0.0,2,Zero,Reversable Defect,1
-56,Male,Mild Pain (Non-Cardiac/Occasional),120,240,0,Abnormal but Non-Specific,169,No,0.0,0,Zero,Reversable Defect,1
-56,Male,Mild Pain (Non-Cardiac/Occasional),120,236,0,Abnormal but Non-Specific,178,No,0.8,2,Zero,Reversable Defect,1
-48,Female,Moderate Pain (Potentially Cardiac),130,275,0,Abnormal but Non-Specific,139,No,0.2,2,Zero,Reversable Defect,1
-39,Male,Moderate Pain (Potentially Cardiac),140,321,0,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
-64,Male,Severe Pain (Emergency/Cardiac),170,227,0,Normal ECG,155,No,0.6,1,Zero,Normal,1
-57,Male,No Pain,140,192,0,Abnormal but Non-Specific,148,No,0.4,1,Zero,Fixed Defect,1
-59,Male,Severe Pain (Emergency/Cardiac),160,273,0,Normal ECG,125,No,0.0,2,Zero,Reversable Defect,0
-60,Male,No Pain,130,206,0,Normal ECG,132,Yes,2.4,1,Two,Normal,0
-61,Male,No Pain,140,207,0,Normal ECG,138,Yes,1.9,2,One,Normal,0
-43,Female,Moderate Pain (Potentially Cardiac),122,213,0,Abnormal but Non-Specific,165,No,0.2,1,Zero,Reversable Defect,1
-54,Male,No Pain,120,188,0,Abnormal but Non-Specific,113,No,1.4,1,One,Normal,0
-59,Male,No Pain,138,271,0,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
-57,Male,No Pain,132,207,0,Abnormal but Non-Specific,168,Yes,0.0,2,Zero,Normal,1
-57,Male,Mild Pain (Non-Cardiac/Occasional),154,232,0,Normal ECG,164,No,0.0,2,One,Reversable Defect,0
-57,Male,No Pain,130,131,0,Abnormal but Non-Specific,115,Yes,1.2,1,One,Normal,0
-48,Male,No Pain,124,274,0,Normal ECG,166,No,0.5,1,Zero,Normal,0
-70,Male,No Pain,145,174,0,Abnormal but Non-Specific,125,Yes,2.6,0,Zero,Normal,0
-57,Male,No Pain,165,289,1,Normal ECG,124,No,1.0,1,Three,Normal,0
-61,Male,No Pain,120,260,0,Abnormal but Non-Specific,140,Yes,3.6,1,One,Normal,0
-57,Male,No Pain,110,201,0,Abnormal but Non-Specific,126,Yes,1.5,1,Zero,Fixed Defect,1
-60,Female,No Pain,150,258,0,Normal ECG,157,No,2.6,1,Two,Normal,0
-63,Female,No Pain,150,407,0,Normal ECG,154,No,4.0,1,Three,Normal,0
-55,Female,No Pain,128,205,0,Definite Abnormalities,130,Yes,2.0,1,One,Normal,0
-64,Female,No Pain,180,325,0,Abnormal but Non-Specific,154,Yes,0.0,2,Zero,Reversable Defect,1
-54,Male,No Pain,110,239,0,Abnormal but Non-Specific,126,Yes,2.8,1,One,Normal,0
-52,Male,No Pain,128,204,1,Abnormal but Non-Specific,156,Yes,1.0,1,Zero,Normal,0
-51,Male,No Pain,140,299,0,Abnormal but Non-Specific,173,Yes,1.6,2,Zero,Normal,0
-62,Female,Moderate Pain (Potentially Cardiac),130,263,0,Abnormal but Non-Specific,97,No,1.2,1,One,Normal,0
-59,Male,Severe Pain (Emergency/Cardiac),178,270,0,Normal ECG,145,No,4.2,0,Zero,Normal,1
-52,Male,Mild Pain (Non-Cardiac/Occasional),134,201,0,Abnormal but Non-Specific,158,No,0.8,2,One,Reversable Defect,1
-42,Female,No Pain,102,265,0,Normal ECG,122,No,0.6,1,Zero,Reversable Defect,1
-59,Male,No Pain,135,234,0,Abnormal but Non-Specific,161,No,0.5,1,Zero,Normal,1
-61,Male,Severe Pain (Emergency/Cardiac),134,234,0,Abnormal but Non-Specific,145,No,2.6,1,Two,Reversable Defect,0
-42,Female,No Pain,102,265,0,Normal ECG,122,No,0.6,1,Zero,Reversable Defect,1
-62,Female,No Pain,140,268,0,Normal ECG,160,No,3.6,0,Two,Reversable Defect,0
-59,Male,Moderate Pain (Potentially Cardiac),126,218,1,Abnormal but Non-Specific,134,No,2.2,1,One,Fixed Defect,0
-55,Male,Mild Pain (Non-Cardiac/Occasional),130,262,0,Abnormal but Non-Specific,155,No,0.0,2,Zero,Reversable Defect,1
-64,Male,No Pain,120,246,0,Normal ECG,96,Yes,2.2,0,One,Reversable Defect,0
-42,Male,No Pain,140,226,0,Abnormal but Non-Specific,178,No,0.0,2,Zero,Reversable Defect,1
-50,Female,Mild Pain (Non-Cardiac/Occasional),120,244,0,Abnormal but Non-Specific,162,No,1.1,2,Zero,Reversable Defect,1
-62,Male,No Pain,120,267,0,Abnormal but Non-Specific,99,Yes,1.8,1,Two,Normal,0
-50,Male,No Pain,144,200,0,Normal ECG,126,Yes,0.9,1,Zero,Normal,0
-50,Male,Moderate Pain (Potentially Cardiac),140,233,0,Abnormal but Non-Specific,163,No,0.6,1,One,Normal,0
-58,Female,Mild Pain (Non-Cardiac/Occasional),136,319,1,Normal ECG,152,No,0.0,2,Two,Reversable Defect,0
-35,Male,No Pain,120,198,0,Abnormal but Non-Specific,130,Yes,1.6,1,Zero,Normal,0
-45,Male,No Pain,104,208,0,Normal ECG,148,Yes,3.0,1,Zero,Reversable Defect,1
-66,Male,No Pain,112,212,0,Normal ECG,132,Yes,0.1,2,One,Reversable Defect,0
-46,Male,No Pain,120,249,0,Normal ECG,144,No,0.8,2,Zero,Normal,0
-65,Male,No Pain,135,254,0,Normal ECG,127,No,2.8,1,One,Normal,0
-47,Male,Moderate Pain (Potentially Cardiac),130,253,0,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
-59,Male,Severe Pain (Emergency/Cardiac),134,204,0,Abnormal but Non-Specific,162,No,0.8,2,Two,Reversable Defect,0
-38,Male,Severe Pain (Emergency/Cardiac),120,231,0,Abnormal but Non-Specific,182,Yes,3.8,1,Zero,Normal,0
-39,Male,No Pain,118,219,0,Abnormal but Non-Specific,140,No,1.2,1,Zero,Normal,0
-58,Male,No Pain,146,218,0,Abnormal but Non-Specific,105,No,2.0,1,One,Normal,0
-44,Male,Mild Pain (Non-Cardiac/Occasional),120,263,0,Abnormal but Non-Specific,173,No,0.0,2,Zero,Normal,1
-54,Male,No Pain,140,239,0,Abnormal but Non-Specific,160,No,1.2,2,Zero,Reversable Defect,1
-61,Female,No Pain,130,330,0,Normal ECG,169,No,0.0,2,Zero,Reversable Defect,0
-57,Male,No Pain,130,131,0,Abnormal but Non-Specific,115,Yes,1.2,1,One,Normal,0
-54,Male,No Pain,110,206,0,Normal ECG,108,Yes,0.0,1,One,Reversable Defect,0
-42,Male,Moderate Pain (Potentially Cardiac),120,240,1,Abnormal but Non-Specific,194,No,0.8,0,Zero,Normal,1
-54,Male,No Pain,124,266,0,Normal ECG,109,Yes,2.2,1,One,Normal,0
-60,Male,No Pain,130,206,0,Normal ECG,132,Yes,2.4,1,Two,Normal,0
-65,Male,No Pain,135,254,0,Normal ECG,127,No,2.8,1,One,Normal,0
-40,Male,No Pain,152,223,0,Abnormal but Non-Specific,181,No,0.0,2,Zero,Normal,0
-51,Female,Moderate Pain (Potentially Cardiac),140,308,0,Normal ECG,142,No,1.5,2,One,Reversable Defect,1
-38,Male,Severe Pain (Emergency/Cardiac),120,231,0,Abnormal but Non-Specific,182,Yes,3.8,1,Zero,Normal,0
-42,Male,Moderate Pain (Potentially Cardiac),130,180,0,Abnormal but Non-Specific,150,No,0.0,2,Zero,Reversable Defect,1
-56,Male,Mild Pain (Non-Cardiac/Occasional),120,240,0,Abnormal but Non-Specific,169,No,0.0,0,Zero,Reversable Defect,1
-43,Male,Moderate Pain (Potentially Cardiac),130,315,0,Abnormal but Non-Specific,162,No,1.9,2,One,Reversable Defect,1
-64,Male,Moderate Pain (Potentially Cardiac),140,335,0,Abnormal but Non-Specific,158,No,0.0,2,Zero,Reversable Defect,0
-53,Male,No Pain,142,226,0,Normal ECG,111,Yes,0.0,2,Zero,Normal,1
-49,Female,Mild Pain (Non-Cardiac/Occasional),134,271,0,Abnormal but Non-Specific,162,No,0.0,1,Zero,Reversable Defect,1
-57,Female,No Pain,140,241,0,Abnormal but Non-Specific,123,Yes,0.2,1,Zero,Normal,0
-52,Female,Moderate Pain (Potentially Cardiac),136,196,0,Normal ECG,169,No,0.1,1,Zero,Reversable Defect,1
-69,Female,Severe Pain (Emergency/Cardiac),140,239,0,Abnormal but Non-Specific,151,No,1.8,2,Two,Reversable Defect,1
-65,Male,No Pain,120,177,0,Abnormal but Non-Specific,140,No,0.4,2,Zero,Normal,1
-66,Female,No Pain,178,228,1,Abnormal but Non-Specific,165,Yes,1.0,1,Two,Normal,0
-56,Male,Severe Pain (Emergency/Cardiac),120,193,0,Normal ECG,162,No,1.9,1,Zero,Normal,1
-67,Female,Moderate Pain (Potentially Cardiac),152,277,0,Abnormal but Non-Specific,172,No,0.0,2,One,Reversable Defect,1
-54,Female,Moderate Pain (Potentially Cardiac),160,201,0,Abnormal but Non-Specific,163,No,0.0,2,One,Reversable Defect,1
-70,Male,No Pain,145,174,0,Abnormal but Non-Specific,125,Yes,2.6,0,Zero,Normal,0
-57,Male,No Pain,132,207,0,Abnormal but Non-Specific,168,Yes,0.0,2,Zero,Normal,1
-67,Male,No Pain,160,286,0,Normal ECG,108,Yes,1.5,1,Three,Reversable Defect,0
-62,Female,Moderate Pain (Potentially Cardiac),130,263,0,Abnormal but Non-Specific,97,No,1.2,1,One,Normal,0
-54,Female,Moderate Pain (Potentially Cardiac),135,304,1,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
-45,Female,No Pain,138,236,0,Normal ECG,152,Yes,0.2,1,Zero,Reversable Defect,1
-53,Female,No Pain,130,264,0,Normal ECG,143,No,0.4,1,Zero,Reversable Defect,1
-62,Male,Moderate Pain (Potentially Cardiac),130,231,0,Abnormal but Non-Specific,146,No,1.8,1,Three,Normal,1
-49,Female,No Pain,130,269,0,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
-50,Male,Moderate Pain (Potentially Cardiac),140,233,0,Abnormal but Non-Specific,163,No,0.6,1,One,Normal,0
-65,Female,Moderate Pain (Potentially Cardiac),140,417,1,Normal ECG,157,No,0.8,2,One,Reversable Defect,1
-69,Female,Severe Pain (Emergency/Cardiac),140,239,0,Abnormal but Non-Specific,151,No,1.8,2,Two,Reversable Defect,1
-52,Female,Moderate Pain (Potentially Cardiac),136,196,0,Normal ECG,169,No,0.1,1,Zero,Reversable Defect,1
-58,Female,No Pain,100,248,0,Normal ECG,122,No,1.0,1,Zero,Reversable Defect,1
-52,Male,No Pain,108,233,1,Abnormal but Non-Specific,147,No,0.1,2,Three,Normal,1
-57,Female,No Pain,140,241,0,Abnormal but Non-Specific,123,Yes,0.2,1,Zero,Normal,0
-44,Female,Moderate Pain (Potentially Cardiac),108,141,0,Abnormal but Non-Specific,175,No,0.6,1,Zero,Reversable Defect,1
-76,Female,Moderate Pain (Potentially Cardiac),140,197,0,Definite Abnormalities,116,No,1.1,1,Zero,Reversable Defect,1
-58,Male,No Pain,128,259,0,Normal ECG,130,Yes,3.0,1,Two,Normal,0
-60,Female,Moderate Pain (Potentially Cardiac),120,178,1,Abnormal but Non-Specific,96,No,0.0,2,Zero,Reversable Defect,1
-53,Male,No Pain,140,203,1,Normal ECG,155,Yes,3.1,0,Zero,Normal,0
-52,Male,Mild Pain (Non-Cardiac/Occasional),120,325,0,Abnormal but Non-Specific,172,No,0.2,2,Zero,Reversable Defect,1
-38,Male,Moderate Pain (Potentially Cardiac),138,175,0,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
-52,Male,Moderate Pain (Potentially Cardiac),172,199,1,Abnormal but Non-Specific,162,No,0.5,2,Zero,Normal,1
-52,Male,Severe Pain (Emergency/Cardiac),118,186,0,Normal ECG,190,No,0.0,1,Zero,Fixed Defect,1
-51,Male,Moderate Pain (Potentially Cardiac),125,245,1,Normal ECG,166,No,2.4,1,Zero,Reversable Defect,1
-43,Male,No Pain,110,211,0,Abnormal but Non-Specific,161,No,0.0,2,Zero,Normal,1
-39,Male,No Pain,118,219,0,Abnormal but Non-Specific,140,No,1.2,1,Zero,Normal,0
-63,Female,No Pain,108,269,0,Abnormal but Non-Specific,169,Yes,1.8,1,Two,Reversable Defect,0
-52,Male,Mild Pain (Non-Cardiac/Occasional),128,205,1,Abnormal but Non-Specific,184,No,0.0,2,Zero,Reversable Defect,1
-44,Male,No Pain,110,197,0,Normal ECG,177,No,0.0,2,One,Reversable Defect,0
-45,Male,No Pain,142,309,0,Normal ECG,147,Yes,0.0,1,Three,Normal,0
-57,Male,No Pain,140,192,0,Abnormal but Non-Specific,148,No,0.4,1,Zero,Fixed Defect,1
-39,Male,No Pain,118,219,0,Abnormal but Non-Specific,140,No,1.2,1,Zero,Normal,0
-67,Female,No Pain,106,223,0,Abnormal but Non-Specific,142,No,0.3,2,Two,Reversable Defect,1
-64,Male,No Pain,128,263,0,Abnormal but Non-Specific,105,Yes,0.2,1,One,Normal,1
-59,Male,No Pain,135,234,0,Abnormal but Non-Specific,161,No,0.5,1,Zero,Normal,1
-62,Male,Moderate Pain (Potentially Cardiac),130,231,0,Abnormal but Non-Specific,146,No,1.8,1,Three,Normal,1
-55,Female,No Pain,180,327,0,Definite Abnormalities,117,Yes,3.4,1,Zero,Reversable Defect,0
-57,Male,Mild Pain (Non-Cardiac/Occasional),154,232,0,Normal ECG,164,No,0.0,2,One,Reversable Defect,0
-60,Male,No Pain,140,293,0,Normal ECG,170,No,1.2,1,Two,Normal,0
-71,Female,Mild Pain (Non-Cardiac/Occasional),160,302,0,Abnormal but Non-Specific,162,No,0.4,2,Two,Reversable Defect,1
-56,Male,Mild Pain (Non-Cardiac/Occasional),120,236,0,Abnormal but Non-Specific,178,No,0.8,2,Zero,Reversable Defect,1
-60,Male,No Pain,117,230,1,Abnormal but Non-Specific,160,Yes,1.4,2,Two,Normal,0
-50,Female,No Pain,110,254,0,Normal ECG,159,No,0.0,2,Zero,Reversable Defect,1
-43,Male,No Pain,132,247,1,Normal ECG,143,Yes,0.1,1,Four,Normal,0
-59,Male,No Pain,110,239,0,Normal ECG,142,Yes,1.2,1,One,Normal,0
-44,Male,Mild Pain (Non-Cardiac/Occasional),120,263,0,Abnormal but Non-Specific,173,No,0.0,2,Zero,Normal,1
-56,Female,No Pain,134,409,0,Normal ECG,150,Yes,1.9,1,Two,Normal,0
-54,Male,No Pain,120,188,0,Abnormal but Non-Specific,113,No,1.4,1,One,Normal,0
-42,Male,No Pain,136,315,0,Abnormal but Non-Specific,125,Yes,1.8,1,Zero,Fixed Defect,0
-67,Male,No Pain,125,254,1,Abnormal but Non-Specific,163,No,0.2,1,Two,Normal,0
-64,Male,No Pain,145,212,0,Normal ECG,132,No,2.0,1,Two,Fixed Defect,0
-42,Male,No Pain,140,226,0,Abnormal but Non-Specific,178,No,0.0,2,Zero,Reversable Defect,1
-66,Male,No Pain,112,212,0,Normal ECG,132,Yes,0.1,2,One,Reversable Defect,0
-52,Male,No Pain,108,233,1,Abnormal but Non-Specific,147,No,0.1,2,Three,Normal,1
-51,Female,Moderate Pain (Potentially Cardiac),140,308,0,Normal ECG,142,No,1.5,2,One,Reversable Defect,1
-55,Female,No Pain,128,205,0,Definite Abnormalities,130,Yes,2.0,1,One,Normal,0
-58,Male,Moderate Pain (Potentially Cardiac),140,211,1,Normal ECG,165,No,0.0,2,Zero,Reversable Defect,1
-56,Male,Severe Pain (Emergency/Cardiac),120,193,0,Normal ECG,162,No,1.9,1,Zero,Normal,1
-42,Male,Mild Pain (Non-Cardiac/Occasional),120,295,0,Abnormal but Non-Specific,162,No,0.0,2,Zero,Reversable Defect,1
-40,Male,No Pain,152,223,0,Abnormal but Non-Specific,181,No,0.0,2,Zero,Normal,0
-51,Male,No Pain,140,299,0,Abnormal but Non-Specific,173,Yes,1.6,2,Zero,Normal,0
-45,Male,Mild Pain (Non-Cardiac/Occasional),128,308,0,Normal ECG,170,No,0.0,2,Zero,Reversable Defect,1
-48,Male,Mild Pain (Non-Cardiac/Occasional),110,229,0,Abnormal but Non-Specific,168,No,1.0,0,Zero,Normal,0
-58,Male,No Pain,114,318,0,Definite Abnormalities,140,No,4.4,0,Three,Fixed Defect,0
-44,Female,Moderate Pain (Potentially Cardiac),108,141,0,Abnormal but Non-Specific,175,No,0.6,1,Zero,Reversable Defect,1
-58,Male,No Pain,128,216,0,Normal ECG,131,Yes,2.2,1,Three,Normal,0
-65,Male,Severe Pain (Emergency/Cardiac),138,282,1,Normal ECG,174,No,1.4,1,One,Reversable Defect,0
-53,Male,No Pain,123,282,0,Abnormal but Non-Specific,95,Yes,2.0,1,Two,Normal,0
-41,Male,No Pain,110,172,0,Normal ECG,158,No,0.0,2,Zero,Normal,0
-47,Male,No Pain,112,204,0,Abnormal but Non-Specific,143,No,0.1,2,Zero,Reversable Defect,1
-59,Male,Mild Pain (Non-Cardiac/Occasional),140,221,0,Abnormal but Non-Specific,164,Yes,0.0,2,Zero,Reversable Defect,1
-60,Male,No Pain,125,258,0,Normal ECG,141,Yes,2.8,1,One,Normal,0
-47,Male,No Pain,110,275,0,Normal ECG,118,Yes,1.0,1,One,Reversable Defect,0
-50,Female,No Pain,110,254,0,Normal ECG,159,No,0.0,2,Zero,Reversable Defect,1
-54,Male,No Pain,120,188,0,Abnormal but Non-Specific,113,No,1.4,1,One,Normal,0
+age,gender,cp,BloodPressure,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,heart_disease
+52,Male,No Pain,125,212,No,Abnormal but Non-Specific,168,No,1.0,2,Two,Normal,0
+53,Male,No Pain,140,203,Yes,Normal ECG,155,Yes,3.1,0,Zero,Normal,0
+70,Male,No Pain,145,174,No,Abnormal but Non-Specific,125,Yes,2.6,0,Zero,Normal,0
+61,Male,No Pain,148,203,No,Abnormal but Non-Specific,161,No,0.0,2,One,Normal,0
+62,Female,No Pain,138,294,Yes,Abnormal but Non-Specific,106,No,1.9,1,Three,Reversable Defect,0
+58,Female,No Pain,100,248,No,Normal ECG,122,No,1.0,1,Zero,Reversable Defect,1
+58,Male,No Pain,114,318,No,Definite Abnormalities,140,No,4.4,0,Three,Fixed Defect,0
+55,Male,No Pain,160,289,No,Normal ECG,145,Yes,0.8,1,One,Normal,0
+46,Male,No Pain,120,249,No,Normal ECG,144,No,0.8,2,Zero,Normal,0
+54,Male,No Pain,122,286,No,Normal ECG,116,Yes,3.2,1,Two,Reversable Defect,0
+71,Female,No Pain,112,149,No,Abnormal but Non-Specific,125,No,1.6,1,Zero,Reversable Defect,1
+43,Female,No Pain,132,341,Yes,Normal ECG,136,Yes,3.0,1,Zero,Normal,0
+34,Female,Mild Pain (Non-Cardiac/Occasional),118,210,No,Abnormal but Non-Specific,192,No,0.7,2,Zero,Reversable Defect,1
+51,Male,No Pain,140,298,No,Abnormal but Non-Specific,122,Yes,4.2,1,Three,Normal,0
+52,Male,No Pain,128,204,Yes,Abnormal but Non-Specific,156,Yes,1.0,1,Zero,Normal,0
+34,Female,Mild Pain (Non-Cardiac/Occasional),118,210,No,Abnormal but Non-Specific,192,No,0.7,2,Zero,Reversable Defect,1
+51,Female,Moderate Pain (Potentially Cardiac),140,308,No,Normal ECG,142,No,1.5,2,One,Reversable Defect,1
+54,Male,No Pain,124,266,No,Normal ECG,109,Yes,2.2,1,One,Normal,0
+50,Female,Mild Pain (Non-Cardiac/Occasional),120,244,No,Abnormal but Non-Specific,162,No,1.1,2,Zero,Reversable Defect,1
+58,Male,Moderate Pain (Potentially Cardiac),140,211,Yes,Normal ECG,165,No,0.0,2,Zero,Reversable Defect,1
+60,Male,Moderate Pain (Potentially Cardiac),140,185,No,Normal ECG,155,No,3.0,1,Zero,Reversable Defect,0
+67,Female,No Pain,106,223,No,Abnormal but Non-Specific,142,No,0.3,2,Two,Reversable Defect,1
+45,Male,No Pain,104,208,No,Normal ECG,148,Yes,3.0,1,Zero,Reversable Defect,1
+63,Female,Moderate Pain (Potentially Cardiac),135,252,No,Normal ECG,172,No,0.0,2,Zero,Reversable Defect,1
+42,Female,Moderate Pain (Potentially Cardiac),120,209,No,Abnormal but Non-Specific,173,No,0.0,1,Zero,Reversable Defect,1
+61,Female,No Pain,145,307,No,Normal ECG,146,Yes,1.0,1,Zero,Normal,0
+44,Male,Moderate Pain (Potentially Cardiac),130,233,No,Abnormal but Non-Specific,179,Yes,0.4,2,Zero,Reversable Defect,1
+58,Female,Mild Pain (Non-Cardiac/Occasional),136,319,Yes,Normal ECG,152,No,0.0,2,Two,Reversable Defect,0
+56,Male,Moderate Pain (Potentially Cardiac),130,256,Yes,Normal ECG,142,Yes,0.6,1,One,Fixed Defect,0
+55,Female,No Pain,180,327,No,Definite Abnormalities,117,Yes,3.4,1,Zero,Reversable Defect,0
+44,Male,No Pain,120,169,No,Abnormal but Non-Specific,144,Yes,2.8,0,Zero,Fixed Defect,0
+50,Female,Mild Pain (Non-Cardiac/Occasional),120,244,No,Abnormal but Non-Specific,162,No,1.1,2,Zero,Reversable Defect,1
+57,Male,No Pain,130,131,No,Abnormal but Non-Specific,115,Yes,1.2,1,One,Normal,0
+70,Male,Moderate Pain (Potentially Cardiac),160,269,No,Abnormal but Non-Specific,112,Yes,2.9,1,One,Normal,0
+50,Male,Moderate Pain (Potentially Cardiac),129,196,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+46,Male,Moderate Pain (Potentially Cardiac),150,231,No,Abnormal but Non-Specific,147,No,3.6,1,Zero,Reversable Defect,0
+51,Male,Severe Pain (Emergency/Cardiac),125,213,No,Normal ECG,125,Yes,1.4,2,One,Reversable Defect,1
+59,Male,No Pain,138,271,No,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
+64,Male,No Pain,128,263,No,Abnormal but Non-Specific,105,Yes,0.2,1,One,Normal,1
+57,Male,Moderate Pain (Potentially Cardiac),128,229,No,Normal ECG,150,No,0.4,1,One,Normal,0
+65,Female,Moderate Pain (Potentially Cardiac),160,360,No,Normal ECG,151,No,0.8,2,Zero,Reversable Defect,1
+54,Male,Moderate Pain (Potentially Cardiac),120,258,No,Normal ECG,147,No,0.4,1,Zero,Normal,1
+61,Female,No Pain,130,330,No,Normal ECG,169,No,0.0,2,Zero,Reversable Defect,0
+46,Male,No Pain,120,249,No,Normal ECG,144,No,0.8,2,Zero,Normal,0
+55,Female,Mild Pain (Non-Cardiac/Occasional),132,342,No,Abnormal but Non-Specific,166,No,1.2,2,Zero,Reversable Defect,1
+42,Male,No Pain,140,226,No,Abnormal but Non-Specific,178,No,0.0,2,Zero,Reversable Defect,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),135,203,No,Abnormal but Non-Specific,132,No,0.0,1,Zero,Fixed Defect,1
+66,Female,No Pain,178,228,Yes,Abnormal but Non-Specific,165,Yes,1.0,1,Two,Normal,0
+66,Female,Moderate Pain (Potentially Cardiac),146,278,No,Normal ECG,152,No,0.0,1,One,Reversable Defect,1
+60,Male,No Pain,117,230,Yes,Abnormal but Non-Specific,160,Yes,1.4,2,Two,Normal,0
+58,Female,Severe Pain (Emergency/Cardiac),150,283,Yes,Normal ECG,162,No,1.0,2,Zero,Reversable Defect,1
+57,Female,No Pain,140,241,No,Abnormal but Non-Specific,123,Yes,0.2,1,Zero,Normal,0
+38,Male,Moderate Pain (Potentially Cardiac),138,175,No,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
+49,Male,Moderate Pain (Potentially Cardiac),120,188,No,Abnormal but Non-Specific,139,No,2.0,1,Three,Normal,0
+55,Male,No Pain,140,217,No,Abnormal but Non-Specific,111,Yes,5.6,0,Zero,Normal,0
+55,Male,No Pain,140,217,No,Abnormal but Non-Specific,111,Yes,5.6,0,Zero,Normal,0
+56,Male,Severe Pain (Emergency/Cardiac),120,193,No,Normal ECG,162,No,1.9,1,Zero,Normal,1
+48,Male,Mild Pain (Non-Cardiac/Occasional),130,245,No,Normal ECG,180,No,0.2,1,Zero,Reversable Defect,1
+67,Male,Moderate Pain (Potentially Cardiac),152,212,No,Normal ECG,150,No,0.8,1,Zero,Normal,0
+57,Male,Mild Pain (Non-Cardiac/Occasional),154,232,No,Normal ECG,164,No,0.0,2,One,Reversable Defect,0
+29,Male,Mild Pain (Non-Cardiac/Occasional),130,204,No,Normal ECG,202,No,0.0,2,Zero,Reversable Defect,1
+66,Female,Moderate Pain (Potentially Cardiac),146,278,No,Normal ECG,152,No,0.0,1,One,Reversable Defect,1
+67,Male,No Pain,100,299,No,Normal ECG,125,Yes,0.9,1,Two,Reversable Defect,0
+59,Male,Moderate Pain (Potentially Cardiac),150,212,Yes,Abnormal but Non-Specific,157,No,1.6,2,Zero,Reversable Defect,1
+29,Male,Mild Pain (Non-Cardiac/Occasional),130,204,No,Normal ECG,202,No,0.0,2,Zero,Reversable Defect,1
+59,Male,Severe Pain (Emergency/Cardiac),170,288,No,Normal ECG,159,No,0.2,1,Zero,Normal,0
+53,Male,Moderate Pain (Potentially Cardiac),130,197,Yes,Normal ECG,152,No,1.2,0,Zero,Reversable Defect,1
+42,Male,No Pain,136,315,No,Abnormal but Non-Specific,125,Yes,1.8,1,Zero,Fixed Defect,0
+37,Female,Moderate Pain (Potentially Cardiac),120,215,No,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+62,Female,No Pain,160,164,No,Normal ECG,145,No,6.2,0,Three,Normal,0
+59,Male,No Pain,170,326,No,Normal ECG,140,Yes,3.4,0,Zero,Normal,0
+61,Male,No Pain,140,207,No,Normal ECG,138,Yes,1.9,2,One,Normal,0
+56,Male,No Pain,125,249,Yes,Normal ECG,144,Yes,1.2,1,One,Reversable Defect,0
+59,Male,No Pain,140,177,No,Abnormal but Non-Specific,162,Yes,0.0,2,One,Normal,0
+48,Male,No Pain,130,256,Yes,Normal ECG,150,Yes,0.0,2,Two,Normal,0
+47,Male,Moderate Pain (Potentially Cardiac),138,257,No,Normal ECG,156,No,0.0,2,Zero,Reversable Defect,1
+48,Male,Moderate Pain (Potentially Cardiac),124,255,Yes,Abnormal but Non-Specific,175,No,0.0,2,Two,Reversable Defect,1
+63,Male,No Pain,140,187,No,Normal ECG,144,Yes,4.0,2,Two,Normal,0
+52,Male,Mild Pain (Non-Cardiac/Occasional),134,201,No,Abnormal but Non-Specific,158,No,0.8,2,One,Reversable Defect,1
+52,Male,Mild Pain (Non-Cardiac/Occasional),134,201,No,Abnormal but Non-Specific,158,No,0.8,2,One,Reversable Defect,1
+50,Male,Moderate Pain (Potentially Cardiac),140,233,No,Abnormal but Non-Specific,163,No,0.6,1,One,Normal,0
+49,Male,Moderate Pain (Potentially Cardiac),118,149,No,Normal ECG,126,No,0.8,2,Three,Reversable Defect,0
+46,Male,Moderate Pain (Potentially Cardiac),150,231,No,Abnormal but Non-Specific,147,No,3.6,1,Zero,Reversable Defect,0
+38,Male,Moderate Pain (Potentially Cardiac),138,175,No,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
+37,Female,Moderate Pain (Potentially Cardiac),120,215,No,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+44,Male,Mild Pain (Non-Cardiac/Occasional),120,220,No,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+58,Male,Moderate Pain (Potentially Cardiac),140,211,Yes,Normal ECG,165,No,0.0,2,Zero,Reversable Defect,1
+59,Female,No Pain,174,249,No,Abnormal but Non-Specific,143,Yes,0.0,1,Zero,Reversable Defect,0
+62,Female,No Pain,140,268,No,Normal ECG,160,No,3.6,0,Two,Reversable Defect,0
+68,Male,No Pain,144,193,Yes,Abnormal but Non-Specific,141,No,3.4,1,Two,Normal,0
+54,Female,Moderate Pain (Potentially Cardiac),108,267,No,Normal ECG,167,No,0.0,2,Zero,Reversable Defect,1
+62,Female,No Pain,124,209,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+63,Male,No Pain,140,187,No,Normal ECG,144,Yes,4.0,2,Two,Normal,0
+44,Male,No Pain,120,169,No,Abnormal but Non-Specific,144,Yes,2.8,0,Zero,Fixed Defect,0
+62,Male,Mild Pain (Non-Cardiac/Occasional),128,208,Yes,Normal ECG,140,No,0.0,2,Zero,Reversable Defect,1
+45,Female,No Pain,138,236,No,Normal ECG,152,Yes,0.2,1,Zero,Reversable Defect,1
+57,Female,No Pain,128,303,No,Normal ECG,159,No,0.0,2,One,Reversable Defect,1
+53,Male,No Pain,123,282,No,Abnormal but Non-Specific,95,Yes,2.0,1,Two,Normal,0
+65,Male,No Pain,110,248,No,Normal ECG,158,No,0.6,2,Two,Fixed Defect,0
+76,Female,Moderate Pain (Potentially Cardiac),140,197,No,Definite Abnormalities,116,No,1.1,1,Zero,Reversable Defect,1
+43,Female,Moderate Pain (Potentially Cardiac),122,213,No,Abnormal but Non-Specific,165,No,0.2,1,Zero,Reversable Defect,1
+57,Male,Moderate Pain (Potentially Cardiac),150,126,Yes,Abnormal but Non-Specific,173,No,0.2,2,One,Normal,1
+54,Male,Mild Pain (Non-Cardiac/Occasional),108,309,No,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
+47,Male,Moderate Pain (Potentially Cardiac),138,257,No,Normal ECG,156,No,0.0,2,Zero,Reversable Defect,1
+52,Male,Severe Pain (Emergency/Cardiac),118,186,No,Normal ECG,190,No,0.0,1,Zero,Fixed Defect,1
+47,Male,No Pain,110,275,No,Normal ECG,118,Yes,1.0,1,One,Reversable Defect,0
+51,Male,No Pain,140,299,No,Abnormal but Non-Specific,173,Yes,1.6,2,Zero,Normal,0
+62,Male,Mild Pain (Non-Cardiac/Occasional),120,281,No,Normal ECG,103,No,1.4,1,One,Normal,0
+40,Male,No Pain,152,223,No,Abnormal but Non-Specific,181,No,0.0,2,Zero,Normal,0
+54,Male,No Pain,110,206,No,Normal ECG,108,Yes,0.0,1,One,Reversable Defect,0
+44,Male,No Pain,110,197,No,Normal ECG,177,No,0.0,2,One,Reversable Defect,0
+53,Male,No Pain,142,226,No,Normal ECG,111,Yes,0.0,2,Zero,Normal,1
+48,Male,No Pain,130,256,Yes,Normal ECG,150,Yes,0.0,2,Two,Normal,0
+57,Male,No Pain,110,335,No,Abnormal but Non-Specific,143,Yes,3.0,1,One,Normal,0
+59,Male,Moderate Pain (Potentially Cardiac),126,218,Yes,Abnormal but Non-Specific,134,No,2.2,1,One,Fixed Defect,0
+61,Female,No Pain,145,307,No,Normal ECG,146,Yes,1.0,1,Zero,Normal,0
+63,Male,No Pain,130,254,No,Normal ECG,147,No,1.4,1,One,Normal,0
+43,Male,No Pain,120,177,No,Normal ECG,120,Yes,2.5,1,Zero,Normal,0
+29,Male,Mild Pain (Non-Cardiac/Occasional),130,204,No,Normal ECG,202,No,0.0,2,Zero,Reversable Defect,1
+42,Male,Mild Pain (Non-Cardiac/Occasional),120,295,No,Abnormal but Non-Specific,162,No,0.0,2,Zero,Reversable Defect,1
+54,Male,Mild Pain (Non-Cardiac/Occasional),108,309,No,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
+44,Male,No Pain,120,169,No,Abnormal but Non-Specific,144,Yes,2.8,0,Zero,Fixed Defect,0
+60,Male,No Pain,145,282,No,Normal ECG,142,Yes,2.8,1,Two,Normal,0
+65,Female,Moderate Pain (Potentially Cardiac),140,417,Yes,Normal ECG,157,No,0.8,2,One,Reversable Defect,1
+61,Male,No Pain,120,260,No,Abnormal but Non-Specific,140,Yes,3.6,1,One,Normal,0
+60,Female,Severe Pain (Emergency/Cardiac),150,240,No,Abnormal but Non-Specific,171,No,0.9,2,Zero,Reversable Defect,1
+66,Male,No Pain,120,302,No,Normal ECG,151,No,0.4,1,Zero,Reversable Defect,1
+53,Male,Moderate Pain (Potentially Cardiac),130,197,Yes,Normal ECG,152,No,1.2,0,Zero,Reversable Defect,1
+52,Male,Moderate Pain (Potentially Cardiac),138,223,No,Abnormal but Non-Specific,169,No,0.0,2,Four,Reversable Defect,1
+57,Male,No Pain,140,192,No,Abnormal but Non-Specific,148,No,0.4,1,Zero,Fixed Defect,1
+60,Female,Severe Pain (Emergency/Cardiac),150,240,No,Abnormal but Non-Specific,171,No,0.9,2,Zero,Reversable Defect,1
+51,Female,Moderate Pain (Potentially Cardiac),130,256,No,Normal ECG,149,No,0.5,2,Zero,Reversable Defect,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),135,203,No,Abnormal but Non-Specific,132,No,0.0,1,Zero,Fixed Defect,1
+50,Male,Moderate Pain (Potentially Cardiac),129,196,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+54,Male,Mild Pain (Non-Cardiac/Occasional),108,309,No,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
+58,Female,No Pain,170,225,Yes,Normal ECG,146,Yes,2.8,1,Two,Fixed Defect,0
+55,Female,Mild Pain (Non-Cardiac/Occasional),132,342,No,Abnormal but Non-Specific,166,No,1.2,2,Zero,Reversable Defect,1
+64,Female,No Pain,180,325,No,Abnormal but Non-Specific,154,Yes,0.0,2,Zero,Reversable Defect,1
+47,Male,Moderate Pain (Potentially Cardiac),138,257,No,Normal ECG,156,No,0.0,2,Zero,Reversable Defect,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),110,235,No,Abnormal but Non-Specific,153,No,0.0,2,Zero,Reversable Defect,1
+57,Male,No Pain,152,274,No,Abnormal but Non-Specific,88,Yes,1.2,1,One,Normal,0
+63,Female,No Pain,124,197,No,Abnormal but Non-Specific,136,Yes,0.0,1,Zero,Reversable Defect,0
+61,Male,Severe Pain (Emergency/Cardiac),134,234,No,Abnormal but Non-Specific,145,No,2.6,1,Two,Reversable Defect,0
+34,Male,Severe Pain (Emergency/Cardiac),118,182,No,Normal ECG,174,No,0.0,2,Zero,Reversable Defect,1
+47,Male,No Pain,112,204,No,Abnormal but Non-Specific,143,No,0.1,2,Zero,Reversable Defect,1
+40,Male,No Pain,110,167,No,Normal ECG,114,Yes,2.0,1,Zero,Normal,0
+51,Female,Moderate Pain (Potentially Cardiac),120,295,No,Normal ECG,157,No,0.6,2,Zero,Reversable Defect,1
+41,Male,No Pain,110,172,No,Normal ECG,158,No,0.0,2,Zero,Normal,0
+52,Male,Severe Pain (Emergency/Cardiac),152,298,Yes,Abnormal but Non-Specific,178,No,1.2,1,Zero,Normal,1
+39,Male,Moderate Pain (Potentially Cardiac),140,321,No,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
+58,Male,No Pain,114,318,No,Definite Abnormalities,140,No,4.4,0,Three,Fixed Defect,0
+54,Male,Mild Pain (Non-Cardiac/Occasional),192,283,No,Normal ECG,195,No,0.0,2,One,Normal,0
+58,Male,No Pain,125,300,No,Normal ECG,171,No,0.0,2,Two,Normal,0
+54,Male,Moderate Pain (Potentially Cardiac),120,258,No,Normal ECG,147,No,0.4,1,Zero,Normal,1
+63,Male,No Pain,130,330,Yes,Normal ECG,132,Yes,1.8,2,Three,Normal,0
+54,Male,Mild Pain (Non-Cardiac/Occasional),108,309,No,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
+40,Male,Severe Pain (Emergency/Cardiac),140,199,No,Abnormal but Non-Specific,178,Yes,1.4,2,Zero,Normal,1
+54,Male,Moderate Pain (Potentially Cardiac),120,258,No,Normal ECG,147,No,0.4,1,Zero,Normal,1
+67,Female,Moderate Pain (Potentially Cardiac),115,564,No,Normal ECG,160,No,1.6,1,Zero,Normal,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),120,157,No,Abnormal but Non-Specific,182,No,0.0,2,Zero,Reversable Defect,1
+77,Male,No Pain,125,304,No,Normal ECG,162,Yes,0.0,2,Three,Reversable Defect,0
+51,Male,Moderate Pain (Potentially Cardiac),100,222,No,Abnormal but Non-Specific,143,Yes,1.2,1,Zero,Reversable Defect,1
+77,Male,No Pain,125,304,No,Normal ECG,162,Yes,0.0,2,Three,Reversable Defect,0
+48,Male,No Pain,124,274,No,Normal ECG,166,No,0.5,1,Zero,Normal,0
+56,Male,No Pain,125,249,Yes,Normal ECG,144,Yes,1.2,1,One,Reversable Defect,0
+59,Male,No Pain,170,326,No,Normal ECG,140,Yes,3.4,0,Zero,Normal,0
+56,Male,No Pain,132,184,No,Normal ECG,105,Yes,2.1,1,One,Fixed Defect,0
+57,Female,No Pain,120,354,No,Abnormal but Non-Specific,163,Yes,0.6,2,Zero,Reversable Defect,1
+43,Male,Moderate Pain (Potentially Cardiac),130,315,No,Abnormal but Non-Specific,162,No,1.9,2,One,Reversable Defect,1
+45,Female,Mild Pain (Non-Cardiac/Occasional),112,160,No,Abnormal but Non-Specific,138,No,0.0,1,Zero,Reversable Defect,1
+43,Male,No Pain,150,247,No,Abnormal but Non-Specific,171,No,1.5,2,Zero,Reversable Defect,1
+56,Male,No Pain,130,283,Yes,Normal ECG,103,Yes,1.6,0,Zero,Normal,0
+56,Male,Mild Pain (Non-Cardiac/Occasional),120,240,No,Abnormal but Non-Specific,169,No,0.0,0,Zero,Reversable Defect,1
+39,Female,Moderate Pain (Potentially Cardiac),94,199,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+54,Male,No Pain,110,239,No,Abnormal but Non-Specific,126,Yes,2.8,1,One,Normal,0
+56,Female,No Pain,200,288,Yes,Normal ECG,133,Yes,4.0,0,Two,Normal,0
+56,Male,No Pain,130,283,Yes,Normal ECG,103,Yes,1.6,0,Zero,Normal,0
+64,Male,No Pain,120,246,No,Normal ECG,96,Yes,2.2,0,One,Reversable Defect,0
+44,Male,No Pain,110,197,No,Normal ECG,177,No,0.0,2,One,Reversable Defect,0
+56,Female,No Pain,134,409,No,Normal ECG,150,Yes,1.9,1,Two,Normal,0
+63,Male,No Pain,140,187,No,Normal ECG,144,Yes,4.0,2,Two,Normal,0
+64,Male,Severe Pain (Emergency/Cardiac),110,211,No,Normal ECG,144,Yes,1.8,1,Zero,Reversable Defect,1
+60,Male,No Pain,140,293,No,Normal ECG,170,No,1.2,1,Two,Normal,0
+42,Male,Moderate Pain (Potentially Cardiac),130,180,No,Abnormal but Non-Specific,150,No,0.0,2,Zero,Reversable Defect,1
+45,Male,Mild Pain (Non-Cardiac/Occasional),128,308,No,Normal ECG,170,No,0.0,2,Zero,Reversable Defect,1
+57,Male,No Pain,165,289,Yes,Normal ECG,124,No,1.0,1,Three,Normal,0
+40,Male,No Pain,110,167,No,Normal ECG,114,Yes,2.0,1,Zero,Normal,0
+56,Male,No Pain,125,249,Yes,Normal ECG,144,Yes,1.2,1,One,Reversable Defect,0
+63,Male,No Pain,130,254,No,Normal ECG,147,No,1.4,1,One,Normal,0
+64,Male,Moderate Pain (Potentially Cardiac),125,309,No,Abnormal but Non-Specific,131,Yes,1.8,1,Zero,Normal,0
+41,Male,Moderate Pain (Potentially Cardiac),112,250,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+56,Male,Mild Pain (Non-Cardiac/Occasional),130,221,No,Normal ECG,163,No,0.0,2,Zero,Normal,1
+67,Female,Moderate Pain (Potentially Cardiac),115,564,No,Normal ECG,160,No,1.6,1,Zero,Normal,1
+69,Male,Severe Pain (Emergency/Cardiac),160,234,Yes,Normal ECG,131,No,0.1,1,One,Reversable Defect,1
+67,Male,No Pain,160,286,No,Normal ECG,108,Yes,1.5,1,Three,Reversable Defect,0
+59,Male,Moderate Pain (Potentially Cardiac),150,212,Yes,Abnormal but Non-Specific,157,No,1.6,2,Zero,Reversable Defect,1
+58,Male,No Pain,100,234,No,Abnormal but Non-Specific,156,No,0.1,2,One,Normal,0
+45,Male,No Pain,115,260,No,Normal ECG,185,No,0.0,2,Zero,Reversable Defect,1
+60,Female,Moderate Pain (Potentially Cardiac),102,318,No,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,1
+50,Male,No Pain,144,200,No,Normal ECG,126,Yes,0.9,1,Zero,Normal,0
+62,Female,No Pain,124,209,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+34,Male,Severe Pain (Emergency/Cardiac),118,182,No,Normal ECG,174,No,0.0,2,Zero,Reversable Defect,1
+52,Male,Severe Pain (Emergency/Cardiac),152,298,Yes,Abnormal but Non-Specific,178,No,1.2,1,Zero,Normal,1
+64,Male,Severe Pain (Emergency/Cardiac),170,227,No,Normal ECG,155,No,0.6,1,Zero,Normal,1
+66,Female,Moderate Pain (Potentially Cardiac),146,278,No,Normal ECG,152,No,0.0,1,One,Reversable Defect,1
+42,Male,Severe Pain (Emergency/Cardiac),148,244,No,Normal ECG,178,No,0.8,2,Two,Reversable Defect,1
+59,Male,Moderate Pain (Potentially Cardiac),126,218,Yes,Abnormal but Non-Specific,134,No,2.2,1,One,Fixed Defect,0
+41,Male,Moderate Pain (Potentially Cardiac),112,250,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+38,Male,Moderate Pain (Potentially Cardiac),138,175,No,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
+62,Male,Mild Pain (Non-Cardiac/Occasional),120,281,No,Normal ECG,103,No,1.4,1,One,Normal,0
+42,Male,Moderate Pain (Potentially Cardiac),120,240,Yes,Abnormal but Non-Specific,194,No,0.8,0,Zero,Normal,1
+67,Male,No Pain,100,299,No,Normal ECG,125,Yes,0.9,1,Two,Reversable Defect,0
+50,Male,No Pain,150,243,No,Normal ECG,128,No,2.6,1,Zero,Normal,0
+43,Male,Moderate Pain (Potentially Cardiac),130,315,No,Abnormal but Non-Specific,162,No,1.9,2,One,Reversable Defect,1
+45,Male,Mild Pain (Non-Cardiac/Occasional),128,308,No,Normal ECG,170,No,0.0,2,Zero,Reversable Defect,1
+49,Male,Mild Pain (Non-Cardiac/Occasional),130,266,No,Abnormal but Non-Specific,171,No,0.6,2,Zero,Reversable Defect,1
+65,Male,No Pain,135,254,No,Normal ECG,127,No,2.8,1,One,Normal,0
+41,Male,Mild Pain (Non-Cardiac/Occasional),120,157,No,Abnormal but Non-Specific,182,No,0.0,2,Zero,Reversable Defect,1
+46,Male,No Pain,140,311,No,Abnormal but Non-Specific,120,Yes,1.8,1,Two,Normal,0
+54,Male,No Pain,122,286,No,Normal ECG,116,Yes,3.2,1,Two,Reversable Defect,0
+57,Female,Mild Pain (Non-Cardiac/Occasional),130,236,No,Normal ECG,174,No,0.0,1,One,Reversable Defect,0
+63,Male,No Pain,130,254,No,Normal ECG,147,No,1.4,1,One,Normal,0
+64,Male,Severe Pain (Emergency/Cardiac),110,211,No,Normal ECG,144,Yes,1.8,1,Zero,Reversable Defect,1
+39,Female,Moderate Pain (Potentially Cardiac),94,199,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+51,Male,No Pain,140,261,No,Normal ECG,186,Yes,0.0,2,Zero,Reversable Defect,1
+54,Male,Moderate Pain (Potentially Cardiac),150,232,No,Normal ECG,165,No,1.6,2,Zero,Normal,1
+49,Male,Moderate Pain (Potentially Cardiac),118,149,No,Normal ECG,126,No,0.8,2,Three,Reversable Defect,0
+44,Female,Moderate Pain (Potentially Cardiac),118,242,No,Abnormal but Non-Specific,149,No,0.3,1,One,Reversable Defect,1
+52,Male,Mild Pain (Non-Cardiac/Occasional),128,205,Yes,Abnormal but Non-Specific,184,No,0.0,2,Zero,Reversable Defect,1
+66,Female,No Pain,178,228,Yes,Abnormal but Non-Specific,165,Yes,1.0,1,Two,Normal,0
+58,Male,No Pain,125,300,No,Normal ECG,171,No,0.0,2,Two,Normal,0
+56,Male,Mild Pain (Non-Cardiac/Occasional),120,236,No,Abnormal but Non-Specific,178,No,0.8,2,Zero,Reversable Defect,1
+60,Male,No Pain,125,258,No,Normal ECG,141,Yes,2.8,1,One,Normal,0
+41,Female,Mild Pain (Non-Cardiac/Occasional),126,306,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+49,Female,No Pain,130,269,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+64,Male,Severe Pain (Emergency/Cardiac),170,227,No,Normal ECG,155,No,0.6,1,Zero,Normal,1
+49,Male,Moderate Pain (Potentially Cardiac),118,149,No,Normal ECG,126,No,0.8,2,Three,Reversable Defect,0
+57,Male,Mild Pain (Non-Cardiac/Occasional),124,261,No,Abnormal but Non-Specific,141,No,0.3,2,Zero,Normal,0
+60,Male,No Pain,117,230,Yes,Abnormal but Non-Specific,160,Yes,1.4,2,Two,Normal,0
+62,Female,No Pain,150,244,No,Abnormal but Non-Specific,154,Yes,1.4,1,Zero,Reversable Defect,0
+54,Female,Mild Pain (Non-Cardiac/Occasional),132,288,Yes,Normal ECG,159,Yes,0.0,2,One,Reversable Defect,1
+67,Male,Moderate Pain (Potentially Cardiac),152,212,No,Normal ECG,150,No,0.8,1,Zero,Normal,0
+38,Male,Moderate Pain (Potentially Cardiac),138,175,No,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
+60,Male,Moderate Pain (Potentially Cardiac),140,185,No,Normal ECG,155,No,3.0,1,Zero,Reversable Defect,0
+51,Male,Moderate Pain (Potentially Cardiac),125,245,Yes,Normal ECG,166,No,2.4,1,Zero,Reversable Defect,1
+44,Male,Mild Pain (Non-Cardiac/Occasional),130,219,No,Normal ECG,188,No,0.0,2,Zero,Reversable Defect,1
+54,Male,Mild Pain (Non-Cardiac/Occasional),192,283,No,Normal ECG,195,No,0.0,2,One,Normal,0
+46,Male,No Pain,140,311,No,Abnormal but Non-Specific,120,Yes,1.8,1,Two,Normal,0
+39,Female,Moderate Pain (Potentially Cardiac),138,220,No,Abnormal but Non-Specific,152,No,0.0,1,Zero,Reversable Defect,1
+42,Male,Moderate Pain (Potentially Cardiac),130,180,No,Abnormal but Non-Specific,150,No,0.0,2,Zero,Reversable Defect,1
+47,Male,No Pain,110,275,No,Normal ECG,118,Yes,1.0,1,One,Reversable Defect,0
+45,Female,Mild Pain (Non-Cardiac/Occasional),112,160,No,Abnormal but Non-Specific,138,No,0.0,1,Zero,Reversable Defect,1
+55,Male,No Pain,132,353,No,Abnormal but Non-Specific,132,Yes,1.2,1,One,Normal,0
+57,Male,No Pain,165,289,Yes,Normal ECG,124,No,1.0,1,Three,Normal,0
+35,Male,No Pain,120,198,No,Abnormal but Non-Specific,130,Yes,1.6,1,Zero,Normal,0
+62,Female,No Pain,140,394,No,Normal ECG,157,No,1.2,1,Zero,Reversable Defect,1
+35,Female,No Pain,138,183,No,Abnormal but Non-Specific,182,No,1.4,2,Zero,Reversable Defect,1
+64,Female,No Pain,180,325,No,Abnormal but Non-Specific,154,Yes,0.0,2,Zero,Reversable Defect,1
+38,Male,Severe Pain (Emergency/Cardiac),120,231,No,Abnormal but Non-Specific,182,Yes,3.8,1,Zero,Normal,0
+66,Male,No Pain,120,302,No,Normal ECG,151,No,0.4,1,Zero,Reversable Defect,1
+44,Male,Moderate Pain (Potentially Cardiac),120,226,No,Abnormal but Non-Specific,169,No,0.0,2,Zero,Reversable Defect,1
+54,Male,Moderate Pain (Potentially Cardiac),150,232,No,Normal ECG,165,No,1.6,2,Zero,Normal,1
+48,Male,No Pain,122,222,No,Normal ECG,186,No,0.0,2,Zero,Reversable Defect,1
+55,Female,Mild Pain (Non-Cardiac/Occasional),132,342,No,Abnormal but Non-Specific,166,No,1.2,2,Zero,Reversable Defect,1
+58,Female,No Pain,170,225,Yes,Normal ECG,146,Yes,2.8,1,Two,Fixed Defect,0
+45,Male,No Pain,104,208,No,Normal ECG,148,Yes,3.0,1,Zero,Reversable Defect,1
+53,Male,No Pain,123,282,No,Abnormal but Non-Specific,95,Yes,2.0,1,Two,Normal,0
+67,Male,No Pain,120,237,No,Abnormal but Non-Specific,71,No,1.0,1,Zero,Reversable Defect,0
+58,Male,Moderate Pain (Potentially Cardiac),132,224,No,Normal ECG,173,No,3.2,2,Two,Normal,0
+71,Female,Moderate Pain (Potentially Cardiac),110,265,Yes,Normal ECG,130,No,0.0,2,One,Reversable Defect,1
+43,Male,No Pain,110,211,No,Abnormal but Non-Specific,161,No,0.0,2,Zero,Normal,1
+44,Male,Mild Pain (Non-Cardiac/Occasional),120,263,No,Abnormal but Non-Specific,173,No,0.0,2,Zero,Normal,1
+39,Female,Moderate Pain (Potentially Cardiac),138,220,No,Abnormal but Non-Specific,152,No,0.0,1,Zero,Reversable Defect,1
+54,Male,No Pain,110,206,No,Normal ECG,108,Yes,0.0,1,One,Reversable Defect,0
+66,Male,No Pain,160,228,No,Normal ECG,138,No,2.3,2,Zero,Fixed Defect,1
+56,Male,No Pain,130,283,Yes,Normal ECG,103,Yes,1.6,0,Zero,Normal,0
+57,Male,No Pain,132,207,No,Abnormal but Non-Specific,168,Yes,0.0,2,Zero,Normal,1
+44,Male,Mild Pain (Non-Cardiac/Occasional),130,219,No,Normal ECG,188,No,0.0,2,Zero,Reversable Defect,1
+55,Male,No Pain,160,289,No,Normal ECG,145,Yes,0.8,1,One,Normal,0
+41,Female,Mild Pain (Non-Cardiac/Occasional),105,198,No,Abnormal but Non-Specific,168,No,0.0,2,One,Reversable Defect,1
+45,Female,Mild Pain (Non-Cardiac/Occasional),130,234,No,Normal ECG,175,No,0.6,1,Zero,Reversable Defect,1
+35,Male,Mild Pain (Non-Cardiac/Occasional),122,192,No,Abnormal but Non-Specific,174,No,0.0,2,Zero,Reversable Defect,1
+41,Female,Mild Pain (Non-Cardiac/Occasional),130,204,No,Normal ECG,172,No,1.4,2,Zero,Reversable Defect,1
+64,Male,Severe Pain (Emergency/Cardiac),110,211,No,Normal ECG,144,Yes,1.8,1,Zero,Reversable Defect,1
+58,Male,Moderate Pain (Potentially Cardiac),132,224,No,Normal ECG,173,No,3.2,2,Two,Normal,0
+71,Female,Moderate Pain (Potentially Cardiac),110,265,Yes,Normal ECG,130,No,0.0,2,One,Reversable Defect,1
+64,Female,Moderate Pain (Potentially Cardiac),140,313,No,Abnormal but Non-Specific,133,No,0.2,2,Zero,Normal,1
+71,Female,Mild Pain (Non-Cardiac/Occasional),160,302,No,Abnormal but Non-Specific,162,No,0.4,2,Two,Reversable Defect,1
+58,Female,Moderate Pain (Potentially Cardiac),120,340,No,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
+40,Male,No Pain,152,223,No,Abnormal but Non-Specific,181,No,0.0,2,Zero,Normal,0
+52,Male,Moderate Pain (Potentially Cardiac),138,223,No,Abnormal but Non-Specific,169,No,0.0,2,Four,Reversable Defect,1
+58,Male,No Pain,128,259,No,Normal ECG,130,Yes,3.0,1,Two,Normal,0
+61,Male,Moderate Pain (Potentially Cardiac),150,243,Yes,Abnormal but Non-Specific,137,Yes,1.0,1,Zero,Reversable Defect,1
+59,Male,Moderate Pain (Potentially Cardiac),150,212,Yes,Abnormal but Non-Specific,157,No,1.6,2,Zero,Reversable Defect,1
+56,Female,No Pain,200,288,Yes,Normal ECG,133,Yes,4.0,0,Two,Normal,0
+67,Male,No Pain,100,299,No,Normal ECG,125,Yes,0.9,1,Two,Reversable Defect,0
+67,Male,No Pain,120,237,No,Abnormal but Non-Specific,71,No,1.0,1,Zero,Reversable Defect,0
+58,Male,No Pain,150,270,No,Normal ECG,111,Yes,0.8,2,Zero,Normal,0
+35,Male,Mild Pain (Non-Cardiac/Occasional),122,192,No,Abnormal but Non-Specific,174,No,0.0,2,Zero,Reversable Defect,1
+52,Male,Mild Pain (Non-Cardiac/Occasional),120,325,No,Abnormal but Non-Specific,172,No,0.2,2,Zero,Reversable Defect,1
+46,Female,Mild Pain (Non-Cardiac/Occasional),105,204,No,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
+51,Male,Moderate Pain (Potentially Cardiac),94,227,No,Abnormal but Non-Specific,154,Yes,0.0,2,One,Normal,1
+55,Female,Mild Pain (Non-Cardiac/Occasional),132,342,No,Abnormal but Non-Specific,166,No,1.2,2,Zero,Reversable Defect,1
+60,Male,No Pain,145,282,No,Normal ECG,142,Yes,2.8,1,Two,Normal,0
+52,Female,Moderate Pain (Potentially Cardiac),136,196,No,Normal ECG,169,No,0.1,1,Zero,Reversable Defect,1
+62,Male,No Pain,120,267,No,Abnormal but Non-Specific,99,Yes,1.8,1,Two,Normal,0
+44,Female,Moderate Pain (Potentially Cardiac),118,242,No,Abnormal but Non-Specific,149,No,0.3,1,One,Reversable Defect,1
+44,Male,Mild Pain (Non-Cardiac/Occasional),120,220,No,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+59,Male,Moderate Pain (Potentially Cardiac),126,218,Yes,Abnormal but Non-Specific,134,No,2.2,1,One,Fixed Defect,0
+56,Female,Mild Pain (Non-Cardiac/Occasional),140,294,No,Normal ECG,153,No,1.3,1,Zero,Reversable Defect,1
+61,Male,No Pain,120,260,No,Abnormal but Non-Specific,140,Yes,3.6,1,One,Normal,0
+48,Male,No Pain,130,256,Yes,Normal ECG,150,Yes,0.0,2,Two,Normal,0
+70,Male,Moderate Pain (Potentially Cardiac),160,269,No,Abnormal but Non-Specific,112,Yes,2.9,1,One,Normal,0
+74,Female,Mild Pain (Non-Cardiac/Occasional),120,269,No,Normal ECG,121,Yes,0.2,2,One,Reversable Defect,1
+40,Male,Severe Pain (Emergency/Cardiac),140,199,No,Abnormal but Non-Specific,178,Yes,1.4,2,Zero,Normal,1
+42,Male,Severe Pain (Emergency/Cardiac),148,244,No,Normal ECG,178,No,0.8,2,Two,Reversable Defect,1
+64,Female,Moderate Pain (Potentially Cardiac),140,313,No,Abnormal but Non-Specific,133,No,0.2,2,Zero,Normal,1
+63,Female,Moderate Pain (Potentially Cardiac),135,252,No,Normal ECG,172,No,0.0,2,Zero,Reversable Defect,1
+59,Male,No Pain,140,177,No,Abnormal but Non-Specific,162,Yes,0.0,2,One,Normal,0
+53,Female,Moderate Pain (Potentially Cardiac),128,216,No,Normal ECG,115,No,0.0,2,Zero,Normal,1
+53,Female,No Pain,130,264,No,Normal ECG,143,No,0.4,1,Zero,Reversable Defect,1
+48,Female,Moderate Pain (Potentially Cardiac),130,275,No,Abnormal but Non-Specific,139,No,0.2,2,Zero,Reversable Defect,1
+45,Male,No Pain,142,309,No,Normal ECG,147,Yes,0.0,1,Three,Normal,0
+66,Male,Mild Pain (Non-Cardiac/Occasional),160,246,No,Abnormal but Non-Specific,120,Yes,0.0,1,Three,Fixed Defect,0
+48,Male,Mild Pain (Non-Cardiac/Occasional),130,245,No,Normal ECG,180,No,0.2,1,Zero,Reversable Defect,1
+56,Female,Mild Pain (Non-Cardiac/Occasional),140,294,No,Normal ECG,153,No,1.3,1,Zero,Reversable Defect,1
+54,Male,Mild Pain (Non-Cardiac/Occasional),192,283,No,Normal ECG,195,No,0.0,2,One,Normal,0
+57,Male,No Pain,150,276,No,Normal ECG,112,Yes,0.6,1,One,Fixed Defect,0
+70,Male,No Pain,130,322,No,Normal ECG,109,No,2.4,1,Three,Reversable Defect,0
+53,Female,Moderate Pain (Potentially Cardiac),128,216,No,Normal ECG,115,No,0.0,2,Zero,Normal,1
+37,Female,Moderate Pain (Potentially Cardiac),120,215,No,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+63,Female,No Pain,108,269,No,Abnormal but Non-Specific,169,Yes,1.8,1,Two,Reversable Defect,0
+37,Male,Moderate Pain (Potentially Cardiac),130,250,No,Abnormal but Non-Specific,187,No,3.5,0,Zero,Reversable Defect,1
+54,Female,Moderate Pain (Potentially Cardiac),110,214,No,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
+60,Male,No Pain,130,206,No,Normal ECG,132,Yes,2.4,1,Two,Normal,0
+58,Male,No Pain,150,270,No,Normal ECG,111,Yes,0.8,2,Zero,Normal,0
+57,Male,Moderate Pain (Potentially Cardiac),150,126,Yes,Abnormal but Non-Specific,173,No,0.2,2,One,Normal,1
+54,Male,Moderate Pain (Potentially Cardiac),125,273,No,Normal ECG,152,No,0.5,0,One,Reversable Defect,1
+56,Male,Moderate Pain (Potentially Cardiac),130,256,Yes,Normal ECG,142,Yes,0.6,1,One,Fixed Defect,0
+60,Male,No Pain,130,253,No,Abnormal but Non-Specific,144,Yes,1.4,2,One,Normal,0
+38,Male,Moderate Pain (Potentially Cardiac),138,175,No,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
+44,Male,Moderate Pain (Potentially Cardiac),120,226,No,Abnormal but Non-Specific,169,No,0.0,2,Zero,Reversable Defect,1
+65,Female,Moderate Pain (Potentially Cardiac),155,269,No,Abnormal but Non-Specific,148,No,0.8,2,Zero,Reversable Defect,1
+52,Male,Moderate Pain (Potentially Cardiac),172,199,Yes,Abnormal but Non-Specific,162,No,0.5,2,Zero,Normal,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),120,157,No,Abnormal but Non-Specific,182,No,0.0,2,Zero,Reversable Defect,1
+66,Male,Mild Pain (Non-Cardiac/Occasional),160,246,No,Abnormal but Non-Specific,120,Yes,0.0,1,Three,Fixed Defect,0
+50,Male,No Pain,150,243,No,Normal ECG,128,No,2.6,1,Zero,Normal,0
+54,Female,Moderate Pain (Potentially Cardiac),108,267,No,Normal ECG,167,No,0.0,2,Zero,Reversable Defect,1
+43,Male,No Pain,132,247,Yes,Normal ECG,143,Yes,0.1,1,Four,Normal,0
+62,Female,Moderate Pain (Potentially Cardiac),130,263,No,Abnormal but Non-Specific,97,No,1.2,1,One,Normal,0
+66,Male,No Pain,120,302,No,Normal ECG,151,No,0.4,1,Zero,Reversable Defect,1
+50,Male,No Pain,144,200,No,Normal ECG,126,Yes,0.9,1,Zero,Normal,0
+57,Male,No Pain,110,335,No,Abnormal but Non-Specific,143,Yes,3.0,1,One,Normal,0
+57,Male,No Pain,110,201,No,Abnormal but Non-Specific,126,Yes,1.5,1,Zero,Fixed Defect,1
+57,Male,Mild Pain (Non-Cardiac/Occasional),124,261,No,Abnormal but Non-Specific,141,No,0.3,2,Zero,Normal,0
+46,Female,No Pain,138,243,No,Normal ECG,152,Yes,0.0,1,Zero,Reversable Defect,1
+59,Male,No Pain,164,176,Yes,Normal ECG,90,No,1.0,1,Two,Fixed Defect,0
+67,Male,No Pain,160,286,No,Normal ECG,108,Yes,1.5,1,Three,Reversable Defect,0
+59,Male,Severe Pain (Emergency/Cardiac),134,204,No,Abnormal but Non-Specific,162,No,0.8,2,Two,Reversable Defect,0
+53,Female,Moderate Pain (Potentially Cardiac),128,216,No,Normal ECG,115,No,0.0,2,Zero,Normal,1
+48,Male,No Pain,122,222,No,Normal ECG,186,No,0.0,2,Zero,Reversable Defect,1
+62,Male,Moderate Pain (Potentially Cardiac),130,231,No,Abnormal but Non-Specific,146,No,1.8,1,Three,Normal,1
+43,Female,Moderate Pain (Potentially Cardiac),122,213,No,Abnormal but Non-Specific,165,No,0.2,1,Zero,Reversable Defect,1
+53,Male,Moderate Pain (Potentially Cardiac),130,246,Yes,Normal ECG,173,No,0.0,2,Three,Reversable Defect,1
+57,Female,Mild Pain (Non-Cardiac/Occasional),130,236,No,Normal ECG,174,No,0.0,1,One,Reversable Defect,0
+53,Male,Moderate Pain (Potentially Cardiac),130,246,Yes,Normal ECG,173,No,0.0,2,Three,Reversable Defect,1
+58,Male,Moderate Pain (Potentially Cardiac),112,230,No,Normal ECG,165,No,2.5,1,One,Normal,0
+48,Male,Mild Pain (Non-Cardiac/Occasional),110,229,No,Abnormal but Non-Specific,168,No,1.0,0,Zero,Normal,0
+58,Male,Moderate Pain (Potentially Cardiac),105,240,No,Normal ECG,154,Yes,0.6,1,Zero,Normal,1
+51,Male,Moderate Pain (Potentially Cardiac),110,175,No,Abnormal but Non-Specific,123,No,0.6,2,Zero,Reversable Defect,1
+43,Female,No Pain,132,341,Yes,Normal ECG,136,Yes,3.0,1,Zero,Normal,0
+55,Male,No Pain,132,353,No,Abnormal but Non-Specific,132,Yes,1.2,1,One,Normal,0
+54,Female,Moderate Pain (Potentially Cardiac),110,214,No,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
+58,Male,Mild Pain (Non-Cardiac/Occasional),120,284,No,Normal ECG,160,No,1.8,1,Zero,Reversable Defect,0
+46,Female,Moderate Pain (Potentially Cardiac),142,177,No,Normal ECG,160,Yes,1.4,0,Zero,Reversable Defect,1
+66,Male,No Pain,160,228,No,Normal ECG,138,No,2.3,2,Zero,Fixed Defect,1
+59,Male,Mild Pain (Non-Cardiac/Occasional),140,221,No,Abnormal but Non-Specific,164,Yes,0.0,2,Zero,Reversable Defect,1
+64,Female,No Pain,130,303,No,Abnormal but Non-Specific,122,No,2.0,1,Two,Reversable Defect,1
+67,Male,No Pain,120,237,No,Abnormal but Non-Specific,71,No,1.0,1,Zero,Reversable Defect,0
+52,Male,Severe Pain (Emergency/Cardiac),118,186,No,Normal ECG,190,No,0.0,1,Zero,Fixed Defect,1
+58,Male,No Pain,146,218,No,Abnormal but Non-Specific,105,No,2.0,1,One,Normal,0
+58,Male,Moderate Pain (Potentially Cardiac),132,224,No,Normal ECG,173,No,3.2,2,Two,Normal,0
+59,Male,No Pain,110,239,No,Normal ECG,142,Yes,1.2,1,One,Normal,0
+58,Male,No Pain,150,270,No,Normal ECG,111,Yes,0.8,2,Zero,Normal,0
+35,Male,No Pain,126,282,No,Normal ECG,156,Yes,0.0,2,Zero,Normal,0
+51,Male,Moderate Pain (Potentially Cardiac),110,175,No,Abnormal but Non-Specific,123,No,0.6,2,Zero,Reversable Defect,1
+42,Female,Moderate Pain (Potentially Cardiac),120,209,No,Abnormal but Non-Specific,173,No,0.0,1,Zero,Reversable Defect,1
+77,Male,No Pain,125,304,No,Normal ECG,162,Yes,0.0,2,Three,Reversable Defect,0
+64,Male,No Pain,120,246,No,Normal ECG,96,Yes,2.2,0,One,Reversable Defect,0
+63,Male,Severe Pain (Emergency/Cardiac),145,233,Yes,Normal ECG,150,No,2.3,0,Zero,Fixed Defect,1
+58,Female,Mild Pain (Non-Cardiac/Occasional),136,319,Yes,Normal ECG,152,No,0.0,2,Two,Reversable Defect,0
+45,Male,Severe Pain (Emergency/Cardiac),110,264,No,Abnormal but Non-Specific,132,No,1.2,1,Zero,Normal,0
+51,Male,Moderate Pain (Potentially Cardiac),110,175,No,Abnormal but Non-Specific,123,No,0.6,2,Zero,Reversable Defect,1
+62,Female,No Pain,160,164,No,Normal ECG,145,No,6.2,0,Three,Normal,0
+63,Male,No Pain,130,330,Yes,Normal ECG,132,Yes,1.8,2,Three,Normal,0
+66,Female,Moderate Pain (Potentially Cardiac),146,278,No,Normal ECG,152,No,0.0,1,One,Reversable Defect,1
+68,Male,Moderate Pain (Potentially Cardiac),180,274,Yes,Normal ECG,150,Yes,1.6,1,Zero,Normal,0
+40,Male,No Pain,110,167,No,Normal ECG,114,Yes,2.0,1,Zero,Normal,0
+66,Male,No Pain,160,228,No,Normal ECG,138,No,2.3,2,Zero,Fixed Defect,1
+63,Male,Severe Pain (Emergency/Cardiac),145,233,Yes,Normal ECG,150,No,2.3,0,Zero,Fixed Defect,1
+49,Male,Moderate Pain (Potentially Cardiac),120,188,No,Abnormal but Non-Specific,139,No,2.0,1,Three,Normal,0
+71,Female,No Pain,112,149,No,Abnormal but Non-Specific,125,No,1.6,1,Zero,Reversable Defect,1
+70,Male,Mild Pain (Non-Cardiac/Occasional),156,245,No,Normal ECG,143,No,0.0,2,Zero,Reversable Defect,1
+46,Female,Mild Pain (Non-Cardiac/Occasional),105,204,No,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
+61,Male,No Pain,140,207,No,Normal ECG,138,Yes,1.9,2,One,Normal,0
+56,Male,Moderate Pain (Potentially Cardiac),130,256,Yes,Normal ECG,142,Yes,0.6,1,One,Fixed Defect,0
+58,Male,Moderate Pain (Potentially Cardiac),140,211,Yes,Normal ECG,165,No,0.0,2,Zero,Reversable Defect,1
+58,Male,No Pain,100,234,No,Abnormal but Non-Specific,156,No,0.1,2,One,Normal,0
+46,Female,No Pain,138,243,No,Normal ECG,152,Yes,0.0,1,Zero,Reversable Defect,1
+46,Male,Moderate Pain (Potentially Cardiac),150,231,No,Abnormal but Non-Specific,147,No,3.6,1,Zero,Reversable Defect,0
+41,Female,Mild Pain (Non-Cardiac/Occasional),105,198,No,Abnormal but Non-Specific,168,No,0.0,2,One,Reversable Defect,1
+56,Male,No Pain,125,249,Yes,Normal ECG,144,Yes,1.2,1,One,Reversable Defect,0
+57,Male,No Pain,150,276,No,Normal ECG,112,Yes,0.6,1,One,Fixed Defect,0
+70,Male,No Pain,130,322,No,Normal ECG,109,No,2.4,1,Three,Reversable Defect,0
+59,Male,Severe Pain (Emergency/Cardiac),170,288,No,Normal ECG,159,No,0.2,1,Zero,Normal,0
+41,Female,Mild Pain (Non-Cardiac/Occasional),130,204,No,Normal ECG,172,No,1.4,2,Zero,Reversable Defect,1
+54,Male,Moderate Pain (Potentially Cardiac),125,273,No,Normal ECG,152,No,0.5,0,One,Reversable Defect,1
+52,Male,Moderate Pain (Potentially Cardiac),138,223,No,Abnormal but Non-Specific,169,No,0.0,2,Four,Reversable Defect,1
+62,Female,No Pain,124,209,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+65,Female,Moderate Pain (Potentially Cardiac),160,360,No,Normal ECG,151,No,0.8,2,Zero,Reversable Defect,1
+57,Female,No Pain,128,303,No,Normal ECG,159,No,0.0,2,One,Reversable Defect,1
+42,Female,No Pain,102,265,No,Normal ECG,122,No,0.6,1,Zero,Reversable Defect,1
+57,Female,No Pain,120,354,No,Abnormal but Non-Specific,163,Yes,0.6,2,Zero,Reversable Defect,1
+58,Female,Mild Pain (Non-Cardiac/Occasional),136,319,Yes,Normal ECG,152,No,0.0,2,Two,Reversable Defect,0
+45,Male,No Pain,142,309,No,Normal ECG,147,Yes,0.0,1,Three,Normal,0
+51,Female,No Pain,130,305,No,Abnormal but Non-Specific,142,Yes,1.2,1,Zero,Normal,0
+54,Female,Moderate Pain (Potentially Cardiac),160,201,No,Abnormal but Non-Specific,163,No,0.0,2,One,Reversable Defect,1
+57,Male,Moderate Pain (Potentially Cardiac),150,168,No,Abnormal but Non-Specific,174,No,1.6,2,Zero,Reversable Defect,1
+43,Male,No Pain,132,247,Yes,Normal ECG,143,Yes,0.1,1,Four,Normal,0
+47,Male,Moderate Pain (Potentially Cardiac),108,243,No,Abnormal but Non-Specific,152,No,0.0,2,Zero,Reversable Defect,0
+67,Male,Moderate Pain (Potentially Cardiac),152,212,No,Normal ECG,150,No,0.8,1,Zero,Normal,0
+65,Female,No Pain,150,225,No,Normal ECG,114,No,1.0,1,Three,Normal,0
+60,Female,Moderate Pain (Potentially Cardiac),102,318,No,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,1
+37,Male,Moderate Pain (Potentially Cardiac),130,250,No,Abnormal but Non-Specific,187,No,3.5,0,Zero,Reversable Defect,1
+41,Female,Moderate Pain (Potentially Cardiac),112,268,No,Normal ECG,172,Yes,0.0,2,Zero,Reversable Defect,1
+57,Female,No Pain,120,354,No,Abnormal but Non-Specific,163,Yes,0.6,2,Zero,Reversable Defect,1
+59,Female,No Pain,174,249,No,Abnormal but Non-Specific,143,Yes,0.0,1,Zero,Reversable Defect,0
+67,Male,No Pain,120,229,No,Normal ECG,129,Yes,2.6,1,Two,Normal,0
+47,Male,Moderate Pain (Potentially Cardiac),130,253,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+58,Male,Mild Pain (Non-Cardiac/Occasional),120,284,No,Normal ECG,160,No,1.8,1,Zero,Reversable Defect,0
+62,Female,No Pain,150,244,No,Abnormal but Non-Specific,154,Yes,1.4,1,Zero,Reversable Defect,0
+60,Male,No Pain,140,293,No,Normal ECG,170,No,1.2,1,Two,Normal,0
+57,Male,No Pain,152,274,No,Abnormal but Non-Specific,88,Yes,1.2,1,One,Normal,0
+57,Male,Moderate Pain (Potentially Cardiac),150,168,No,Abnormal but Non-Specific,174,No,1.6,2,Zero,Reversable Defect,1
+47,Male,Moderate Pain (Potentially Cardiac),130,253,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+52,Male,Mild Pain (Non-Cardiac/Occasional),128,205,Yes,Abnormal but Non-Specific,184,No,0.0,2,Zero,Reversable Defect,1
+53,Male,Moderate Pain (Potentially Cardiac),130,246,Yes,Normal ECG,173,No,0.0,2,Three,Reversable Defect,1
+55,Male,No Pain,160,289,No,Normal ECG,145,Yes,0.8,1,One,Normal,0
+51,Female,Moderate Pain (Potentially Cardiac),120,295,No,Normal ECG,157,No,0.6,2,Zero,Reversable Defect,1
+52,Male,No Pain,112,230,No,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,0
+63,Female,No Pain,150,407,No,Normal ECG,154,No,4.0,1,Three,Normal,0
+49,Female,Mild Pain (Non-Cardiac/Occasional),134,271,No,Abnormal but Non-Specific,162,No,0.0,1,Zero,Reversable Defect,1
+66,Female,No Pain,178,228,Yes,Abnormal but Non-Specific,165,Yes,1.0,1,Two,Normal,0
+49,Female,Mild Pain (Non-Cardiac/Occasional),134,271,No,Abnormal but Non-Specific,162,No,0.0,1,Zero,Reversable Defect,1
+65,Female,No Pain,150,225,No,Normal ECG,114,No,1.0,1,Three,Normal,0
+69,Male,Severe Pain (Emergency/Cardiac),160,234,Yes,Normal ECG,131,No,0.1,1,One,Reversable Defect,1
+47,Male,Moderate Pain (Potentially Cardiac),108,243,No,Abnormal but Non-Specific,152,No,0.0,2,Zero,Reversable Defect,0
+39,Female,Moderate Pain (Potentially Cardiac),138,220,No,Abnormal but Non-Specific,152,No,0.0,1,Zero,Reversable Defect,1
+43,Male,No Pain,150,247,No,Abnormal but Non-Specific,171,No,1.5,2,Zero,Reversable Defect,1
+51,Male,No Pain,140,261,No,Normal ECG,186,Yes,0.0,2,Zero,Reversable Defect,1
+69,Male,Moderate Pain (Potentially Cardiac),140,254,No,Normal ECG,146,No,2.0,1,Three,Normal,0
+48,Male,Moderate Pain (Potentially Cardiac),124,255,Yes,Abnormal but Non-Specific,175,No,0.0,2,Two,Reversable Defect,1
+52,Male,Severe Pain (Emergency/Cardiac),118,186,No,Normal ECG,190,No,0.0,1,Zero,Fixed Defect,1
+43,Male,No Pain,110,211,No,Abnormal but Non-Specific,161,No,0.0,2,Zero,Normal,1
+67,Female,Moderate Pain (Potentially Cardiac),115,564,No,Normal ECG,160,No,1.6,1,Zero,Normal,1
+38,Male,Moderate Pain (Potentially Cardiac),138,175,No,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
+44,Male,Mild Pain (Non-Cardiac/Occasional),130,219,No,Normal ECG,188,No,0.0,2,Zero,Reversable Defect,1
+47,Male,No Pain,110,275,No,Normal ECG,118,Yes,1.0,1,One,Reversable Defect,0
+61,Male,Moderate Pain (Potentially Cardiac),150,243,Yes,Abnormal but Non-Specific,137,Yes,1.0,1,Zero,Reversable Defect,1
+67,Male,No Pain,160,286,No,Normal ECG,108,Yes,1.5,1,Three,Reversable Defect,0
+60,Female,Severe Pain (Emergency/Cardiac),150,240,No,Abnormal but Non-Specific,171,No,0.9,2,Zero,Reversable Defect,1
+64,Female,Moderate Pain (Potentially Cardiac),140,313,No,Abnormal but Non-Specific,133,No,0.2,2,Zero,Normal,1
+58,Female,No Pain,130,197,No,Abnormal but Non-Specific,131,No,0.6,1,Zero,Reversable Defect,1
+41,Male,Moderate Pain (Potentially Cardiac),130,214,No,Normal ECG,168,No,2.0,1,Zero,Reversable Defect,1
+48,Male,Mild Pain (Non-Cardiac/Occasional),110,229,No,Abnormal but Non-Specific,168,No,1.0,0,Zero,Normal,0
+57,Male,Moderate Pain (Potentially Cardiac),150,126,Yes,Abnormal but Non-Specific,173,No,0.2,2,One,Normal,1
+57,Male,No Pain,165,289,Yes,Normal ECG,124,No,1.0,1,Three,Normal,0
+57,Male,Moderate Pain (Potentially Cardiac),128,229,No,Normal ECG,150,No,0.4,1,One,Normal,0
+39,Male,Moderate Pain (Potentially Cardiac),140,321,No,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
+58,Male,No Pain,128,216,No,Normal ECG,131,Yes,2.2,1,Three,Normal,0
+51,Female,No Pain,130,305,No,Abnormal but Non-Specific,142,Yes,1.2,1,Zero,Normal,0
+63,Female,No Pain,150,407,No,Normal ECG,154,No,4.0,1,Three,Normal,0
+51,Male,No Pain,140,298,No,Abnormal but Non-Specific,122,Yes,4.2,1,Three,Normal,0
+35,Male,Mild Pain (Non-Cardiac/Occasional),122,192,No,Abnormal but Non-Specific,174,No,0.0,2,Zero,Reversable Defect,1
+65,Male,No Pain,110,248,No,Normal ECG,158,No,0.6,2,Two,Fixed Defect,0
+62,Male,Mild Pain (Non-Cardiac/Occasional),120,281,No,Normal ECG,103,No,1.4,1,One,Normal,0
+41,Male,No Pain,110,172,No,Normal ECG,158,No,0.0,2,Zero,Normal,0
+65,Male,No Pain,135,254,No,Normal ECG,127,No,2.8,1,One,Normal,0
+54,Female,Mild Pain (Non-Cardiac/Occasional),132,288,Yes,Normal ECG,159,Yes,0.0,2,One,Reversable Defect,1
+61,Male,Moderate Pain (Potentially Cardiac),150,243,Yes,Abnormal but Non-Specific,137,Yes,1.0,1,Zero,Reversable Defect,1
+57,Female,No Pain,128,303,No,Normal ECG,159,No,0.0,2,One,Reversable Defect,1
+57,Male,Moderate Pain (Potentially Cardiac),150,168,No,Abnormal but Non-Specific,174,No,1.6,2,Zero,Reversable Defect,1
+64,Male,Moderate Pain (Potentially Cardiac),125,309,No,Abnormal but Non-Specific,131,Yes,1.8,1,Zero,Normal,0
+55,Male,No Pain,132,353,No,Abnormal but Non-Specific,132,Yes,1.2,1,One,Normal,0
+51,Male,Moderate Pain (Potentially Cardiac),125,245,Yes,Normal ECG,166,No,2.4,1,Zero,Reversable Defect,1
+59,Male,No Pain,135,234,No,Abnormal but Non-Specific,161,No,0.5,1,Zero,Normal,1
+68,Male,Moderate Pain (Potentially Cardiac),180,274,Yes,Normal ECG,150,Yes,1.6,1,Zero,Normal,0
+57,Male,Mild Pain (Non-Cardiac/Occasional),154,232,No,Normal ECG,164,No,0.0,2,One,Reversable Defect,0
+54,Male,No Pain,140,239,No,Abnormal but Non-Specific,160,No,1.2,2,Zero,Reversable Defect,1
+46,Female,Moderate Pain (Potentially Cardiac),142,177,No,Normal ECG,160,Yes,1.4,0,Zero,Reversable Defect,1
+71,Female,No Pain,112,149,No,Abnormal but Non-Specific,125,No,1.6,1,Zero,Reversable Defect,1
+35,Female,No Pain,138,183,No,Abnormal but Non-Specific,182,No,1.4,2,Zero,Reversable Defect,1
+46,Female,Moderate Pain (Potentially Cardiac),142,177,No,Normal ECG,160,Yes,1.4,0,Zero,Reversable Defect,1
+45,Female,Mild Pain (Non-Cardiac/Occasional),130,234,No,Normal ECG,175,No,0.6,1,Zero,Reversable Defect,1
+47,Male,Moderate Pain (Potentially Cardiac),108,243,No,Abnormal but Non-Specific,152,No,0.0,2,Zero,Reversable Defect,0
+44,Female,Moderate Pain (Potentially Cardiac),118,242,No,Abnormal but Non-Specific,149,No,0.3,1,One,Reversable Defect,1
+61,Male,No Pain,120,260,No,Abnormal but Non-Specific,140,Yes,3.6,1,One,Normal,0
+41,Female,Mild Pain (Non-Cardiac/Occasional),130,204,No,Normal ECG,172,No,1.4,2,Zero,Reversable Defect,1
+56,Female,No Pain,200,288,Yes,Normal ECG,133,Yes,4.0,0,Two,Normal,0
+55,Female,No Pain,180,327,No,Definite Abnormalities,117,Yes,3.4,1,Zero,Reversable Defect,0
+54,Female,Mild Pain (Non-Cardiac/Occasional),132,288,Yes,Normal ECG,159,Yes,0.0,2,One,Reversable Defect,1
+43,Male,No Pain,120,177,No,Normal ECG,120,Yes,2.5,1,Zero,Normal,0
+44,Male,No Pain,112,290,No,Normal ECG,153,No,0.0,2,One,Reversable Defect,0
+54,Male,No Pain,110,206,No,Normal ECG,108,Yes,0.0,1,One,Reversable Defect,0
+44,Male,Mild Pain (Non-Cardiac/Occasional),120,220,No,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+49,Male,Moderate Pain (Potentially Cardiac),120,188,No,Abnormal but Non-Specific,139,No,2.0,1,Three,Normal,0
+60,Male,No Pain,130,206,No,Normal ECG,132,Yes,2.4,1,Two,Normal,0
+41,Female,Mild Pain (Non-Cardiac/Occasional),105,198,No,Abnormal but Non-Specific,168,No,0.0,2,One,Reversable Defect,1
+49,Male,Moderate Pain (Potentially Cardiac),120,188,No,Abnormal but Non-Specific,139,No,2.0,1,Three,Normal,0
+61,Male,No Pain,148,203,No,Abnormal but Non-Specific,161,No,0.0,2,One,Normal,0
+59,Male,No Pain,140,177,No,Abnormal but Non-Specific,162,Yes,0.0,2,One,Normal,0
+58,Male,Mild Pain (Non-Cardiac/Occasional),125,220,No,Abnormal but Non-Specific,144,No,0.4,1,Four,Normal,1
+67,Female,Moderate Pain (Potentially Cardiac),152,277,No,Abnormal but Non-Specific,172,No,0.0,2,One,Reversable Defect,1
+61,Male,No Pain,148,203,No,Abnormal but Non-Specific,161,No,0.0,2,One,Normal,0
+58,Male,Moderate Pain (Potentially Cardiac),112,230,No,Normal ECG,165,No,2.5,1,One,Normal,0
+51,Female,Moderate Pain (Potentially Cardiac),130,256,No,Normal ECG,149,No,0.5,2,Zero,Reversable Defect,1
+62,Female,No Pain,160,164,No,Normal ECG,145,No,6.2,0,Three,Normal,0
+62,Female,No Pain,124,209,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+59,Male,Severe Pain (Emergency/Cardiac),178,270,No,Normal ECG,145,No,4.2,0,Zero,Normal,1
+69,Male,Severe Pain (Emergency/Cardiac),160,234,Yes,Normal ECG,131,No,0.1,1,One,Reversable Defect,1
+60,Female,No Pain,150,258,No,Normal ECG,157,No,2.6,1,Two,Normal,0
+65,Female,Moderate Pain (Potentially Cardiac),155,269,No,Abnormal but Non-Specific,148,No,0.8,2,Zero,Reversable Defect,1
+63,Female,No Pain,124,197,No,Abnormal but Non-Specific,136,Yes,0.0,1,Zero,Reversable Defect,0
+53,Female,No Pain,138,234,No,Normal ECG,160,No,0.0,2,Zero,Reversable Defect,1
+54,Female,Moderate Pain (Potentially Cardiac),108,267,No,Normal ECG,167,No,0.0,2,Zero,Reversable Defect,1
+76,Female,Moderate Pain (Potentially Cardiac),140,197,No,Definite Abnormalities,116,No,1.1,1,Zero,Reversable Defect,1
+50,Female,Moderate Pain (Potentially Cardiac),120,219,No,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
+52,Male,Mild Pain (Non-Cardiac/Occasional),120,325,No,Abnormal but Non-Specific,172,No,0.2,2,Zero,Reversable Defect,1
+46,Male,No Pain,120,249,No,Normal ECG,144,No,0.8,2,Zero,Normal,0
+64,Male,Severe Pain (Emergency/Cardiac),170,227,No,Normal ECG,155,No,0.6,1,Zero,Normal,1
+58,Male,No Pain,128,259,No,Normal ECG,130,Yes,3.0,1,Two,Normal,0
+44,Male,Moderate Pain (Potentially Cardiac),140,235,No,Normal ECG,180,No,0.0,2,Zero,Reversable Defect,1
+62,Female,No Pain,140,394,No,Normal ECG,157,No,1.2,1,Zero,Reversable Defect,1
+59,Male,Severe Pain (Emergency/Cardiac),134,204,No,Abnormal but Non-Specific,162,No,0.8,2,Two,Reversable Defect,0
+54,Male,Moderate Pain (Potentially Cardiac),125,273,No,Normal ECG,152,No,0.5,0,One,Reversable Defect,1
+48,Male,Mild Pain (Non-Cardiac/Occasional),110,229,No,Abnormal but Non-Specific,168,No,1.0,0,Zero,Normal,0
+70,Male,No Pain,130,322,No,Normal ECG,109,No,2.4,1,Three,Reversable Defect,0
+67,Female,No Pain,106,223,No,Abnormal but Non-Specific,142,No,0.3,2,Two,Reversable Defect,1
+51,Female,Moderate Pain (Potentially Cardiac),120,295,No,Normal ECG,157,No,0.6,2,Zero,Reversable Defect,1
+68,Male,Moderate Pain (Potentially Cardiac),118,277,No,Abnormal but Non-Specific,151,No,1.0,2,One,Normal,1
+69,Male,Moderate Pain (Potentially Cardiac),140,254,No,Normal ECG,146,No,2.0,1,Three,Normal,0
+54,Male,No Pain,122,286,No,Normal ECG,116,Yes,3.2,1,Two,Reversable Defect,0
+43,Female,No Pain,132,341,Yes,Normal ECG,136,Yes,3.0,1,Zero,Normal,0
+53,Male,Moderate Pain (Potentially Cardiac),130,197,Yes,Normal ECG,152,No,1.2,0,Zero,Reversable Defect,1
+58,Male,No Pain,100,234,No,Abnormal but Non-Specific,156,No,0.1,2,One,Normal,0
+67,Male,No Pain,125,254,Yes,Abnormal but Non-Specific,163,No,0.2,1,Two,Normal,0
+59,Male,No Pain,140,177,No,Abnormal but Non-Specific,162,Yes,0.0,2,One,Normal,0
+48,Male,No Pain,122,222,No,Normal ECG,186,No,0.0,2,Zero,Reversable Defect,1
+39,Female,Moderate Pain (Potentially Cardiac),94,199,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+67,Male,No Pain,120,237,No,Abnormal but Non-Specific,71,No,1.0,1,Zero,Reversable Defect,0
+58,Female,No Pain,130,197,No,Abnormal but Non-Specific,131,No,0.6,1,Zero,Reversable Defect,1
+65,Female,Moderate Pain (Potentially Cardiac),155,269,No,Abnormal but Non-Specific,148,No,0.8,2,Zero,Reversable Defect,1
+42,Female,Moderate Pain (Potentially Cardiac),120,209,No,Abnormal but Non-Specific,173,No,0.0,1,Zero,Reversable Defect,1
+44,Male,No Pain,112,290,No,Normal ECG,153,No,0.0,2,One,Reversable Defect,0
+56,Male,No Pain,132,184,No,Normal ECG,105,Yes,2.1,1,One,Fixed Defect,0
+53,Female,No Pain,138,234,No,Normal ECG,160,No,0.0,2,Zero,Reversable Defect,1
+50,Female,No Pain,110,254,No,Normal ECG,159,No,0.0,2,Zero,Reversable Defect,1
+41,Male,Moderate Pain (Potentially Cardiac),130,214,No,Normal ECG,168,No,2.0,1,Zero,Reversable Defect,1
+54,Female,Moderate Pain (Potentially Cardiac),160,201,No,Abnormal but Non-Specific,163,No,0.0,2,One,Reversable Defect,1
+42,Male,Moderate Pain (Potentially Cardiac),120,240,Yes,Abnormal but Non-Specific,194,No,0.8,0,Zero,Normal,1
+54,Female,Moderate Pain (Potentially Cardiac),135,304,Yes,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+60,Male,No Pain,145,282,No,Normal ECG,142,Yes,2.8,1,Two,Normal,0
+34,Male,Severe Pain (Emergency/Cardiac),118,182,No,Normal ECG,174,No,0.0,2,Zero,Reversable Defect,1
+44,Male,No Pain,112,290,No,Normal ECG,153,No,0.0,2,One,Reversable Defect,0
+60,Male,No Pain,125,258,No,Normal ECG,141,Yes,2.8,1,One,Normal,0
+43,Male,No Pain,150,247,No,Abnormal but Non-Specific,171,No,1.5,2,Zero,Reversable Defect,1
+52,Male,Severe Pain (Emergency/Cardiac),152,298,Yes,Abnormal but Non-Specific,178,No,1.2,1,Zero,Normal,1
+70,Male,No Pain,130,322,No,Normal ECG,109,No,2.4,1,Three,Reversable Defect,0
+62,Female,No Pain,140,394,No,Normal ECG,157,No,1.2,1,Zero,Reversable Defect,1
+58,Male,No Pain,146,218,No,Abnormal but Non-Specific,105,No,2.0,1,One,Normal,0
+46,Male,Mild Pain (Non-Cardiac/Occasional),101,197,Yes,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
+44,Male,Moderate Pain (Potentially Cardiac),140,235,No,Normal ECG,180,No,0.0,2,Zero,Reversable Defect,1
+55,Male,Mild Pain (Non-Cardiac/Occasional),130,262,No,Abnormal but Non-Specific,155,No,0.0,2,Zero,Reversable Defect,1
+43,Male,No Pain,120,177,No,Normal ECG,120,Yes,2.5,1,Zero,Normal,0
+55,Male,No Pain,132,353,No,Abnormal but Non-Specific,132,Yes,1.2,1,One,Normal,0
+40,Male,Severe Pain (Emergency/Cardiac),140,199,No,Abnormal but Non-Specific,178,Yes,1.4,2,Zero,Normal,1
+64,Male,Moderate Pain (Potentially Cardiac),125,309,No,Abnormal but Non-Specific,131,Yes,1.8,1,Zero,Normal,0
+59,Male,No Pain,164,176,Yes,Normal ECG,90,No,1.0,1,Two,Fixed Defect,0
+61,Female,No Pain,145,307,No,Normal ECG,146,Yes,1.0,1,Zero,Normal,0
+54,Male,No Pain,122,286,No,Normal ECG,116,Yes,3.2,1,Two,Reversable Defect,0
+74,Female,Mild Pain (Non-Cardiac/Occasional),120,269,No,Normal ECG,121,Yes,0.2,2,One,Reversable Defect,1
+63,Female,No Pain,108,269,No,Abnormal but Non-Specific,169,Yes,1.8,1,Two,Reversable Defect,0
+70,Male,Moderate Pain (Potentially Cardiac),160,269,No,Abnormal but Non-Specific,112,Yes,2.9,1,One,Normal,0
+63,Female,No Pain,108,269,No,Abnormal but Non-Specific,169,Yes,1.8,1,Two,Reversable Defect,0
+64,Male,No Pain,145,212,No,Normal ECG,132,No,2.0,1,Two,Fixed Defect,0
+61,Male,No Pain,148,203,No,Abnormal but Non-Specific,161,No,0.0,2,One,Normal,0
+59,Male,Mild Pain (Non-Cardiac/Occasional),140,221,No,Abnormal but Non-Specific,164,Yes,0.0,2,Zero,Reversable Defect,1
+38,Male,Moderate Pain (Potentially Cardiac),138,175,No,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
+58,Male,Mild Pain (Non-Cardiac/Occasional),120,284,No,Normal ECG,160,No,1.8,1,Zero,Reversable Defect,0
+63,Female,Mild Pain (Non-Cardiac/Occasional),140,195,No,Abnormal but Non-Specific,179,No,0.0,2,Two,Reversable Defect,1
+62,Female,Moderate Pain (Potentially Cardiac),130,263,No,Abnormal but Non-Specific,97,No,1.2,1,One,Normal,0
+46,Male,No Pain,140,311,No,Abnormal but Non-Specific,120,Yes,1.8,1,Two,Normal,0
+58,Female,Moderate Pain (Potentially Cardiac),120,340,No,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
+63,Female,Mild Pain (Non-Cardiac/Occasional),140,195,No,Abnormal but Non-Specific,179,No,0.0,2,Two,Reversable Defect,1
+47,Male,Moderate Pain (Potentially Cardiac),130,253,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+71,Female,Moderate Pain (Potentially Cardiac),110,265,Yes,Normal ECG,130,No,0.0,2,One,Reversable Defect,1
+66,Male,No Pain,112,212,No,Normal ECG,132,Yes,0.1,2,One,Reversable Defect,0
+42,Male,No Pain,136,315,No,Abnormal but Non-Specific,125,Yes,1.8,1,Zero,Fixed Defect,0
+64,Male,No Pain,145,212,No,Normal ECG,132,No,2.0,1,Two,Fixed Defect,0
+55,Female,No Pain,180,327,No,Definite Abnormalities,117,Yes,3.4,1,Zero,Reversable Defect,0
+43,Female,No Pain,132,341,Yes,Normal ECG,136,Yes,3.0,1,Zero,Normal,0
+55,Female,No Pain,128,205,No,Definite Abnormalities,130,Yes,2.0,1,One,Normal,0
+58,Female,No Pain,170,225,Yes,Normal ECG,146,Yes,2.8,1,Two,Fixed Defect,0
+55,Male,No Pain,140,217,No,Abnormal but Non-Specific,111,Yes,5.6,0,Zero,Normal,0
+51,Female,No Pain,130,305,No,Abnormal but Non-Specific,142,Yes,1.2,1,Zero,Normal,0
+50,Female,Moderate Pain (Potentially Cardiac),120,219,No,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
+43,Male,No Pain,115,303,No,Abnormal but Non-Specific,181,No,1.2,1,Zero,Reversable Defect,1
+41,Female,Mild Pain (Non-Cardiac/Occasional),126,306,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+49,Male,Mild Pain (Non-Cardiac/Occasional),130,266,No,Abnormal but Non-Specific,171,No,0.6,2,Zero,Reversable Defect,1
+65,Male,No Pain,110,248,No,Normal ECG,158,No,0.6,2,Two,Fixed Defect,0
+57,Male,No Pain,152,274,No,Abnormal but Non-Specific,88,Yes,1.2,1,One,Normal,0
+48,Male,No Pain,130,256,Yes,Normal ECG,150,Yes,0.0,2,Two,Normal,0
+62,Female,No Pain,138,294,Yes,Abnormal but Non-Specific,106,No,1.9,1,Three,Reversable Defect,0
+61,Male,Severe Pain (Emergency/Cardiac),134,234,No,Abnormal but Non-Specific,145,No,2.6,1,Two,Reversable Defect,0
+59,Male,Severe Pain (Emergency/Cardiac),178,270,No,Normal ECG,145,No,4.2,0,Zero,Normal,1
+69,Male,Moderate Pain (Potentially Cardiac),140,254,No,Normal ECG,146,No,2.0,1,Three,Normal,0
+58,Male,Moderate Pain (Potentially Cardiac),132,224,No,Normal ECG,173,No,3.2,2,Two,Normal,0
+38,Male,Severe Pain (Emergency/Cardiac),120,231,No,Abnormal but Non-Specific,182,Yes,3.8,1,Zero,Normal,0
+69,Female,Severe Pain (Emergency/Cardiac),140,239,No,Abnormal but Non-Specific,151,No,1.8,2,Two,Reversable Defect,1
+65,Male,Severe Pain (Emergency/Cardiac),138,282,Yes,Normal ECG,174,No,1.4,1,One,Reversable Defect,0
+45,Male,Severe Pain (Emergency/Cardiac),110,264,No,Abnormal but Non-Specific,132,No,1.2,1,Zero,Normal,0
+49,Male,Mild Pain (Non-Cardiac/Occasional),130,266,No,Abnormal but Non-Specific,171,No,0.6,2,Zero,Reversable Defect,1
+45,Female,Mild Pain (Non-Cardiac/Occasional),130,234,No,Normal ECG,175,No,0.6,1,Zero,Reversable Defect,1
+61,Male,No Pain,138,166,No,Normal ECG,125,Yes,3.6,1,One,Reversable Defect,0
+52,Male,No Pain,125,212,No,Abnormal but Non-Specific,168,No,1.0,2,Two,Normal,0
+53,Female,No Pain,130,264,No,Normal ECG,143,No,0.4,1,Zero,Reversable Defect,1
+59,Female,No Pain,174,249,No,Abnormal but Non-Specific,143,Yes,0.0,1,Zero,Reversable Defect,0
+58,Female,Moderate Pain (Potentially Cardiac),120,340,No,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
+65,Male,Severe Pain (Emergency/Cardiac),138,282,Yes,Normal ECG,174,No,1.4,1,One,Reversable Defect,0
+58,Female,No Pain,130,197,No,Abnormal but Non-Specific,131,No,0.6,1,Zero,Reversable Defect,1
+46,Female,No Pain,138,243,No,Normal ECG,152,Yes,0.0,1,Zero,Reversable Defect,1
+56,Female,No Pain,134,409,No,Normal ECG,150,Yes,1.9,1,Two,Normal,0
+64,Male,No Pain,128,263,No,Abnormal but Non-Specific,105,Yes,0.2,1,One,Normal,1
+65,Male,No Pain,120,177,No,Abnormal but Non-Specific,140,No,0.4,2,Zero,Normal,1
+44,Male,Moderate Pain (Potentially Cardiac),120,226,No,Abnormal but Non-Specific,169,No,0.0,2,Zero,Reversable Defect,1
+50,Male,No Pain,150,243,No,Normal ECG,128,No,2.6,1,Zero,Normal,0
+47,Male,Moderate Pain (Potentially Cardiac),108,243,No,Abnormal but Non-Specific,152,No,0.0,2,Zero,Reversable Defect,0
+64,Female,No Pain,130,303,No,Abnormal but Non-Specific,122,No,2.0,1,Two,Reversable Defect,1
+71,Female,No Pain,112,149,No,Abnormal but Non-Specific,125,No,1.6,1,Zero,Reversable Defect,1
+45,Female,Mild Pain (Non-Cardiac/Occasional),130,234,No,Normal ECG,175,No,0.6,1,Zero,Reversable Defect,1
+62,Male,No Pain,120,267,No,Abnormal but Non-Specific,99,Yes,1.8,1,Two,Normal,0
+41,Male,Mild Pain (Non-Cardiac/Occasional),120,157,No,Abnormal but Non-Specific,182,No,0.0,2,Zero,Reversable Defect,1
+66,Female,Severe Pain (Emergency/Cardiac),150,226,No,Abnormal but Non-Specific,114,No,2.6,0,Zero,Reversable Defect,1
+56,Male,No Pain,130,283,Yes,Normal ECG,103,Yes,1.6,0,Zero,Normal,0
+41,Female,Mild Pain (Non-Cardiac/Occasional),126,306,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),110,235,No,Abnormal but Non-Specific,153,No,0.0,2,Zero,Reversable Defect,1
+57,Female,Mild Pain (Non-Cardiac/Occasional),130,236,No,Normal ECG,174,No,0.0,1,One,Reversable Defect,0
+39,Female,Moderate Pain (Potentially Cardiac),138,220,No,Abnormal but Non-Specific,152,No,0.0,1,Zero,Reversable Defect,1
+64,Male,Moderate Pain (Potentially Cardiac),125,309,No,Abnormal but Non-Specific,131,Yes,1.8,1,Zero,Normal,0
+59,Male,No Pain,138,271,No,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
+61,Male,No Pain,138,166,No,Normal ECG,125,Yes,3.6,1,One,Reversable Defect,0
+58,Male,No Pain,114,318,No,Definite Abnormalities,140,No,4.4,0,Three,Fixed Defect,0
+47,Male,No Pain,112,204,No,Abnormal but Non-Specific,143,No,0.1,2,Zero,Reversable Defect,1
+58,Female,No Pain,100,248,No,Normal ECG,122,No,1.0,1,Zero,Reversable Defect,1
+66,Female,Severe Pain (Emergency/Cardiac),150,226,No,Abnormal but Non-Specific,114,No,2.6,0,Zero,Reversable Defect,1
+65,Female,Moderate Pain (Potentially Cardiac),140,417,Yes,Normal ECG,157,No,0.8,2,One,Reversable Defect,1
+35,Male,Mild Pain (Non-Cardiac/Occasional),122,192,No,Abnormal but Non-Specific,174,No,0.0,2,Zero,Reversable Defect,1
+57,Male,Mild Pain (Non-Cardiac/Occasional),124,261,No,Abnormal but Non-Specific,141,No,0.3,2,Zero,Normal,0
+29,Male,Mild Pain (Non-Cardiac/Occasional),130,204,No,Normal ECG,202,No,0.0,2,Zero,Reversable Defect,1
+66,Male,Mild Pain (Non-Cardiac/Occasional),160,246,No,Abnormal but Non-Specific,120,Yes,0.0,1,Three,Fixed Defect,0
+61,Female,No Pain,130,330,No,Normal ECG,169,No,0.0,2,Zero,Reversable Defect,0
+52,Male,No Pain,125,212,No,Abnormal but Non-Specific,168,No,1.0,2,Two,Normal,0
+68,Male,Moderate Pain (Potentially Cardiac),118,277,No,Abnormal but Non-Specific,151,No,1.0,2,One,Normal,1
+54,Male,Moderate Pain (Potentially Cardiac),120,258,No,Normal ECG,147,No,0.4,1,Zero,Normal,1
+63,Male,No Pain,130,330,Yes,Normal ECG,132,Yes,1.8,2,Three,Normal,0
+58,Male,No Pain,100,234,No,Abnormal but Non-Specific,156,No,0.1,2,One,Normal,0
+60,Male,No Pain,130,253,No,Abnormal but Non-Specific,144,Yes,1.4,2,One,Normal,0
+63,Male,No Pain,130,254,No,Normal ECG,147,No,1.4,1,One,Normal,0
+41,Female,Moderate Pain (Potentially Cardiac),112,268,No,Normal ECG,172,Yes,0.0,2,Zero,Reversable Defect,1
+68,Male,Moderate Pain (Potentially Cardiac),180,274,Yes,Normal ECG,150,Yes,1.6,1,Zero,Normal,0
+42,Male,Mild Pain (Non-Cardiac/Occasional),120,295,No,Abnormal but Non-Specific,162,No,0.0,2,Zero,Reversable Defect,1
+59,Male,No Pain,170,326,No,Normal ECG,140,Yes,3.4,0,Zero,Normal,0
+59,Male,No Pain,164,176,Yes,Normal ECG,90,No,1.0,1,Two,Fixed Defect,0
+43,Male,No Pain,120,177,No,Normal ECG,120,Yes,2.5,1,Zero,Normal,0
+60,Male,Moderate Pain (Potentially Cardiac),140,185,No,Normal ECG,155,No,3.0,1,Zero,Reversable Defect,0
+63,Female,No Pain,150,407,No,Normal ECG,154,No,4.0,1,Three,Normal,0
+52,Male,No Pain,128,204,Yes,Abnormal but Non-Specific,156,Yes,1.0,1,Zero,Normal,0
+58,Male,No Pain,125,300,No,Normal ECG,171,No,0.0,2,Two,Normal,0
+56,Female,No Pain,200,288,Yes,Normal ECG,133,Yes,4.0,0,Two,Normal,0
+54,Female,Moderate Pain (Potentially Cardiac),135,304,Yes,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+58,Male,Moderate Pain (Potentially Cardiac),105,240,No,Normal ECG,154,Yes,0.6,1,Zero,Normal,1
+55,Female,Mild Pain (Non-Cardiac/Occasional),135,250,No,Normal ECG,161,No,1.4,1,Zero,Reversable Defect,1
+53,Male,No Pain,140,203,Yes,Normal ECG,155,Yes,3.1,0,Zero,Normal,0
+63,Female,Mild Pain (Non-Cardiac/Occasional),140,195,No,Abnormal but Non-Specific,179,No,0.0,2,Two,Reversable Defect,1
+39,Male,No Pain,118,219,No,Abnormal but Non-Specific,140,No,1.2,1,Zero,Normal,0
+35,Male,No Pain,126,282,No,Normal ECG,156,Yes,0.0,2,Zero,Normal,0
+50,Female,Moderate Pain (Potentially Cardiac),120,219,No,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
+67,Male,Moderate Pain (Potentially Cardiac),152,212,No,Normal ECG,150,No,0.8,1,Zero,Normal,0
+66,Male,No Pain,112,212,No,Normal ECG,132,Yes,0.1,2,One,Reversable Defect,0
+35,Male,No Pain,126,282,No,Normal ECG,156,Yes,0.0,2,Zero,Normal,0
+41,Male,Moderate Pain (Potentially Cardiac),130,214,No,Normal ECG,168,No,2.0,1,Zero,Reversable Defect,1
+35,Male,No Pain,120,198,No,Abnormal but Non-Specific,130,Yes,1.6,1,Zero,Normal,0
+71,Female,Mild Pain (Non-Cardiac/Occasional),160,302,No,Abnormal but Non-Specific,162,No,0.4,2,Two,Reversable Defect,1
+57,Male,No Pain,110,201,No,Abnormal but Non-Specific,126,Yes,1.5,1,Zero,Fixed Defect,1
+51,Male,Moderate Pain (Potentially Cardiac),94,227,No,Abnormal but Non-Specific,154,Yes,0.0,2,One,Normal,1
+58,Male,No Pain,128,216,No,Normal ECG,131,Yes,2.2,1,Three,Normal,0
+57,Male,Moderate Pain (Potentially Cardiac),128,229,No,Normal ECG,150,No,0.4,1,One,Normal,0
+56,Female,Mild Pain (Non-Cardiac/Occasional),140,294,No,Normal ECG,153,No,1.3,1,Zero,Reversable Defect,1
+60,Female,Moderate Pain (Potentially Cardiac),120,178,Yes,Abnormal but Non-Specific,96,No,0.0,2,Zero,Reversable Defect,1
+45,Male,Severe Pain (Emergency/Cardiac),110,264,No,Abnormal but Non-Specific,132,No,1.2,1,Zero,Normal,0
+56,Male,Mild Pain (Non-Cardiac/Occasional),130,221,No,Normal ECG,163,No,0.0,2,Zero,Normal,1
+35,Male,No Pain,120,198,No,Abnormal but Non-Specific,130,Yes,1.6,1,Zero,Normal,0
+45,Female,Mild Pain (Non-Cardiac/Occasional),112,160,No,Abnormal but Non-Specific,138,No,0.0,1,Zero,Reversable Defect,1
+66,Female,Severe Pain (Emergency/Cardiac),150,226,No,Abnormal but Non-Specific,114,No,2.6,0,Zero,Reversable Defect,1
+51,Male,Severe Pain (Emergency/Cardiac),125,213,No,Normal ECG,125,Yes,1.4,2,One,Reversable Defect,1
+70,Male,Mild Pain (Non-Cardiac/Occasional),156,245,No,Normal ECG,143,No,0.0,2,Zero,Reversable Defect,1
+55,Female,No Pain,128,205,No,Definite Abnormalities,130,Yes,2.0,1,One,Normal,0
+56,Male,Moderate Pain (Potentially Cardiac),130,256,Yes,Normal ECG,142,Yes,0.6,1,One,Fixed Defect,0
+55,Female,Mild Pain (Non-Cardiac/Occasional),135,250,No,Normal ECG,161,No,1.4,1,Zero,Reversable Defect,1
+52,Male,No Pain,108,233,Yes,Abnormal but Non-Specific,147,No,0.1,2,Three,Normal,1
+64,Male,Moderate Pain (Potentially Cardiac),140,335,No,Abnormal but Non-Specific,158,No,0.0,2,Zero,Reversable Defect,0
+45,Male,No Pain,115,260,No,Normal ECG,185,No,0.0,2,Zero,Reversable Defect,1
+67,Female,Moderate Pain (Potentially Cardiac),152,277,No,Abnormal but Non-Specific,172,No,0.0,2,One,Reversable Defect,1
+68,Female,Moderate Pain (Potentially Cardiac),120,211,No,Normal ECG,115,No,1.5,1,Zero,Reversable Defect,1
+74,Female,Mild Pain (Non-Cardiac/Occasional),120,269,No,Normal ECG,121,Yes,0.2,2,One,Reversable Defect,1
+60,Female,No Pain,150,258,No,Normal ECG,157,No,2.6,1,Two,Normal,0
+48,Male,No Pain,124,274,No,Normal ECG,166,No,0.5,1,Zero,Normal,0
+56,Male,Mild Pain (Non-Cardiac/Occasional),130,221,No,Normal ECG,163,No,0.0,2,Zero,Normal,1
+46,Male,No Pain,140,311,No,Abnormal but Non-Specific,120,Yes,1.8,1,Two,Normal,0
+55,Female,Mild Pain (Non-Cardiac/Occasional),135,250,No,Normal ECG,161,No,1.4,1,Zero,Reversable Defect,1
+44,Male,Mild Pain (Non-Cardiac/Occasional),120,220,No,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+52,Male,No Pain,112,230,No,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,0
+51,Male,Moderate Pain (Potentially Cardiac),94,227,No,Abnormal but Non-Specific,154,Yes,0.0,2,One,Normal,1
+44,Female,Moderate Pain (Potentially Cardiac),108,141,No,Abnormal but Non-Specific,175,No,0.6,1,Zero,Reversable Defect,1
+52,Male,No Pain,128,204,Yes,Abnormal but Non-Specific,156,Yes,1.0,1,Zero,Normal,0
+50,Male,Moderate Pain (Potentially Cardiac),129,196,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+59,Male,No Pain,110,239,No,Normal ECG,142,Yes,1.2,1,One,Normal,0
+67,Male,No Pain,120,229,No,Normal ECG,129,Yes,2.6,1,Two,Normal,0
+58,Male,No Pain,125,300,No,Normal ECG,171,No,0.0,2,Two,Normal,0
+52,Male,No Pain,128,255,No,Abnormal but Non-Specific,161,Yes,0.0,2,One,Normal,0
+44,Male,Moderate Pain (Potentially Cardiac),140,235,No,Normal ECG,180,No,0.0,2,Zero,Reversable Defect,1
+41,Female,Moderate Pain (Potentially Cardiac),112,268,No,Normal ECG,172,Yes,0.0,2,Zero,Reversable Defect,1
+63,Male,No Pain,130,330,Yes,Normal ECG,132,Yes,1.8,2,Three,Normal,0
+58,Male,Mild Pain (Non-Cardiac/Occasional),125,220,No,Abnormal but Non-Specific,144,No,0.4,1,Four,Normal,1
+60,Female,Moderate Pain (Potentially Cardiac),102,318,No,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,1
+51,Male,Moderate Pain (Potentially Cardiac),100,222,No,Abnormal but Non-Specific,143,Yes,1.2,1,Zero,Reversable Defect,1
+64,Male,Moderate Pain (Potentially Cardiac),140,335,No,Abnormal but Non-Specific,158,No,0.0,2,Zero,Reversable Defect,0
+60,Male,No Pain,117,230,Yes,Abnormal but Non-Specific,160,Yes,1.4,2,Two,Normal,0
+44,Male,Moderate Pain (Potentially Cardiac),120,226,No,Abnormal but Non-Specific,169,No,0.0,2,Zero,Reversable Defect,1
+58,Male,Mild Pain (Non-Cardiac/Occasional),125,220,No,Abnormal but Non-Specific,144,No,0.4,1,Four,Normal,1
+55,Male,Mild Pain (Non-Cardiac/Occasional),130,262,No,Abnormal but Non-Specific,155,No,0.0,2,Zero,Reversable Defect,1
+65,Female,Moderate Pain (Potentially Cardiac),160,360,No,Normal ECG,151,No,0.8,2,Zero,Reversable Defect,1
+48,Male,Mild Pain (Non-Cardiac/Occasional),130,245,No,Normal ECG,180,No,0.2,1,Zero,Reversable Defect,1
+65,Male,No Pain,120,177,No,Abnormal but Non-Specific,140,No,0.4,2,Zero,Normal,1
+51,Female,Moderate Pain (Potentially Cardiac),130,256,No,Normal ECG,149,No,0.5,2,Zero,Reversable Defect,1
+48,Male,Moderate Pain (Potentially Cardiac),124,255,Yes,Abnormal but Non-Specific,175,No,0.0,2,Two,Reversable Defect,1
+64,Male,No Pain,120,246,No,Normal ECG,96,Yes,2.2,0,One,Reversable Defect,0
+66,Male,No Pain,160,228,No,Normal ECG,138,No,2.3,2,Zero,Fixed Defect,1
+46,Female,Mild Pain (Non-Cardiac/Occasional),105,204,No,Abnormal but Non-Specific,172,No,0.0,2,Zero,Reversable Defect,1
+61,Female,No Pain,130,330,No,Normal ECG,169,No,0.0,2,Zero,Reversable Defect,0
+57,Male,No Pain,150,276,No,Normal ECG,112,Yes,0.6,1,One,Fixed Defect,0
+49,Female,No Pain,130,269,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+56,Male,Mild Pain (Non-Cardiac/Occasional),130,221,No,Normal ECG,163,No,0.0,2,Zero,Normal,1
+58,Female,Severe Pain (Emergency/Cardiac),150,283,Yes,Normal ECG,162,No,1.0,2,Zero,Reversable Defect,1
+63,Male,No Pain,140,187,No,Normal ECG,144,Yes,4.0,2,Two,Normal,0
+57,Male,No Pain,110,335,No,Abnormal but Non-Specific,143,Yes,3.0,1,One,Normal,0
+57,Male,No Pain,110,335,No,Abnormal but Non-Specific,143,Yes,3.0,1,One,Normal,0
+68,Male,No Pain,144,193,Yes,Abnormal but Non-Specific,141,No,3.4,1,Two,Normal,0
+46,Male,Mild Pain (Non-Cardiac/Occasional),101,197,Yes,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
+71,Female,Moderate Pain (Potentially Cardiac),110,265,Yes,Normal ECG,130,No,0.0,2,One,Reversable Defect,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),135,203,No,Abnormal but Non-Specific,132,No,0.0,1,Zero,Fixed Defect,1
+45,Female,No Pain,138,236,No,Normal ECG,152,Yes,0.2,1,Zero,Reversable Defect,1
+62,Female,No Pain,150,244,No,Abnormal but Non-Specific,154,Yes,1.4,1,Zero,Reversable Defect,0
+65,Female,No Pain,150,225,No,Normal ECG,114,No,1.0,1,Three,Normal,0
+48,Female,Moderate Pain (Potentially Cardiac),130,275,No,Abnormal but Non-Specific,139,No,0.2,2,Zero,Reversable Defect,1
+51,Male,Moderate Pain (Potentially Cardiac),100,222,No,Abnormal but Non-Specific,143,Yes,1.2,1,Zero,Reversable Defect,1
+61,Female,No Pain,145,307,No,Normal ECG,146,Yes,1.0,1,Zero,Normal,0
+53,Male,No Pain,123,282,No,Abnormal but Non-Specific,95,Yes,2.0,1,Two,Normal,0
+59,Male,Severe Pain (Emergency/Cardiac),134,204,No,Abnormal but Non-Specific,162,No,0.8,2,Two,Reversable Defect,0
+34,Female,Mild Pain (Non-Cardiac/Occasional),118,210,No,Abnormal but Non-Specific,192,No,0.7,2,Zero,Reversable Defect,1
+44,Male,No Pain,120,169,No,Abnormal but Non-Specific,144,Yes,2.8,0,Zero,Fixed Defect,0
+58,Male,No Pain,146,218,No,Abnormal but Non-Specific,105,No,2.0,1,One,Normal,0
+64,Female,No Pain,130,303,No,Abnormal but Non-Specific,122,No,2.0,1,Two,Reversable Defect,1
+56,Male,Mild Pain (Non-Cardiac/Occasional),120,240,No,Abnormal but Non-Specific,169,No,0.0,0,Zero,Reversable Defect,1
+54,Male,Moderate Pain (Potentially Cardiac),150,232,No,Normal ECG,165,No,1.6,2,Zero,Normal,1
+55,Male,No Pain,160,289,No,Normal ECG,145,Yes,0.8,1,One,Normal,0
+67,Male,No Pain,125,254,Yes,Abnormal but Non-Specific,163,No,0.2,1,Two,Normal,0
+51,Male,No Pain,140,298,No,Abnormal but Non-Specific,122,Yes,4.2,1,Three,Normal,0
+62,Female,No Pain,138,294,Yes,Abnormal but Non-Specific,106,No,1.9,1,Three,Reversable Defect,0
+62,Male,Mild Pain (Non-Cardiac/Occasional),120,281,No,Normal ECG,103,No,1.4,1,One,Normal,0
+54,Male,No Pain,110,239,No,Abnormal but Non-Specific,126,Yes,2.8,1,One,Normal,0
+54,Male,No Pain,110,239,No,Abnormal but Non-Specific,126,Yes,2.8,1,One,Normal,0
+68,Male,No Pain,144,193,Yes,Abnormal but Non-Specific,141,No,3.4,1,Two,Normal,0
+60,Female,Moderate Pain (Potentially Cardiac),120,178,Yes,Abnormal but Non-Specific,96,No,0.0,2,Zero,Reversable Defect,1
+61,Male,Severe Pain (Emergency/Cardiac),134,234,No,Abnormal but Non-Specific,145,No,2.6,1,Two,Reversable Defect,0
+62,Male,Mild Pain (Non-Cardiac/Occasional),128,208,Yes,Normal ECG,140,No,0.0,2,Zero,Reversable Defect,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),135,203,No,Abnormal but Non-Specific,132,No,0.0,1,Zero,Fixed Defect,1
+65,Female,No Pain,150,225,No,Normal ECG,114,No,1.0,1,Three,Normal,0
+59,Male,Severe Pain (Emergency/Cardiac),170,288,No,Normal ECG,159,No,0.2,1,Zero,Normal,0
+43,Male,No Pain,115,303,No,Abnormal but Non-Specific,181,No,1.2,1,Zero,Reversable Defect,1
+67,Male,No Pain,120,229,No,Normal ECG,129,Yes,2.6,1,Two,Normal,0
+63,Male,Severe Pain (Emergency/Cardiac),145,233,Yes,Normal ECG,150,No,2.3,0,Zero,Fixed Defect,1
+63,Female,No Pain,124,197,No,Abnormal but Non-Specific,136,Yes,0.0,1,Zero,Reversable Defect,0
+52,Male,No Pain,112,230,No,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,0
+58,Female,No Pain,130,197,No,Abnormal but Non-Specific,131,No,0.6,1,Zero,Reversable Defect,1
+53,Male,No Pain,142,226,No,Normal ECG,111,Yes,0.0,2,Zero,Normal,1
+57,Male,No Pain,150,276,No,Normal ECG,112,Yes,0.6,1,One,Fixed Defect,0
+44,Male,Moderate Pain (Potentially Cardiac),130,233,No,Abnormal but Non-Specific,179,Yes,0.4,2,Zero,Reversable Defect,1
+51,Male,Moderate Pain (Potentially Cardiac),94,227,No,Abnormal but Non-Specific,154,Yes,0.0,2,One,Normal,1
+54,Female,Moderate Pain (Potentially Cardiac),110,214,No,Abnormal but Non-Specific,158,No,1.6,1,Zero,Reversable Defect,1
+40,Male,No Pain,110,167,No,Normal ECG,114,Yes,2.0,1,Zero,Normal,0
+57,Male,Mild Pain (Non-Cardiac/Occasional),124,261,No,Abnormal but Non-Specific,141,No,0.3,2,Zero,Normal,0
+62,Female,No Pain,140,268,No,Normal ECG,160,No,3.6,0,Two,Reversable Defect,0
+53,Male,No Pain,140,203,Yes,Normal ECG,155,Yes,3.1,0,Zero,Normal,0
+62,Male,Mild Pain (Non-Cardiac/Occasional),128,208,Yes,Normal ECG,140,No,0.0,2,Zero,Reversable Defect,1
+58,Male,Moderate Pain (Potentially Cardiac),105,240,No,Normal ECG,154,Yes,0.6,1,Zero,Normal,1
+70,Male,Mild Pain (Non-Cardiac/Occasional),156,245,No,Normal ECG,143,No,0.0,2,Zero,Reversable Defect,1
+45,Male,No Pain,115,260,No,Normal ECG,185,No,0.0,2,Zero,Reversable Defect,1
+42,Male,Severe Pain (Emergency/Cardiac),148,244,No,Normal ECG,178,No,0.8,2,Two,Reversable Defect,1
+58,Female,No Pain,170,225,Yes,Normal ECG,146,Yes,2.8,1,Two,Fixed Defect,0
+61,Male,No Pain,140,207,No,Normal ECG,138,Yes,1.9,2,One,Normal,0
+62,Female,No Pain,140,268,No,Normal ECG,160,No,3.6,0,Two,Reversable Defect,0
+60,Male,No Pain,130,253,No,Abnormal but Non-Specific,144,Yes,1.4,2,One,Normal,0
+54,Male,No Pain,140,239,No,Abnormal but Non-Specific,160,No,1.2,2,Zero,Reversable Defect,1
+61,Male,No Pain,138,166,No,Normal ECG,125,Yes,3.6,1,One,Reversable Defect,0
+63,Female,Moderate Pain (Potentially Cardiac),135,252,No,Normal ECG,172,No,0.0,2,Zero,Reversable Defect,1
+42,Male,Moderate Pain (Potentially Cardiac),130,180,No,Abnormal but Non-Specific,150,No,0.0,2,Zero,Reversable Defect,1
+57,Male,Moderate Pain (Potentially Cardiac),128,229,No,Normal ECG,150,No,0.4,1,One,Normal,0
+44,Male,Moderate Pain (Potentially Cardiac),130,233,No,Abnormal but Non-Specific,179,Yes,0.4,2,Zero,Reversable Defect,1
+54,Male,No Pain,124,266,No,Normal ECG,109,Yes,2.2,1,One,Normal,0
+51,Male,Moderate Pain (Potentially Cardiac),100,222,No,Abnormal but Non-Specific,143,Yes,1.2,1,Zero,Reversable Defect,1
+58,Male,Mild Pain (Non-Cardiac/Occasional),125,220,No,Abnormal but Non-Specific,144,No,0.4,1,Four,Normal,1
+68,Male,Moderate Pain (Potentially Cardiac),118,277,No,Abnormal but Non-Specific,151,No,1.0,2,One,Normal,1
+55,Male,No Pain,140,217,No,Abnormal but Non-Specific,111,Yes,5.6,0,Zero,Normal,0
+42,Male,No Pain,136,315,No,Abnormal but Non-Specific,125,Yes,1.8,1,Zero,Fixed Defect,0
+49,Male,Moderate Pain (Potentially Cardiac),118,149,No,Normal ECG,126,No,0.8,2,Three,Reversable Defect,0
+53,Female,No Pain,138,234,No,Normal ECG,160,No,0.0,2,Zero,Reversable Defect,1
+52,Male,Moderate Pain (Potentially Cardiac),172,199,Yes,Abnormal but Non-Specific,162,No,0.5,2,Zero,Normal,1
+51,Male,Severe Pain (Emergency/Cardiac),125,213,No,Normal ECG,125,Yes,1.4,2,One,Reversable Defect,1
+51,Male,No Pain,140,261,No,Normal ECG,186,Yes,0.0,2,Zero,Reversable Defect,1
+70,Male,No Pain,145,174,No,Abnormal but Non-Specific,125,Yes,2.6,0,Zero,Normal,0
+35,Female,No Pain,138,183,No,Abnormal but Non-Specific,182,No,1.4,2,Zero,Reversable Defect,1
+58,Male,Moderate Pain (Potentially Cardiac),112,230,No,Normal ECG,165,No,2.5,1,One,Normal,0
+59,Male,Severe Pain (Emergency/Cardiac),160,273,No,Normal ECG,125,No,0.0,2,Zero,Reversable Defect,0
+60,Male,No Pain,140,293,No,Normal ECG,170,No,1.2,1,Two,Normal,0
+56,Male,No Pain,132,184,No,Normal ECG,105,Yes,2.1,1,One,Fixed Defect,0
+35,Female,No Pain,138,183,No,Abnormal but Non-Specific,182,No,1.4,2,Zero,Reversable Defect,1
+61,Male,No Pain,138,166,No,Normal ECG,125,Yes,3.6,1,One,Reversable Defect,0
+58,Female,Severe Pain (Emergency/Cardiac),150,283,Yes,Normal ECG,162,No,1.0,2,Zero,Reversable Defect,1
+52,Male,No Pain,128,255,No,Abnormal but Non-Specific,161,Yes,0.0,2,One,Normal,0
+58,Male,Mild Pain (Non-Cardiac/Occasional),120,284,No,Normal ECG,160,No,1.8,1,Zero,Reversable Defect,0
+37,Male,Moderate Pain (Potentially Cardiac),130,250,No,Abnormal but Non-Specific,187,No,3.5,0,Zero,Reversable Defect,1
+52,Male,No Pain,128,255,No,Abnormal but Non-Specific,161,Yes,0.0,2,One,Normal,0
+67,Male,No Pain,120,229,No,Normal ECG,129,Yes,2.6,1,Two,Normal,0
+65,Male,Severe Pain (Emergency/Cardiac),138,282,Yes,Normal ECG,174,No,1.4,1,One,Reversable Defect,0
+46,Male,Mild Pain (Non-Cardiac/Occasional),101,197,Yes,Abnormal but Non-Specific,156,No,0.0,2,Zero,Normal,1
+68,Female,Moderate Pain (Potentially Cardiac),120,211,No,Normal ECG,115,No,1.5,1,Zero,Reversable Defect,1
+43,Male,No Pain,115,303,No,Abnormal but Non-Specific,181,No,1.2,1,Zero,Reversable Defect,1
+68,Female,Moderate Pain (Potentially Cardiac),120,211,No,Normal ECG,115,No,1.5,1,Zero,Reversable Defect,1
+51,Male,No Pain,140,299,No,Abnormal but Non-Specific,173,Yes,1.6,2,Zero,Normal,0
+52,Male,No Pain,112,230,No,Abnormal but Non-Specific,160,No,0.0,2,One,Reversable Defect,0
+64,Male,Moderate Pain (Potentially Cardiac),140,335,No,Abnormal but Non-Specific,158,No,0.0,2,Zero,Reversable Defect,0
+59,Male,Severe Pain (Emergency/Cardiac),170,288,No,Normal ECG,159,No,0.2,1,Zero,Normal,0
+52,Male,No Pain,125,212,No,Abnormal but Non-Specific,168,No,1.0,2,Two,Normal,0
+59,Male,Severe Pain (Emergency/Cardiac),160,273,No,Normal ECG,125,No,0.0,2,Zero,Reversable Defect,0
+60,Female,Severe Pain (Emergency/Cardiac),150,240,No,Abnormal but Non-Specific,171,No,0.9,2,Zero,Reversable Defect,1
+41,Male,Moderate Pain (Potentially Cardiac),112,250,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+41,Male,Mild Pain (Non-Cardiac/Occasional),110,235,No,Abnormal but Non-Specific,153,No,0.0,2,Zero,Reversable Defect,1
+56,Male,Mild Pain (Non-Cardiac/Occasional),120,240,No,Abnormal but Non-Specific,169,No,0.0,0,Zero,Reversable Defect,1
+56,Male,Mild Pain (Non-Cardiac/Occasional),120,236,No,Abnormal but Non-Specific,178,No,0.8,2,Zero,Reversable Defect,1
+48,Female,Moderate Pain (Potentially Cardiac),130,275,No,Abnormal but Non-Specific,139,No,0.2,2,Zero,Reversable Defect,1
+39,Male,Moderate Pain (Potentially Cardiac),140,321,No,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
+64,Male,Severe Pain (Emergency/Cardiac),170,227,No,Normal ECG,155,No,0.6,1,Zero,Normal,1
+57,Male,No Pain,140,192,No,Abnormal but Non-Specific,148,No,0.4,1,Zero,Fixed Defect,1
+59,Male,Severe Pain (Emergency/Cardiac),160,273,No,Normal ECG,125,No,0.0,2,Zero,Reversable Defect,0
+60,Male,No Pain,130,206,No,Normal ECG,132,Yes,2.4,1,Two,Normal,0
+61,Male,No Pain,140,207,No,Normal ECG,138,Yes,1.9,2,One,Normal,0
+43,Female,Moderate Pain (Potentially Cardiac),122,213,No,Abnormal but Non-Specific,165,No,0.2,1,Zero,Reversable Defect,1
+54,Male,No Pain,120,188,No,Abnormal but Non-Specific,113,No,1.4,1,One,Normal,0
+59,Male,No Pain,138,271,No,Normal ECG,182,No,0.0,2,Zero,Reversable Defect,1
+57,Male,No Pain,132,207,No,Abnormal but Non-Specific,168,Yes,0.0,2,Zero,Normal,1
+57,Male,Mild Pain (Non-Cardiac/Occasional),154,232,No,Normal ECG,164,No,0.0,2,One,Reversable Defect,0
+57,Male,No Pain,130,131,No,Abnormal but Non-Specific,115,Yes,1.2,1,One,Normal,0
+48,Male,No Pain,124,274,No,Normal ECG,166,No,0.5,1,Zero,Normal,0
+70,Male,No Pain,145,174,No,Abnormal but Non-Specific,125,Yes,2.6,0,Zero,Normal,0
+57,Male,No Pain,165,289,Yes,Normal ECG,124,No,1.0,1,Three,Normal,0
+61,Male,No Pain,120,260,No,Abnormal but Non-Specific,140,Yes,3.6,1,One,Normal,0
+57,Male,No Pain,110,201,No,Abnormal but Non-Specific,126,Yes,1.5,1,Zero,Fixed Defect,1
+60,Female,No Pain,150,258,No,Normal ECG,157,No,2.6,1,Two,Normal,0
+63,Female,No Pain,150,407,No,Normal ECG,154,No,4.0,1,Three,Normal,0
+55,Female,No Pain,128,205,No,Definite Abnormalities,130,Yes,2.0,1,One,Normal,0
+64,Female,No Pain,180,325,No,Abnormal but Non-Specific,154,Yes,0.0,2,Zero,Reversable Defect,1
+54,Male,No Pain,110,239,No,Abnormal but Non-Specific,126,Yes,2.8,1,One,Normal,0
+52,Male,No Pain,128,204,Yes,Abnormal but Non-Specific,156,Yes,1.0,1,Zero,Normal,0
+51,Male,No Pain,140,299,No,Abnormal but Non-Specific,173,Yes,1.6,2,Zero,Normal,0
+62,Female,Moderate Pain (Potentially Cardiac),130,263,No,Abnormal but Non-Specific,97,No,1.2,1,One,Normal,0
+59,Male,Severe Pain (Emergency/Cardiac),178,270,No,Normal ECG,145,No,4.2,0,Zero,Normal,1
+52,Male,Mild Pain (Non-Cardiac/Occasional),134,201,No,Abnormal but Non-Specific,158,No,0.8,2,One,Reversable Defect,1
+42,Female,No Pain,102,265,No,Normal ECG,122,No,0.6,1,Zero,Reversable Defect,1
+59,Male,No Pain,135,234,No,Abnormal but Non-Specific,161,No,0.5,1,Zero,Normal,1
+61,Male,Severe Pain (Emergency/Cardiac),134,234,No,Abnormal but Non-Specific,145,No,2.6,1,Two,Reversable Defect,0
+42,Female,No Pain,102,265,No,Normal ECG,122,No,0.6,1,Zero,Reversable Defect,1
+62,Female,No Pain,140,268,No,Normal ECG,160,No,3.6,0,Two,Reversable Defect,0
+59,Male,Moderate Pain (Potentially Cardiac),126,218,Yes,Abnormal but Non-Specific,134,No,2.2,1,One,Fixed Defect,0
+55,Male,Mild Pain (Non-Cardiac/Occasional),130,262,No,Abnormal but Non-Specific,155,No,0.0,2,Zero,Reversable Defect,1
+64,Male,No Pain,120,246,No,Normal ECG,96,Yes,2.2,0,One,Reversable Defect,0
+42,Male,No Pain,140,226,No,Abnormal but Non-Specific,178,No,0.0,2,Zero,Reversable Defect,1
+50,Female,Mild Pain (Non-Cardiac/Occasional),120,244,No,Abnormal but Non-Specific,162,No,1.1,2,Zero,Reversable Defect,1
+62,Male,No Pain,120,267,No,Abnormal but Non-Specific,99,Yes,1.8,1,Two,Normal,0
+50,Male,No Pain,144,200,No,Normal ECG,126,Yes,0.9,1,Zero,Normal,0
+50,Male,Moderate Pain (Potentially Cardiac),140,233,No,Abnormal but Non-Specific,163,No,0.6,1,One,Normal,0
+58,Female,Mild Pain (Non-Cardiac/Occasional),136,319,Yes,Normal ECG,152,No,0.0,2,Two,Reversable Defect,0
+35,Male,No Pain,120,198,No,Abnormal but Non-Specific,130,Yes,1.6,1,Zero,Normal,0
+45,Male,No Pain,104,208,No,Normal ECG,148,Yes,3.0,1,Zero,Reversable Defect,1
+66,Male,No Pain,112,212,No,Normal ECG,132,Yes,0.1,2,One,Reversable Defect,0
+46,Male,No Pain,120,249,No,Normal ECG,144,No,0.8,2,Zero,Normal,0
+65,Male,No Pain,135,254,No,Normal ECG,127,No,2.8,1,One,Normal,0
+47,Male,Moderate Pain (Potentially Cardiac),130,253,No,Abnormal but Non-Specific,179,No,0.0,2,Zero,Reversable Defect,1
+59,Male,Severe Pain (Emergency/Cardiac),134,204,No,Abnormal but Non-Specific,162,No,0.8,2,Two,Reversable Defect,0
+38,Male,Severe Pain (Emergency/Cardiac),120,231,No,Abnormal but Non-Specific,182,Yes,3.8,1,Zero,Normal,0
+39,Male,No Pain,118,219,No,Abnormal but Non-Specific,140,No,1.2,1,Zero,Normal,0
+58,Male,No Pain,146,218,No,Abnormal but Non-Specific,105,No,2.0,1,One,Normal,0
+44,Male,Mild Pain (Non-Cardiac/Occasional),120,263,No,Abnormal but Non-Specific,173,No,0.0,2,Zero,Normal,1
+54,Male,No Pain,140,239,No,Abnormal but Non-Specific,160,No,1.2,2,Zero,Reversable Defect,1
+61,Female,No Pain,130,330,No,Normal ECG,169,No,0.0,2,Zero,Reversable Defect,0
+57,Male,No Pain,130,131,No,Abnormal but Non-Specific,115,Yes,1.2,1,One,Normal,0
+54,Male,No Pain,110,206,No,Normal ECG,108,Yes,0.0,1,One,Reversable Defect,0
+42,Male,Moderate Pain (Potentially Cardiac),120,240,Yes,Abnormal but Non-Specific,194,No,0.8,0,Zero,Normal,1
+54,Male,No Pain,124,266,No,Normal ECG,109,Yes,2.2,1,One,Normal,0
+60,Male,No Pain,130,206,No,Normal ECG,132,Yes,2.4,1,Two,Normal,0
+65,Male,No Pain,135,254,No,Normal ECG,127,No,2.8,1,One,Normal,0
+40,Male,No Pain,152,223,No,Abnormal but Non-Specific,181,No,0.0,2,Zero,Normal,0
+51,Female,Moderate Pain (Potentially Cardiac),140,308,No,Normal ECG,142,No,1.5,2,One,Reversable Defect,1
+38,Male,Severe Pain (Emergency/Cardiac),120,231,No,Abnormal but Non-Specific,182,Yes,3.8,1,Zero,Normal,0
+42,Male,Moderate Pain (Potentially Cardiac),130,180,No,Abnormal but Non-Specific,150,No,0.0,2,Zero,Reversable Defect,1
+56,Male,Mild Pain (Non-Cardiac/Occasional),120,240,No,Abnormal but Non-Specific,169,No,0.0,0,Zero,Reversable Defect,1
+43,Male,Moderate Pain (Potentially Cardiac),130,315,No,Abnormal but Non-Specific,162,No,1.9,2,One,Reversable Defect,1
+64,Male,Moderate Pain (Potentially Cardiac),140,335,No,Abnormal but Non-Specific,158,No,0.0,2,Zero,Reversable Defect,0
+53,Male,No Pain,142,226,No,Normal ECG,111,Yes,0.0,2,Zero,Normal,1
+49,Female,Mild Pain (Non-Cardiac/Occasional),134,271,No,Abnormal but Non-Specific,162,No,0.0,1,Zero,Reversable Defect,1
+57,Female,No Pain,140,241,No,Abnormal but Non-Specific,123,Yes,0.2,1,Zero,Normal,0
+52,Female,Moderate Pain (Potentially Cardiac),136,196,No,Normal ECG,169,No,0.1,1,Zero,Reversable Defect,1
+69,Female,Severe Pain (Emergency/Cardiac),140,239,No,Abnormal but Non-Specific,151,No,1.8,2,Two,Reversable Defect,1
+65,Male,No Pain,120,177,No,Abnormal but Non-Specific,140,No,0.4,2,Zero,Normal,1
+66,Female,No Pain,178,228,Yes,Abnormal but Non-Specific,165,Yes,1.0,1,Two,Normal,0
+56,Male,Severe Pain (Emergency/Cardiac),120,193,No,Normal ECG,162,No,1.9,1,Zero,Normal,1
+67,Female,Moderate Pain (Potentially Cardiac),152,277,No,Abnormal but Non-Specific,172,No,0.0,2,One,Reversable Defect,1
+54,Female,Moderate Pain (Potentially Cardiac),160,201,No,Abnormal but Non-Specific,163,No,0.0,2,One,Reversable Defect,1
+70,Male,No Pain,145,174,No,Abnormal but Non-Specific,125,Yes,2.6,0,Zero,Normal,0
+57,Male,No Pain,132,207,No,Abnormal but Non-Specific,168,Yes,0.0,2,Zero,Normal,1
+67,Male,No Pain,160,286,No,Normal ECG,108,Yes,1.5,1,Three,Reversable Defect,0
+62,Female,Moderate Pain (Potentially Cardiac),130,263,No,Abnormal but Non-Specific,97,No,1.2,1,One,Normal,0
+54,Female,Moderate Pain (Potentially Cardiac),135,304,Yes,Abnormal but Non-Specific,170,No,0.0,2,Zero,Reversable Defect,1
+45,Female,No Pain,138,236,No,Normal ECG,152,Yes,0.2,1,Zero,Reversable Defect,1
+53,Female,No Pain,130,264,No,Normal ECG,143,No,0.4,1,Zero,Reversable Defect,1
+62,Male,Moderate Pain (Potentially Cardiac),130,231,No,Abnormal but Non-Specific,146,No,1.8,1,Three,Normal,1
+49,Female,No Pain,130,269,No,Abnormal but Non-Specific,163,No,0.0,2,Zero,Reversable Defect,1
+50,Male,Moderate Pain (Potentially Cardiac),140,233,No,Abnormal but Non-Specific,163,No,0.6,1,One,Normal,0
+65,Female,Moderate Pain (Potentially Cardiac),140,417,Yes,Normal ECG,157,No,0.8,2,One,Reversable Defect,1
+69,Female,Severe Pain (Emergency/Cardiac),140,239,No,Abnormal but Non-Specific,151,No,1.8,2,Two,Reversable Defect,1
+52,Female,Moderate Pain (Potentially Cardiac),136,196,No,Normal ECG,169,No,0.1,1,Zero,Reversable Defect,1
+58,Female,No Pain,100,248,No,Normal ECG,122,No,1.0,1,Zero,Reversable Defect,1
+52,Male,No Pain,108,233,Yes,Abnormal but Non-Specific,147,No,0.1,2,Three,Normal,1
+57,Female,No Pain,140,241,No,Abnormal but Non-Specific,123,Yes,0.2,1,Zero,Normal,0
+44,Female,Moderate Pain (Potentially Cardiac),108,141,No,Abnormal but Non-Specific,175,No,0.6,1,Zero,Reversable Defect,1
+76,Female,Moderate Pain (Potentially Cardiac),140,197,No,Definite Abnormalities,116,No,1.1,1,Zero,Reversable Defect,1
+58,Male,No Pain,128,259,No,Normal ECG,130,Yes,3.0,1,Two,Normal,0
+60,Female,Moderate Pain (Potentially Cardiac),120,178,Yes,Abnormal but Non-Specific,96,No,0.0,2,Zero,Reversable Defect,1
+53,Male,No Pain,140,203,Yes,Normal ECG,155,Yes,3.1,0,Zero,Normal,0
+52,Male,Mild Pain (Non-Cardiac/Occasional),120,325,No,Abnormal but Non-Specific,172,No,0.2,2,Zero,Reversable Defect,1
+38,Male,Moderate Pain (Potentially Cardiac),138,175,No,Abnormal but Non-Specific,173,No,0.0,2,Four,Reversable Defect,1
+52,Male,Moderate Pain (Potentially Cardiac),172,199,Yes,Abnormal but Non-Specific,162,No,0.5,2,Zero,Normal,1
+52,Male,Severe Pain (Emergency/Cardiac),118,186,No,Normal ECG,190,No,0.0,1,Zero,Fixed Defect,1
+51,Male,Moderate Pain (Potentially Cardiac),125,245,Yes,Normal ECG,166,No,2.4,1,Zero,Reversable Defect,1
+43,Male,No Pain,110,211,No,Abnormal but Non-Specific,161,No,0.0,2,Zero,Normal,1
+39,Male,No Pain,118,219,No,Abnormal but Non-Specific,140,No,1.2,1,Zero,Normal,0
+63,Female,No Pain,108,269,No,Abnormal but Non-Specific,169,Yes,1.8,1,Two,Reversable Defect,0
+52,Male,Mild Pain (Non-Cardiac/Occasional),128,205,Yes,Abnormal but Non-Specific,184,No,0.0,2,Zero,Reversable Defect,1
+44,Male,No Pain,110,197,No,Normal ECG,177,No,0.0,2,One,Reversable Defect,0
+45,Male,No Pain,142,309,No,Normal ECG,147,Yes,0.0,1,Three,Normal,0
+57,Male,No Pain,140,192,No,Abnormal but Non-Specific,148,No,0.4,1,Zero,Fixed Defect,1
+39,Male,No Pain,118,219,No,Abnormal but Non-Specific,140,No,1.2,1,Zero,Normal,0
+67,Female,No Pain,106,223,No,Abnormal but Non-Specific,142,No,0.3,2,Two,Reversable Defect,1
+64,Male,No Pain,128,263,No,Abnormal but Non-Specific,105,Yes,0.2,1,One,Normal,1
+59,Male,No Pain,135,234,No,Abnormal but Non-Specific,161,No,0.5,1,Zero,Normal,1
+62,Male,Moderate Pain (Potentially Cardiac),130,231,No,Abnormal but Non-Specific,146,No,1.8,1,Three,Normal,1
+55,Female,No Pain,180,327,No,Definite Abnormalities,117,Yes,3.4,1,Zero,Reversable Defect,0
+57,Male,Mild Pain (Non-Cardiac/Occasional),154,232,No,Normal ECG,164,No,0.0,2,One,Reversable Defect,0
+60,Male,No Pain,140,293,No,Normal ECG,170,No,1.2,1,Two,Normal,0
+71,Female,Mild Pain (Non-Cardiac/Occasional),160,302,No,Abnormal but Non-Specific,162,No,0.4,2,Two,Reversable Defect,1
+56,Male,Mild Pain (Non-Cardiac/Occasional),120,236,No,Abnormal but Non-Specific,178,No,0.8,2,Zero,Reversable Defect,1
+60,Male,No Pain,117,230,Yes,Abnormal but Non-Specific,160,Yes,1.4,2,Two,Normal,0
+50,Female,No Pain,110,254,No,Normal ECG,159,No,0.0,2,Zero,Reversable Defect,1
+43,Male,No Pain,132,247,Yes,Normal ECG,143,Yes,0.1,1,Four,Normal,0
+59,Male,No Pain,110,239,No,Normal ECG,142,Yes,1.2,1,One,Normal,0
+44,Male,Mild Pain (Non-Cardiac/Occasional),120,263,No,Abnormal but Non-Specific,173,No,0.0,2,Zero,Normal,1
+56,Female,No Pain,134,409,No,Normal ECG,150,Yes,1.9,1,Two,Normal,0
+54,Male,No Pain,120,188,No,Abnormal but Non-Specific,113,No,1.4,1,One,Normal,0
+42,Male,No Pain,136,315,No,Abnormal but Non-Specific,125,Yes,1.8,1,Zero,Fixed Defect,0
+67,Male,No Pain,125,254,Yes,Abnormal but Non-Specific,163,No,0.2,1,Two,Normal,0
+64,Male,No Pain,145,212,No,Normal ECG,132,No,2.0,1,Two,Fixed Defect,0
+42,Male,No Pain,140,226,No,Abnormal but Non-Specific,178,No,0.0,2,Zero,Reversable Defect,1
+66,Male,No Pain,112,212,No,Normal ECG,132,Yes,0.1,2,One,Reversable Defect,0
+52,Male,No Pain,108,233,Yes,Abnormal but Non-Specific,147,No,0.1,2,Three,Normal,1
+51,Female,Moderate Pain (Potentially Cardiac),140,308,No,Normal ECG,142,No,1.5,2,One,Reversable Defect,1
+55,Female,No Pain,128,205,No,Definite Abnormalities,130,Yes,2.0,1,One,Normal,0
+58,Male,Moderate Pain (Potentially Cardiac),140,211,Yes,Normal ECG,165,No,0.0,2,Zero,Reversable Defect,1
+56,Male,Severe Pain (Emergency/Cardiac),120,193,No,Normal ECG,162,No,1.9,1,Zero,Normal,1
+42,Male,Mild Pain (Non-Cardiac/Occasional),120,295,No,Abnormal but Non-Specific,162,No,0.0,2,Zero,Reversable Defect,1
+40,Male,No Pain,152,223,No,Abnormal but Non-Specific,181,No,0.0,2,Zero,Normal,0
+51,Male,No Pain,140,299,No,Abnormal but Non-Specific,173,Yes,1.6,2,Zero,Normal,0
+45,Male,Mild Pain (Non-Cardiac/Occasional),128,308,No,Normal ECG,170,No,0.0,2,Zero,Reversable Defect,1
+48,Male,Mild Pain (Non-Cardiac/Occasional),110,229,No,Abnormal but Non-Specific,168,No,1.0,0,Zero,Normal,0
+58,Male,No Pain,114,318,No,Definite Abnormalities,140,No,4.4,0,Three,Fixed Defect,0
+44,Female,Moderate Pain (Potentially Cardiac),108,141,No,Abnormal but Non-Specific,175,No,0.6,1,Zero,Reversable Defect,1
+58,Male,No Pain,128,216,No,Normal ECG,131,Yes,2.2,1,Three,Normal,0
+65,Male,Severe Pain (Emergency/Cardiac),138,282,Yes,Normal ECG,174,No,1.4,1,One,Reversable Defect,0
+53,Male,No Pain,123,282,No,Abnormal but Non-Specific,95,Yes,2.0,1,Two,Normal,0
+41,Male,No Pain,110,172,No,Normal ECG,158,No,0.0,2,Zero,Normal,0
+47,Male,No Pain,112,204,No,Abnormal but Non-Specific,143,No,0.1,2,Zero,Reversable Defect,1
+59,Male,Mild Pain (Non-Cardiac/Occasional),140,221,No,Abnormal but Non-Specific,164,Yes,0.0,2,Zero,Reversable Defect,1
+60,Male,No Pain,125,258,No,Normal ECG,141,Yes,2.8,1,One,Normal,0
+47,Male,No Pain,110,275,No,Normal ECG,118,Yes,1.0,1,One,Reversable Defect,0
+50,Female,No Pain,110,254,No,Normal ECG,159,No,0.0,2,Zero,Reversable Defect,1
+54,Male,No Pain,120,188,No,Abnormal but Non-Specific,113,No,1.4,1,One,Normal,0

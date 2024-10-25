@@ -104,10 +104,13 @@
             "options": null,
             "desc": "Normal: <200 mg/dL"
         },
-        "avg_glucose_level": {
-            "label": "Average Glucose Level",
-            "options": null,
-            "desc": "Normal: 70-99 mg/dL"
+        "fbs": {
+            "label": "Fasting Blood Sugar > 120mg",
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "desc": null
         },
         "restecg": {
             "label": "Resting ECG Results",

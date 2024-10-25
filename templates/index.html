@@ -162,9 +162,9 @@
                 <label for="{{feature_name}}"> {{feature['label']}} </label>
                 {% if not feature['options'] %}
                   {% if feature['desc'] %}
-                    <input type="text" name="{{feature_name}}" placeholder="{{ feature['desc'] }}" required />
+                    <input type="number" step="0.01" name="{{feature_name}}" placeholder="{{ feature['desc'] }}" required />
                   {% else %}
-                    <input type="text" name="{{feature_name}}" required />
+                    <input type="number" step="0.01" name="{{feature_name}}" required />
                   {% endif %}
                 {% else %}
                 <select name="{{feature_name}}" id="{{feature_name}}" required>

@@ -32,7 +32,8 @@ def save_features(feature_df, target):
     'oldpeak': 'ST Depression',
     'slope': 'Slope of Peak Exercise',
     'ca': 'Vessels colored by flourosopy',
-    'thal': 'Thalassemia Type'
+    'thal': 'Thalassemia Type',
+    'fbs': 'Fasting Blood Sugar > 120mg'
     }
     
     custom_desc = {
