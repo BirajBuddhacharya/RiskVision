@@ -11,124 +11,6 @@ def save_features(feature_df, target):
             target: name of disease
         returns: None
     """
-    def custom_data(): 
-        """ 
-            Custom data to be set for front end
-            args: None
-            return: nested dict of custom_data with attributes as label 
-        """
-        custom_data = {
-            # Stroke dataset
-            'gender': {
-                'label': 'Gender',
-                'description': 'Biological gender of the individual'
-            },
-            'age': {
-                'label': 'Age',
-                'description': 'Age in years'
-            },
-            'hypertension': {
-                'label': 'Hypertension',
-                'description': 'History of hypertension (high blood pressure)'
-            },
-            'heart_disease': {
-                'label': 'Heart Disease',
-                'description': 'Presence of heart disease'
-            },
-            'ever_married': {
-                'label': 'Ever Married',
-                'description': 'Marital status of the individual'
-            },
-            'work_type': {
-                'label': 'Work Type',
-                'description': 'Type of occupation'
-            },
-            'Residence_type': {
-                'label': 'Residence Type',
-                'description': 'Type of residence (urban or rural)'
-            },
-            'avg_glucose_level': {
-                'label': 'Average Glucose Level',
-                'description': 'Normal: 70-99 mg/dL'
-            },
-            'bmi': {
-                'label': ('Height', 'Weight'),
-                'description': ('Height', 'Weight'),
-                'dependents': ['height', 'weight'],
-                'formula': 'weight / height**2'
-            },
-            'smoking_status': {
-                'label': 'Smoking Status',
-                'description': 'Smoking habits'
-            },
-            
-            # Diabetes dataset
-            'Pregnancies': {
-                'label': 'Number of Pregnancies',
-                'description': 'Count of pregnancies'
-            },
-            'BloodPressure': {
-                'label': 'Systolic Blood Pressure',
-                'description': 'Normal: 120 mm Hg'
-            },
-            'SkinThickness': {
-                'label': 'Triceps skin fold Thickness',
-                'description': 'Normal: 10-20 mm'
-            },
-            'Insulin': {
-                'label': 'Insulin Level',
-                'description': 'Normal: 16-166 mIU/L'
-            },
-            'DiabetesPedigreeFunction': {
-                'label': 'Diabetes Pedigree Function',
-                'description': 'Family history influence factor'
-            },
-            
-            # Heart Disease dataset
-            'cp': {
-                'label': 'Chest Pain Type',
-                'description': 'Type of chest pain experienced'
-            },
-            'chol': {
-                'label': 'Cholesterol Level',
-                'description': 'Normal: <200 mg/dL'
-            },
-            'restecg': {
-                'label': 'Resting ECG Results',
-                'description': 'Electrocardiographic results at rest'
-            },
-            'thalach': {
-                'label': 'Maximum Heart Rate',
-                'description': 'Normal: 60-100 bpm at rest'
-            },
-            'exang': {
-                'label': 'Exercise Induced Angina',
-                'description': 'Angina caused by exercise'
-            },
-            'oldpeak': {
-                'label': 'ST Depression',
-                'description': 'Normal: ~0 mm'
-            },
-            'slope': {
-                'label': 'Slope of Peak Exercise',
-                'description': 'Normal: < 1'
-            },
-            'ca': {
-                'label': 'Vessels colored by fluoroscopy',
-                'description': 'Number of major vessels colored by fluoroscopy'
-            },
-            'thal': {
-                'label': 'Thalassemia Type',
-                'description': 'Type of thalassemia disorder'
-            },
-            'fbs': {
-                'label': ('Fasting Blood Sugar > 120mg'),
-                'description': ['Normal: 70-100 mg/dl'],
-                'dependents': ['avg_glucose_level'],
-                'formula': '"Yes" if avg_glucose_level > 120 else "No"'
-            }
-        }
-        return custom_data
     
     def save_features_config(features_config, local_features_dict):
         """
@@ -173,7 +55,7 @@ def save_features(feature_df, target):
         return
         
     # retriving custom data of attributes 
-    custom_data = custom_data()    
+    from config.features_metadata import custom_data
         
     # empty dict to process columns and fill in option and label for each feature
     local_features_dict = {}

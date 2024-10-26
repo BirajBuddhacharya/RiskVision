@@ -1,8 +1,9 @@
-from flask import Flask, request, render_template, session
+from flask import Flask, request, render_template, session, redirect
 import pandas as pd
 from utils import predict
 from utils.modules import load_features
 import os 
+import subprocess
 
 # Initializing Flask app
 app = Flask(__name__)
@@ -82,21 +83,39 @@ def predictRisk():
             
         
         # handling derived attributes 
+        def factor(age):
+            """ age factor: calculate factor of age based on age range"""
+            if age < 25:
+                return 0.0
+            elif 25 <= age < 35:
+                return 0.5
+            elif 35 <= age < 45:
+                return 1.0
+            elif 45 <= age < 55:
+                return 1.5
+            elif 55 <= age < 65:
+                return 2.0
+            elif 65 <= age < 75:
+                return 2.5
+            else:  # 75 and older
+                return 3.0
+
         featuers_config = load_features()
         for disease, disease_data in featuers_config.items(): 
             for feature, feature_data in disease_data.items(): 
                 if feature_data.get('formula', None): 
                     for dependent in feature_data['dependents']: 
                         feature_data['formula'] = feature_data['formula'].replace(dependent, str(data.get(dependent)))
-                
-                    data[feature] = eval(feature_data['formula'])
-                  
+
+                    try: 
+                        data[feature] = eval(feature_data['formula'])
+                    except TypeError: # skipping if data for formula not found
+                        pass
+                                 
         # dataframe
         print("Making pandas dataframe of collected data")
         df = pd.DataFrame([data])
         
-        # Debugging
-        print(df)
         # returning data frame
         return df
 
@@ -104,15 +123,42 @@ def predictRisk():
     df = collect_data(request.form)
     
     # predicting stroke risk 
-    diseases_risk = predict.predict(df, session['selectedDiseases'])
+    try: 
+        diseases_risk = predict.predict(df, session['selectedDiseases'])
+    except KeyError: # handling incorrect session
+        return "Error: Session vairable not accessible pls refresh the page"
     
     # Displaying result
     print("Displaying results")
     
-    # Debugging
-    print(diseases_risk)
-    
     return render_template('predictRisk.html', diseases_risk = diseases_risk)
+
+@app.route('/runStreamlit')
+def runStreamlit():
+    # changing directory for proper relative file path
+    try: 
+        os.chdir('streamlit')
+    except FileNotFoundError: 
+        # passing if already changed
+        pass
+    
+    # Define the command to run the Streamlit app on port 8501
+    command = [
+        "streamlit", 
+        "run", 
+        "app.py", 
+    ]
+
+    # Execute the command
+    
+    # Start the Streamlit app
+    process = subprocess.Popen(command)
+
+    if process.poll() is None:
+        print("Streamlit app is running.")
+    
+    os.chdir('..')
+    return redirect('/')
 
 
 if __name__  == '__main__': 

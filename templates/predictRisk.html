@@ -3,7 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Prediction</title>
+    <style>
+      .fixed-button {
+        position: fixed;
+        bottom: 25px; /* Distance from the bottom */
+        right: 25px; /* Distance from the right */
+        padding: 10px 20px;
+        background-color: #6f42c1; /* Purple button color */
+        color: white; /* Text color */
+        border: none;
+        border-radius: 10px; /* Rounded corners */
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        font-size: 16px; /* Font size */
+        z-index: 1000; /* Ensure button is above other elements */
+    }
+
+    .fixed-button:hover {
+        background-color: #5a34a1; /* Darker purple shade on hover */
+    }
+
+    </style>
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename = 'css/global.css')}}"
@@ -25,5 +46,7 @@
         </div>
         {% endfor %}
     </main>
+    <!-- Run streamlit button -->
+    <button class="fixed-button" onclick="window.location.href='/runStreamlit';">Start Streamlit</button>
   </body>
 </html>

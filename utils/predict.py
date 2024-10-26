@@ -55,9 +55,6 @@ def predict(df, selectedDiseases):
         # loading diseases features config file
         diseases = load_features()
         
-        # Debugging
-        print("Selected Diseases in predict: ", selectedDiseases)
-        
         # selecting only user selected disease
         diseases = {key: value for key, value in diseases.items() if key in selectedDiseases}
         
@@ -70,10 +67,6 @@ def predict(df, selectedDiseases):
             with open(f'models/{disease_name}/{disease_name}.pkl', 'rb') as fp: 
                 # loading model and getting features
                 _, feature_name = pickle.load(fp)
-                
-                # Debugging
-                print(feature_name) 
-                print(disease)
                 
                 # selecting features used to train
                 disease = {key: value for key, value in disease.items() if key in feature_name}

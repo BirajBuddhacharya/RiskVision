@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Select diseases</title>
     <link rel="stylesheet" href= "{{ url_for('static', filename = 'css/global.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/diseasesInput.css') }}">
     <style>
@@ -27,7 +27,7 @@
 <body>
     <main class='card-wrapper'>
         <section class='form-wrapper'>
-            <form action="/questionere" method="POST">
+            <form onsubmit="return checkForm()" action="/questionere" method="POST">
                 <h1>SELECT DISEASES</h1>
                 {% for disease in diseases %}
                 <div class="disease-option-wrapper" data-disease="{{ disease }}">
@@ -37,7 +37,26 @@
                 {% endfor %}
                 <input type="submit" value="Submit">
             </form>
+            <script>
+                function checkForm() {
+                const hiddenInputs = document.getElementsByName('selectedDiseases[]');
+                let isChecked = false; // Flag to check if at least one checkbox is checked
 
+                for (let i = 0; i < hiddenInputs.length; i++) {
+                    if (hiddenInputs[i].checked) {
+                        isChecked = true; // Set the flag to true if any checkbox is checked
+                        break; // Exit the loop
+                    }
+                }
+
+                if (!isChecked) {
+                    alert('Select one of the diseases');
+                    return false; // Prevent form submission
+                }
+
+                return true; // Allow form submission if at least one checkbox is checked
+            }
+            </script>
             <script>
                 // Get all divs with class 'disease-option-wrapper'
                 const diseaseDivs = document.querySelectorAll('.disease-option-wrapper');

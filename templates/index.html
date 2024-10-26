@@ -142,7 +142,15 @@
       input[type="file"]::-webkit-file-upload-button:hover {
         background-color: black;
       }
-
+      input[type='submit'] {
+        /* Other styles for your submit button */
+        transition: background-color 0.1s ease, color 0.3s ease; /* Add transition for smooth effect */
+      }
+      input[type='submit']:hover{
+        background-color: black;
+        color:white;
+        cursor: pointer;
+      }
       @media only screen and (max-width: 767px) {
         main {
           width: 100%;

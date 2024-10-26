@@ -12,7 +12,7 @@
             "dependents": null
         },
         "age": {
-            "label": "Age",
+            "label": "Age (years)",
             "options": null,
             "desc": "Age in years",
             "formula": null,
@@ -62,7 +62,7 @@
             "dependents": null
         },
         "avg_glucose_level": {
-            "label": "Average Glucose Level",
+            "label": "Average Glucose Level (mg/dL)",
             "options": null,
             "desc": "Normal: 70-99 mg/dL",
             "formula": null,
@@ -70,13 +70,13 @@
         },
         "bmi": {
             "label": [
-                "Height",
-                "Weight"
+                "Height (m)",
+                "Weight (kg)"
             ],
             "options": null,
             "desc": [
-                "Height",
-                "Weight"
+                "Height (m)",
+                "Weight (kg)"
             ],
             "formula": "weight / height**2",
             "dependents": [
@@ -97,19 +97,19 @@
             "dependents": null
         },
         "height": {
-            "label": "Height",
-            "desc": "Height",
+            "label": "Height (m)",
+            "desc": "Height (m)",
             "dependent": "bmi"
         },
         "weight": {
-            "label": "Weight",
-            "desc": "Weight",
+            "label": "Weight (kg)",
+            "desc": "Weight (kg)",
             "dependent": "bmi"
         }
     },
     "heart_disease": {
         "age": {
-            "label": "Age",
+            "label": "Age (years)",
             "options": null,
             "desc": "Age in years",
             "formula": null,
@@ -138,27 +138,29 @@
             "dependents": null
         },
         "BloodPressure": {
-            "label": "Systolic Blood Pressure",
+            "label": "Systolic Blood Pressure (mm Hg)",
             "options": null,
             "desc": "Normal: 120 mm Hg",
             "formula": null,
             "dependents": null
         },
         "chol": {
-            "label": "Cholesterol Level",
+            "label": "Cholesterol Level (mg/dL)",
             "options": null,
             "desc": "Normal: <200 mg/dL",
             "formula": null,
             "dependents": null
         },
         "fbs": {
-            "label": "Fasting Blood Sugar > 120mg",
+            "label": [
+                "Average Glucose Level"
+            ],
             "options": [
                 "No",
                 "Yes"
             ],
             "desc": [
-                "Normal: 70-100 mg/dl"
+                "Normal: 70-100 mg/dL"
             ],
             "formula": "\"Yes\" if avg_glucose_level > 120 else \"No\"",
             "dependents": [
@@ -177,7 +179,7 @@
             "dependents": null
         },
         "thalach": {
-            "label": "Maximum Heart Rate",
+            "label": "Maximum Heart Rate (bpm)",
             "options": null,
             "desc": "Normal: 60-100 bpm at rest",
             "formula": null,
@@ -194,7 +196,7 @@
             "dependents": null
         },
         "oldpeak": {
-            "label": "ST Depression",
+            "label": "ST Depression (mm)",
             "options": null,
             "desc": "Normal: ~0 mm",
             "formula": null,
@@ -208,7 +210,7 @@
             "dependents": null
         },
         "ca": {
-            "label": "Vessels colored by fluoroscopy",
+            "label": "Vessels Colored by Fluoroscopy",
             "options": [
                 "Two",
                 "Zero",
@@ -232,8 +234,8 @@
             "dependents": null
         },
         "avg_glucose_level": {
-            "label": "F",
-            "desc": "Normal: 70-100 mg/dl",
+            "label": "Average Glucose Level",
+            "desc": "Normal: 70-100 mg/dL",
             "dependent": "fbs"
         }
     },
@@ -246,28 +248,28 @@
             "dependents": null
         },
         "avg_glucose_level": {
-            "label": "Average Glucose Level",
+            "label": "Average Glucose Level (mg/dL)",
             "options": null,
             "desc": "Normal: 70-99 mg/dL",
             "formula": null,
             "dependents": null
         },
         "BloodPressure": {
-            "label": "Systolic Blood Pressure",
+            "label": "Systolic Blood Pressure (mm Hg)",
             "options": null,
             "desc": "Normal: 120 mm Hg",
             "formula": null,
             "dependents": null
         },
         "SkinThickness": {
-            "label": "Triceps skin fold Thickness",
+            "label": "Triceps Skin Fold Thickness (mm)",
             "options": null,
             "desc": "Normal: 10-20 mm",
             "formula": null,
             "dependents": null
         },
         "Insulin": {
-            "label": "Insulin Level",
+            "label": "Insulin Level (mIU/L)",
             "options": null,
             "desc": "Normal: 16-166 mIU/L",
             "formula": null,
@@ -275,13 +277,13 @@
         },
         "bmi": {
             "label": [
-                "Height",
-                "Weight"
+                "Height (m)",
+                "Weight (kg)"
             ],
             "options": null,
             "desc": [
-                "Height",
-                "Weight"
+                "Height (m)",
+                "Weight (kg)"
             ],
             "formula": "weight / height**2",
             "dependents": [
@@ -290,28 +292,50 @@
             ]
         },
         "DiabetesPedigreeFunction": {
-            "label": "Diabetes Pedigree Function",
+            "label": [
+                "1st\u00b0 Relative With Diabetes",
+                "2nd\u00b0 Relative With Diabetes",
+                "Age (years)"
+            ],
             "options": null,
-            "desc": "Family history influence factor",
-            "formula": null,
-            "dependents": null
+            "desc": [
+                "parents, siblings",
+                "grandparents, aunts, uncles",
+                "Age in years"
+            ],
+            "formula": "0.5*(firstDegreeRelative+SecondDegreeRelative) + 0.3*(1*firstDegreeRelative+2*SecondDegreeRelative) + 0.2*factor(age) + 0.1",
+            "dependents": [
+                "firstDegreeRelative",
+                "SecondDegreeRelative",
+                "age"
+            ]
         },
         "age": {
-            "label": "Age",
-            "options": null,
+            "label": "Age (years)",
             "desc": "Age in years",
+            "dependent": "DiabetesPedigreeFunction",
             "formula": null,
             "dependents": null
         },
         "height": {
-            "label": "Height",
-            "desc": "Height",
+            "label": "Height (m)",
+            "desc": "Height (m)",
             "dependent": "bmi"
         },
         "weight": {
-            "label": "Weight",
-            "desc": "Weight",
+            "label": "Weight (kg)",
+            "desc": "Weight (kg)",
             "dependent": "bmi"
+        },
+        "firstDegreeRelative": {
+            "label": "1st\u00b0 Relative With Diabetes",
+            "desc": "parents, siblings",
+            "dependent": "DiabetesPedigreeFunction"
+        },
+        "SecondDegreeRelative": {
+            "label": "2nd\u00b0 Relative With Diabetes",
+            "desc": "grandparents, aunts, uncles",
+            "dependent": "DiabetesPedigreeFunction"
         }
     }
 }
