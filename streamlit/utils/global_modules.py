@@ -8,6 +8,7 @@ import json
 import sys; sys.path.append('..')  # Appending root directory of project for module import 
 import os
 from config.config import features_config_loc
+import pickle
 
 def load_features(): 
     # list of available diseases
@@ -62,6 +63,11 @@ def feature_selection(diseases):
         
         # Loading available features from features config file
         available_features = features[disease].keys()
+        
+        # Filtering features used to train model 
+        with open(f'../models/{disease}/{disease}.pkl', 'rb') as fp: 
+            _, model_features = pickle.load(fp)
+        available_features = [feature for feature in available_features if feature in model_features]
         
         # Getting user-wanted features for each disease
         user_chosen_features[disease] = st.sidebar.multiselect("Select features to include: ", available_features)

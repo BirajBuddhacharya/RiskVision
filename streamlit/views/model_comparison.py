@@ -3,6 +3,7 @@ import streamlit as st
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, f1_score
 from utils.global_modules import model_selection, disease_selection, feature_selection, encode
+import matplotlib.pyplot as plt
         
 def model_evaluate(models, diseases, features): 
     def train_evaluate(model, X, y):  
@@ -38,16 +39,29 @@ def model_evaluate(models, diseases, features):
         X = encode(df[features[disease]])[0] # returns tuple of transformed data encoder and scaler
         y = df[disease]
         
-        # Creating columns for each model
-        columns = st.columns(len(models))
-        
+        store_df = {} # dict to store metrics of each model 
         # Evaluating each model
-        for col, model in zip(columns, models): 
-            col.write(f"**{model.__class__.__name__}**")  # Displaying model name
-            metrics = train_evaluate(model, X, y)
-            
-            for key, value in metrics.items():  # Use items() to iterate key-value pairs
-                col.write(f"**{key}**: {value}")  # Use Markdown for better formatting
+        for model in models: 
+            store_df[model.__class__.__name__] = train_evaluate(model, X, y)
+
+        # Making dataframe of collected data
+        metrics_df = pd.DataFrame(store_df).T
+        
+        # Apply dark mode style
+        plt.style.use('dark_background')
+        
+        # Plotting the bar graph
+        metrics_df.plot(kind='bar', figsize=(8, 5), color=['#1f77b4', '#ff7f0e', '#2ca02c'])
+        plt.title('Model Performance Comparison', color='white')
+        plt.xlabel('Model', color='white')
+        plt.ylabel('Scores', color='white')
+        plt.xticks(rotation=0, color='white')
+        plt.yticks(color='white')
+        plt.legend(title='Metrics', facecolor='black', edgecolor='white', labelcolor='white')
+        plt.grid(axis='y', color='gray', linestyle='--', linewidth=0.5)
+        
+        # Displaying into streamlit
+        st.pyplot(plt)
     
 def show(): 
     st.sidebar.header("Model Comparison")
