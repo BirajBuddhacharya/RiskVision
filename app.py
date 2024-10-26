@@ -79,11 +79,24 @@ def predictRisk():
                     data[key] = float(value)
                 except ValueError: # leaving as str if both int and float failed
                     data[key] = value
+            
+        
+        # handling derived attributes 
+        featuers_config = load_features()
+        for disease, disease_data in featuers_config.items(): 
+            for feature, feature_data in disease_data.items(): 
+                if feature_data.get('formula', None): 
+                    for dependent in feature_data['dependents']: 
+                        feature_data['formula'] = feature_data['formula'].replace(dependent, str(data.get(dependent)))
                 
+                    data[feature] = eval(feature_data['formula'])
+                  
         # dataframe
         print("Making pandas dataframe of collected data")
         df = pd.DataFrame([data])
         
+        # Debugging
+        print(df)
         # returning data frame
         return df
 
@@ -95,6 +108,9 @@ def predictRisk():
     
     # Displaying result
     print("Displaying results")
+    
+    # Debugging
+    print(diseases_risk)
     
     return render_template('predictRisk.html', diseases_risk = diseases_risk)
 

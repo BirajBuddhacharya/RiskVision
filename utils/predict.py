@@ -66,13 +66,25 @@ def predict(df, selectedDiseases):
         
         # predicting each disease in features config file
         for disease_name, disease in diseases.items(): 
+            # selecting features used for model training 
+            with open(f'models/{disease_name}/{disease_name}.pkl', 'rb') as fp: 
+                # loading model and getting features
+                _, feature_name = pickle.load(fp)
+                
+                # Debugging
+                print(feature_name) 
+                print(disease)
+                
+                # selecting features used to train
+                disease = {key: value for key, value in disease.items() if key in feature_name}
+                
             # processing data using standard scaler and OneHotEncoder
             print(f"processing data for {disease_name}")
             processed_disease = process(df[disease.keys()], disease_name)
             
             # predicting
             with open(f'models/{disease_name}/{disease_name}.pkl', 'rb') as fp: 
-                model = pickle.load(fp)
+                model, _ = pickle.load(fp)
             prediction = model.predict_proba(processed_disease)[:,1] * 100 # turning to percentag
 
             # collecting prediction 

@@ -7,12 +7,16 @@
                 "Female",
                 "Other"
             ],
-            "desc": null
+            "desc": "Biological gender of the individual",
+            "formula": null,
+            "dependents": null
         },
         "age": {
             "label": "Age",
             "options": null,
-            "desc": null
+            "desc": "Age in years",
+            "formula": null,
+            "dependents": null
         },
         "hypertension": {
             "label": "Hypertension",
@@ -20,7 +24,9 @@
                 "No",
                 "Yes"
             ],
-            "desc": null
+            "desc": "History of hypertension (high blood pressure)",
+            "formula": null,
+            "dependents": null
         },
         "ever_married": {
             "label": "Ever Married",
@@ -28,7 +34,9 @@
                 "Yes",
                 "No"
             ],
-            "desc": null
+            "desc": "Marital status of the individual",
+            "formula": null,
+            "dependents": null
         },
         "work_type": {
             "label": "Work Type",
@@ -39,7 +47,9 @@
                 "children",
                 "Never_worked"
             ],
-            "desc": null
+            "desc": "Type of occupation",
+            "formula": null,
+            "dependents": null
         },
         "Residence_type": {
             "label": "Residence Type",
@@ -47,17 +57,32 @@
                 "Urban",
                 "Rural"
             ],
-            "desc": null
+            "desc": "Type of residence (urban or rural)",
+            "formula": null,
+            "dependents": null
         },
         "avg_glucose_level": {
             "label": "Average Glucose Level",
             "options": null,
-            "desc": "Normal: 70-99 mg/dL"
+            "desc": "Normal: 70-99 mg/dL",
+            "formula": null,
+            "dependents": null
         },
         "bmi": {
-            "label": "BMI",
+            "label": [
+                "Height",
+                "Weight"
+            ],
             "options": null,
-            "desc": "Normal: 18.5 - 24.9 kg/m\u00b2"
+            "desc": [
+                "Height",
+                "Weight"
+            ],
+            "formula": "weight / height**2",
+            "dependents": [
+                "height",
+                "weight"
+            ]
         },
         "smoking_status": {
             "label": "Smoking Status",
@@ -67,14 +92,28 @@
                 "smokes",
                 "Unknown"
             ],
-            "desc": null
+            "desc": "Smoking habits",
+            "formula": null,
+            "dependents": null
+        },
+        "height": {
+            "label": "Height",
+            "desc": "Height",
+            "dependent": "bmi"
+        },
+        "weight": {
+            "label": "Weight",
+            "desc": "Weight",
+            "dependent": "bmi"
         }
     },
     "heart_disease": {
         "age": {
             "label": "Age",
             "options": null,
-            "desc": null
+            "desc": "Age in years",
+            "formula": null,
+            "dependents": null
         },
         "gender": {
             "label": "Gender",
@@ -82,7 +121,9 @@
                 "Male",
                 "Female"
             ],
-            "desc": null
+            "desc": "Biological gender of the individual",
+            "formula": null,
+            "dependents": null
         },
         "cp": {
             "label": "Chest Pain Type",
@@ -92,17 +133,23 @@
                 "Moderate Pain (Potentially Cardiac)",
                 "Severe Pain (Emergency/Cardiac)"
             ],
-            "desc": null
+            "desc": "Type of chest pain experienced",
+            "formula": null,
+            "dependents": null
         },
         "BloodPressure": {
             "label": "Systolic Blood Pressure",
             "options": null,
-            "desc": "Normal: 120 mm Hg"
+            "desc": "Normal: 120 mm Hg",
+            "formula": null,
+            "dependents": null
         },
         "chol": {
             "label": "Cholesterol Level",
             "options": null,
-            "desc": "Normal: <200 mg/dL"
+            "desc": "Normal: <200 mg/dL",
+            "formula": null,
+            "dependents": null
         },
         "fbs": {
             "label": "Fasting Blood Sugar > 120mg",
@@ -110,7 +157,13 @@
                 "No",
                 "Yes"
             ],
-            "desc": null
+            "desc": [
+                "Normal: 70-100 mg/dl"
+            ],
+            "formula": "\"Yes\" if avg_glucose_level > 120 else \"No\"",
+            "dependents": [
+                "avg_glucose_level"
+            ]
         },
         "restecg": {
             "label": "Resting ECG Results",
@@ -119,12 +172,16 @@
                 "Normal ECG",
                 "Definite Abnormalities"
             ],
-            "desc": null
+            "desc": "Electrocardiographic results at rest",
+            "formula": null,
+            "dependents": null
         },
         "thalach": {
             "label": "Maximum Heart Rate",
             "options": null,
-            "desc": "Normal: 60-100 bpm at rest"
+            "desc": "Normal: 60-100 bpm at rest",
+            "formula": null,
+            "dependents": null
         },
         "exang": {
             "label": "Exercise Induced Angina",
@@ -132,20 +189,26 @@
                 "No",
                 "Yes"
             ],
-            "desc": null
+            "desc": "Angina caused by exercise",
+            "formula": null,
+            "dependents": null
         },
         "oldpeak": {
             "label": "ST Depression",
             "options": null,
-            "desc": "Normal: ~0 mm"
+            "desc": "Normal: ~0 mm",
+            "formula": null,
+            "dependents": null
         },
         "slope": {
             "label": "Slope of Peak Exercise",
             "options": null,
-            "desc": "Normal: < 1"
+            "desc": "Normal: < 1",
+            "formula": null,
+            "dependents": null
         },
         "ca": {
-            "label": "Vessels colored by flourosopy",
+            "label": "Vessels colored by fluoroscopy",
             "options": [
                 "Two",
                 "Zero",
@@ -153,7 +216,9 @@
                 "Three",
                 "Four"
             ],
-            "desc": null
+            "desc": "Number of major vessels colored by fluoroscopy",
+            "formula": null,
+            "dependents": null
         },
         "thal": {
             "label": "Thalassemia Type",
@@ -162,49 +227,91 @@
                 "Reversable Defect",
                 "Fixed Defect"
             ],
-            "desc": null
+            "desc": "Type of thalassemia disorder",
+            "formula": null,
+            "dependents": null
+        },
+        "avg_glucose_level": {
+            "label": "F",
+            "desc": "Normal: 70-100 mg/dl",
+            "dependent": "fbs"
         }
     },
     "diabetes": {
         "Pregnancies": {
             "label": "Number of Pregnancies",
             "options": null,
-            "desc": null
+            "desc": "Count of pregnancies",
+            "formula": null,
+            "dependents": null
         },
         "avg_glucose_level": {
             "label": "Average Glucose Level",
             "options": null,
-            "desc": "Normal: 70-99 mg/dL"
+            "desc": "Normal: 70-99 mg/dL",
+            "formula": null,
+            "dependents": null
         },
         "BloodPressure": {
             "label": "Systolic Blood Pressure",
             "options": null,
-            "desc": "Normal: 120 mm Hg"
+            "desc": "Normal: 120 mm Hg",
+            "formula": null,
+            "dependents": null
         },
         "SkinThickness": {
             "label": "Triceps skin fold Thickness",
             "options": null,
-            "desc": "Normal: 10-20 mm"
+            "desc": "Normal: 10-20 mm",
+            "formula": null,
+            "dependents": null
         },
         "Insulin": {
             "label": "Insulin Level",
             "options": null,
-            "desc": "Normal: 16-166 mIU/L"
+            "desc": "Normal: 16-166 mIU/L",
+            "formula": null,
+            "dependents": null
         },
         "bmi": {
-            "label": "BMI",
+            "label": [
+                "Height",
+                "Weight"
+            ],
             "options": null,
-            "desc": "Normal: 18.5 - 24.9 kg/m\u00b2"
+            "desc": [
+                "Height",
+                "Weight"
+            ],
+            "formula": "weight / height**2",
+            "dependents": [
+                "height",
+                "weight"
+            ]
         },
         "DiabetesPedigreeFunction": {
-            "label": "Diabetes Pedigree Function ",
+            "label": "Diabetes Pedigree Function",
             "options": null,
-            "desc": null
+            "desc": "Family history influence factor",
+            "formula": null,
+            "dependents": null
         },
         "age": {
             "label": "Age",
             "options": null,
-            "desc": null
+            "desc": "Age in years",
+            "formula": null,
+            "dependents": null
+        },
+        "height": {
+            "label": "Height",
+            "desc": "Height",
+            "dependent": "bmi"
+        },
+        "weight": {
+            "label": "Weight",
+            "desc": "Weight",
+            "dependent": "bmi"
         }
     }
 }

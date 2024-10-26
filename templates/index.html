@@ -46,6 +46,7 @@
         flex-direction: column;
         text-align: center;
       }
+
       input[type="file"] {
         margin: 0px;
       }
@@ -60,6 +61,7 @@
       #name_wrapper > * {
         width: 1fr;
       }
+
       select {
         box-sizing: border-box;
         width: 60%;
@@ -68,6 +70,7 @@
         border-radius: 10px;
         text-align: center;
       }
+
       input,
       textarea {
         border-radius: 10px;
@@ -125,6 +128,7 @@
       input::placeholder {
         font-family: Montserrat;
       }
+
       input[type="file"]::-webkit-file-upload-button {
         background: transparent;
         font-family: "Montserrat";
@@ -134,9 +138,11 @@
         color: white;
         margin-right: 30px;
       }
+
       input[type="file"]::-webkit-file-upload-button:hover {
         background-color: black;
       }
+
       @media only screen and (max-width: 767px) {
         main {
           width: 100%;
@@ -152,32 +158,38 @@
   <body>
     <main>
       <form action="/predictRisk" method="POST">
-        {% for group_name, features in question_group.items() %} 
-          {% if features|length != 0 %}
-            <div id="{{ group_name }}">
-              <h1>{{ group_name | format_str }}</h1>
-              <hr />
-              {% for feature_name, feature in features.items() %}
-              <div class="wrapper">
-                <label for="{{feature_name}}"> {{feature['label']}} </label>
-                {% if not feature['options'] %}
-                  {% if feature['desc'] %}
-                    <input type="number" step="0.01" name="{{feature_name}}" placeholder="{{ feature['desc'] }}" required />
-                  {% else %}
-                    <input type="number" step="0.01" name="{{feature_name}}" required />
-                  {% endif %}
-                {% else %}
-                <select name="{{feature_name}}" id="{{feature_name}}" required>
-                  {% for option in feature['options'] %}
-                  <option value="{{option}}">{{option}}</option>
-                  {% endfor %}
-                </select>
-                  {% endif %}
-                </div>
-                {% endfor %}
-              </div>
-          {% endif %} 
-        {% endfor %}
+        {% for group_name, features in question_group.items() %} {% if
+        features|length != 0 %}
+        <div id="{{ group_name }}">
+          <h1>{{ group_name | format_str }}</h1>
+          <hr />
+          {% for feature_name, feature in features.items() %}
+          {% if not feature['formula'] %}
+          <div class="wrapper">
+            <label for="{{feature_name}}"> {{feature['label']}} </label>
+            {% if not feature['options'] %} {% if feature['desc'] %}
+            <input
+              type="number"
+              step="0.01"
+              name="{{feature_name}}"
+              placeholder="{{ feature['desc'] }}"
+              required
+            />
+            {% else %}
+            <input type="number" step="0.01" name="{{feature_name}}" required />
+            {% endif %} {% else %}
+            <select name="{{feature_name}}" id="{{feature_name}}" required>
+              {% for option in feature['options'] %}
+              <option value="{{option}}">{{option}}</option>
+              {% endfor %}
+            </select>
+            {% endif %}
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% endif %} {% endfor %}
+
         <input
           type="hidden"
           name="selectedDiseases[]"
