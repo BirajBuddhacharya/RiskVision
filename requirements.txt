@@ -1,7 +1,5 @@
 flask
 pandas
 streamlit
-matplotlib
-numpy
 sklearn
 pickle
