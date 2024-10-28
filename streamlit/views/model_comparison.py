@@ -4,7 +4,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, f1_score
 from utils.global_modules import model_selection, disease_selection, feature_selection, encode
 import matplotlib.pyplot as plt
-        
+from sklearn.ensemble import RandomForestClassifier
+
 def model_evaluate(models, diseases, features): 
     def train_evaluate(model, X, y):  
         # Splitting into testing and training
@@ -23,10 +24,13 @@ def model_evaluate(models, diseases, features):
         }
         
         return metrics
-        
-    for disease in diseases: 
+    # Title of the section 
+    st.title('Prediction')
+    
+    columns = st.columns(len(diseases)) 
+    for col, disease in zip(columns, diseases): 
         # Section header for each disease
-        st.title(disease.upper())
+        col.write(f"### {disease.upper()}")
         
         # Loading and encoding data for each model 
         try: 
@@ -52,7 +56,7 @@ def model_evaluate(models, diseases, features):
         
         # Plotting the bar graph
         metrics_df.plot(kind='bar', figsize=(8, 5), color=['#1f77b4', '#ff7f0e', '#2ca02c'])
-        plt.title('Model Performance Comparison', color='white')
+        plt.title(f'Model Performance Comparison for {disease}', color='white')
         plt.xlabel('Model', color='white')
         plt.ylabel('Scores', color='white')
         plt.xticks(rotation=0, color='white')
@@ -61,7 +65,57 @@ def model_evaluate(models, diseases, features):
         plt.grid(axis='y', color='gray', linestyle='--', linewidth=0.5)
         
         # Displaying into streamlit
-        st.pyplot(plt)
+        col.pyplot(plt)
+   
+# Feature importance
+def feature_importance(diseases, features):
+    st.title("Feature Importance")
+    columns = st.columns(len(diseases))
+    for col, disease in zip(columns, diseases): 
+         # Loading and encoding data for each model 
+        try: 
+            df = pd.read_csv(f"../data/processed/{disease}.csv")  
+        except FileNotFoundError: 
+            st.write(f"Error loading dataset for {disease}")
+            return 
+        
+        # Correcting feature selection access
+        X = encode(df[features[disease]])[0] # returns tuple of transformed data encoder and scaler
+        y = df[disease]
+        
+        ## Training model 
+        model = RandomForestClassifier()
+        model.fit(X, y)
+        
+        ## Finding feature importance
+        importances = model.feature_importances_
+        
+        ## making pandas dataframe of features and its importance
+        feature_importance_df = pd.DataFrame({
+            'Feature': X.columns,
+            'Importance': importances
+        }).set_index('Feature')
+        
+        # col title
+        col.write(f"### {disease}")
+        
+        ## ploting importance
+        # Apply dark mode style
+        plt.style.use('dark_background')
+        
+        # Plotting the bar graph
+        feature_importance_df.plot(kind='bar', figsize=(8, 5))
+        plt.title(f'Feature Importance of {disease}', color='white')
+        plt.xlabel('Feature', color='white')
+        plt.ylabel('Importance', color='white')
+        plt.xticks(rotation=90, color='white')
+        plt.yticks(color='white')
+        plt.legend().set_visible(False)
+        plt.grid(axis='y', color='gray', linestyle='--', linewidth=0.5)
+        
+        # Displaying into streamlit
+        col.pyplot(plt)
+        
     
 def show(): 
     st.sidebar.header("Model Comparison")
@@ -80,3 +134,4 @@ def show():
     
     if evaluate: 
         model_evaluate(models, diseases, features)
+        feature_importance(diseases, features)

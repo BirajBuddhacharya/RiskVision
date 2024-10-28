@@ -50,6 +50,8 @@ def disease_selection():
     return diseases 
 
 def feature_selection(diseases):
+    # Title of the section
+    st.sidebar.subheader('Select Features')
     # Loading features of each disease
     features = load_features()
     
@@ -58,9 +60,6 @@ def feature_selection(diseases):
     
     # Getting user input for features for each disease
     for disease in diseases: 
-        # Feature header
-        st.sidebar.subheader(disease)
-        
         # Loading available features from features config file
         available_features = features[disease].keys()
         
@@ -70,7 +69,7 @@ def feature_selection(diseases):
         available_features = [feature for feature in available_features if feature in model_features]
         
         # Getting user-wanted features for each disease
-        user_chosen_features[disease] = st.sidebar.multiselect("Select features to include: ", available_features)
+        user_chosen_features[disease] = st.sidebar.multiselect(f"Select features to include for {disease}: ", available_features)
         
     return user_chosen_features
         

@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import pandas as pd 
 import streamlit as st
 from utils.global_modules import model_selection, disease_selection, feature_selection, load_features, encode
@@ -51,22 +52,41 @@ def predict(user_input, models):
         risk = model.predict_proba(disease_df)[:,1]
 
         return risk[0] * 100  # returning percentage
-
+    
+    st.title('Model Prediction')
+    
+    # Empty to dict to store prediction 
+    store_predict = {}
+    
     # Prediction for each disease
     for disease_name, disease_data in user_input.items():
-        st.header(disease_name.upper())
+        store_predict[disease_name] = {}
 
         # Prediction by model
-        columns = st.columns(len(models))
-        for col, model in zip(columns, models):
-            col.write(f"**{model.__class__.__name__}**")
+        for model in models:
             # Predicting risk
             prediction = predict_risk(disease_data, disease_name, model)
 
-            # Displaying results
-            col.write(f"**{prediction:.2f}%**") # round up to 2 decimal place
-            col.write(f"Chance of having {disease_name}")
+            store_predict[disease_name][model.__class__.__name__] = prediction
             
+    # making df of stored prediction 
+    predict_df = pd.DataFrame(store_predict)
+    
+    # Apply dark mode style
+    plt.style.use('dark_background')
+    
+    # Plotting the bar graph
+    predict_df.plot(kind='bar', figsize=(8, 5), color=['#1f77b4', '#ff7f0e', '#2ca02c'])
+    plt.title('Model Prediction', color='white')
+    plt.xlabel('Model', color='white')
+    plt.ylabel('Prediction', color='white')
+    plt.xticks(rotation=0, color='white')
+    plt.yticks(color='white')
+    plt.legend(title='Metrics', facecolor='black', edgecolor='white', labelcolor='white')
+    plt.grid(axis='y', color='gray', linestyle='--', linewidth=0.5)
+    
+    # Displaying into streamlit
+    st.pyplot(plt)
     
 def show(): 
     st.sidebar.title("Prediction")
