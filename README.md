@@ -123,3 +123,12 @@ streamlit run app.py
 
 - Data sources from Kaggle
 - Open source community for various libraries used in this project
+
+## References
+1. BUPA Medical Research Ltd. (1990). Liver Disorders Data Set [Data set]. UCI Machine Learning Repository. Retrieved from https://archive.ics.uci.edu/dataset/60/liver+disorders
+
+2. Smith, J. (n.d.). Heart Disease Dataset [Data set]. Kaggle. Retrieved from https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+
+3. Mathchi. (n.d.). Diabetes Data Set [Data set]. Kaggle. Retrieved from https://www.kaggle.com/datasets/mathchi/diabetes-data-set
+
+4. Mansoor Daku. (n.d.). Chronic Kidney Disease Dataset [Data set]. Kaggle. Retrieved from https://www.kaggle.com/datasets/mansoordaku/ckdisease
