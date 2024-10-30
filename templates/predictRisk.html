@@ -18,6 +18,7 @@
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         font-size: 16px; /* Font size */
         z-index: 1000; /* Ensure button is above other elements */
+        text-decoration: none;
     }
 
     .fixed-button:hover {
@@ -47,6 +48,6 @@
         {% endfor %}
     </main>
     <!-- Run streamlit button -->
-    <button class="fixed-button" onclick="window.location.href='/runStreamlit';">Start Streamlit</button>
+    <a class="fixed-button" href="http://0.0.0.0:8501">Start Streamlit</a>
   </body>
 </html>

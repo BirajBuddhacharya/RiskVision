@@ -38,16 +38,19 @@ RiskVision is a web application built using Flask that helps users assess their 
 - **Model Persistence:** pickle
 - **Data Sources:** Kaggle datasets
 
+
 ## Project Structure
 
 ```
 RiskVision/
 ├── app.py                         # Main Flask app for disease prediction
+├── Dockerfile                     # Dockerfile for containerizing the application
+├── docker-compose.yml             # Docker Compose configuration file
 ├── requirements.txt               # Project dependencies
 ├── config/
 │   ├── config.py                  # Configuration settings
 │   ├── features.json              # Features metadata
-│   └── **pycache**/
+│   └── __pycache__/               # Bytecode cache directory
 ├── data/
 │   ├── model_training/            # Training data organized by disease
 │   │   ├── diabetes/
@@ -73,56 +76,87 @@ RiskVision/
 
 ## Installation
 
+### Using Docker
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/RiskVision.git
-cd RiskVision
-```
+   ```bash
+   git clone https://github.com/yourusername/RiskVision.git
+   cd RiskVision
+   ```
+
+2. Build the Docker images:
+   ```bash
+   docker-compose build
+   ```
+
+3. Start the application:
+   ```bash
+   docker-compose up
+   ```
+
+4. Access the Flask application:
+   - Open your browser and navigate to `http://localhost:5000`.
+   - Select a disease and follow the questionnaire.
+   - View your risk assessment results.
+
+5. Access the Streamlit dashboard:
+   - Open a new terminal window (keeping the previous terminal running).
+   - Run the Streamlit app in the container:
+     ```bash
+     docker-compose run riskvision bash -c "cd streamlit && streamlit run app.py"
+     ```
+   - Access the dashboard at `http://localhost:8501`.
+
+### Direct Installation (without Docker)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/RiskVision.git
+   cd RiskVision
+   ```
 
 2. Create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
 3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 ### Flask Application
 1. Start the Flask server:
-```bash
-python app.py
-```
-2. Navigate to `http://localhost:5000` in your browser
-3. Select a disease and follow the questionnaire
-4. View your risk assessment results
+   ```bash
+   python app.py
+   ```
+2. Navigate to `http://localhost:5000` in your browser.
+3. Select a disease and follow the questionnaire.
+4. View your risk assessment results.
 
 ### Streamlit Dashboard
 1. Navigate to the streamlit directory:
-```bash
-cd streamlit
-```
+   ```bash
+   cd streamlit
+   ```
 2. Run the Streamlit app:
-```bash
-streamlit run app.py
-```
-3. Access the dashboard at `http://localhost:8501`
+   ```bash
+   streamlit run app.py
+   ```
+3. Access the dashboard at `http://localhost:8501`.
 
 ## Model Training
 
-- Models are trained using data from public datasets (Kaggle)
-- Flask app uses pre-trained models (saved using pickle)
-- Streamlit dashboard supports live model training and evaluation
-- Separate notebooks are available for each disease's model development
+- Models are trained using data from public datasets (Kaggle).
+- Flask app uses pre-trained models (saved using pickle).
+- Streamlit dashboard supports live model training and evaluation.
+- Separate notebooks are available for each disease's model development.
 
 ## Acknowledgments
 
-- Data sources from Kaggle
-- Open source community for various libraries used in this project
+- Data sources from Kaggle.
+- Open source community for various libraries used in this project.
 
 ## References
 1. BUPA Medical Research Ltd. (1990). Liver Disorders Data Set [Data set]. UCI Machine Learning Repository. Retrieved from https://archive.ics.uci.edu/dataset/60/liver+disorders

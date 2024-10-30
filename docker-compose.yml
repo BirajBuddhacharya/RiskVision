@@ -1,0 +1,18 @@
+version: '3'
+services:
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Ensure this Dockerfile installs Streamlit
+    ports:
+      - "8501:8501"
+    working_dir: /RiskVision/streamlit
+    command: ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+  flask:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Ensure this Dockerfile installs Flask
+    ports:
+      - "5000:5000"
+    working_dir: /RiskVision

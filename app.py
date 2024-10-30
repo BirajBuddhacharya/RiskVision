@@ -3,7 +3,6 @@ import pandas as pd
 from utils import predict
 from utils.modules import load_features
 import os 
-import subprocess
 
 # Initializing Flask app
 app = Flask(__name__)
@@ -132,34 +131,6 @@ def predictRisk():
     print("Displaying results")
     
     return render_template('predictRisk.html', diseases_risk = diseases_risk)
-
-@app.route('/runStreamlit')
-def runStreamlit():
-    # changing directory for proper relative file path
-    try: 
-        os.chdir('streamlit')
-    except FileNotFoundError: 
-        # passing if already changed
-        pass
-    
-    # Define the command to run the Streamlit app on port 8501
-    command = [
-        "streamlit", 
-        "run", 
-        "app.py", 
-    ]
-
-    # Execute the command
-    
-    # Start the Streamlit app
-    process = subprocess.Popen(command)
-
-    if process.poll() is None:
-        print("Streamlit app is running.")
-    
-    os.chdir('..')
-    return redirect('/')
-
 
 if __name__  == '__main__': 
     app.run(host="0.0.0.0", port=5000) 
