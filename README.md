@@ -85,12 +85,12 @@ RiskVision/
 
 2. Build the Docker images:
    ```bash
-   docker-compose build
+   docker compose build
    ```
 
 3. Start the application:
    ```bash
-   docker-compose up
+   docker compose up
    ```
 
 4. Access the Flask application:
