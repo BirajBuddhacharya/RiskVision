@@ -99,11 +99,7 @@ RiskVision/
    - View your risk assessment results.
 
 5. Access the Streamlit dashboard:
-   - Open a new terminal window (keeping the previous terminal running).
-   - Run the Streamlit app in the container:
-     ```bash
-     docker-compose run riskvision bash -c "cd streamlit && streamlit run app.py"
-     ```
+   - keeping the previous terminal running.
    - Access the dashboard at `http://localhost:8501`.
 
 ### Direct Installation (without Docker)
