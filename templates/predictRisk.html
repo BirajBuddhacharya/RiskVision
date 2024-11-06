@@ -19,12 +19,11 @@
         font-size: 16px; /* Font size */
         z-index: 1000; /* Ensure button is above other elements */
         text-decoration: none;
-    }
+      }
 
-    .fixed-button:hover {
+      .fixed-button:hover {
         background-color: #5a34a1; /* Darker purple shade on hover */
-    }
-
+      }
     </style>
     <link
       rel="stylesheet"
@@ -37,15 +36,19 @@
   </head>
   <body>
     <main class="card-wrapper">
-        {% for disease, prediction in diseases_risk.items() %}
-        <div class="flex-child" id = '{{ disease }}-wrapper'>
-            <div style="text-align: center; display:flex; flex-direction: column;">
-            <h1>{{disease | format_str | upper}}</h1>
-            <span>{{prediction[0] | round(2)}} %</span>
-            <span>chance of having {{disease | format_str}}</span>
-            </div>
+      {% for disease, prediction in diseases_risk.items() %}
+      {% if prediction > 50 %}
+        <div class="flex-child" id="{{ disease }}-wrapper" style="color:tomato">
+      {% else %}
+      <div class="flex-child" id="{{ disease }}-wrapper">
+      {% endif %}
+        <div style="text-align: center; display: flex; flex-direction: column">
+          <h1>{{disease | format_str | upper}}</h1>
+          <span>{{prediction[0] | round(2)}} %</span>
+          <span>chance of having {{disease | format_str}}</span>
         </div>
-        {% endfor %}
+      </div>
+      {% endfor %}
     </main>
     <!-- Run streamlit button -->
     <a class="fixed-button" href="http://0.0.0.0:8501">Start Streamlit</a>
