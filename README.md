@@ -74,6 +74,14 @@ RiskVision/
 └── utils/                        # Utility scripts
 ```
 
+## Screenshots
+
+Here are some screenshots of the website:
+
+![Screenshot 1](static/img/displayImg1.png)
+![Screenshot 2](static/img/displayImg2.png)
+![Screenshot 3](static/img/displayImg3.png)
+
 ## Installation
 
 ### Using Docker
