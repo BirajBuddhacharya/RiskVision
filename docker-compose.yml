@@ -1,18 +1,21 @@
 version: '3'
 services:
   streamlit:
+    image: riskvision-base:latest
     build:
-      context: .
-      dockerfile: backend/Dockerfile  # Ensure this Dockerfile installs Streamlit
+      context: backend
+      dockerfile: Dockerfile  
     ports:
       - "8501:8501"
     working_dir: /RiskVision/streamlit
     command: ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
   flask:
+    image: riskvision-base:latest
     build:
-      context: .
-      dockerfile: backend/Dockerfile  # Ensure this Dockerfile installs Flask
+      context: backend
+      dockerfile: Dockerfile
     ports:
       - "5000:5000"
     working_dir: /RiskVision
+    command: ["python", "app.py"]  

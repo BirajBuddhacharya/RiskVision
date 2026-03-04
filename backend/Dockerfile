@@ -9,6 +9,3 @@ COPY . .
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
-
-# Run the Flask app when the container launches
-CMD ["python3", "app.py"]
