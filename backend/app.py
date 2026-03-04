@@ -1,4 +1,5 @@
-from flask import Flask, request, render_template, session, redirect
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pandas as pd
 from utils import predict
 from utils.modules import load_features
@@ -6,31 +7,27 @@ import os
 
 # Initializing Flask app
 app = Flask(__name__)
+CORS(app)
 app.secret_key = os.urandom(24)
 
-# formating strings for frontend
-@app.template_filter('format_str')
-def format_str(string): 
-    return string.replace('_', ' ').title()
-
-@app.route('/')
+@app.route('/api/diseases', methods=['GET'])
 def diseasesInput():
     diseases_config = load_features() 
     diseases = list(diseases_config.keys())
-    return render_template('diseasesInput.html', diseases = diseases)
+    return jsonify({"diseases": diseases})
 
-@app.route('/questionere', methods = ['POST'])
+@app.route('/api/questionere', methods=['POST'])
 def questionere(): 
     def load_and_group(): 
         # finding common questions
         diseases = load_features() # loading feature files
 
         # selecting only user selected disease
-        selectedDiseases = request.form.getlist('selectedDiseases[]')
+        data = request.get_json()
+        if not data:
+            data = {}
+        selectedDiseases = data.get('selectedDiseases', [])
         diseases = {key: value for key, value in diseases.items() if key in selectedDiseases}
-        
-        # storing user selected diseases in session to use in predict page
-        session['selectedDiseases'] = selectedDiseases
         
         # initializing empty list to track duplicate features 
         features = []
@@ -57,12 +54,14 @@ def questionere():
         # returning grouped data and user selected diseases
         return question_group, selectedDiseases
     
-    # loading features and grouping them on the basic of common and disease
-    question_group, selectedDiseases = load_and_group()
-    
-    return render_template('index.html', question_group = question_group, selectedDiseases = selectedDiseases)
+    try:
+        # loading features and grouping them on the basic of common and disease
+        question_group, selectedDiseases = load_and_group()
+        return jsonify({"question_group": question_group, "selectedDiseases": selectedDiseases})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
-@app.route('/predictRisk', methods=['POST'])
+@app.route('/api/predictRisk', methods=['POST'])
 def predictRisk():
     def collect_data(info): 
         print("collecting data")
@@ -119,18 +118,38 @@ def predictRisk():
         return df
 
     # collecting data from form and turning into dataframe
-    df = collect_data(request.form)
+    data_payload = request.get_json()
+    if not data_payload:
+        data_payload = {}
+    form_data = data_payload.get('form_data', {})
+    selectedDiseases = data_payload.get('selectedDiseases', [])
+
+    df = collect_data(form_data)
     
     # predicting stroke risk 
     try: 
-        diseases_risk = predict.predict(df, session['selectedDiseases'])
-    except KeyError: # handling incorrect session
-        return "Error: Session vairable not accessible pls refresh the page"
+        diseases_risk = predict.predict(df, selectedDiseases)
+    except Exception as e: # handling incorrect inputs or prediction failure
+        return jsonify({"error": str(e)}), 400
     
     # Displaying result
     print("Displaying results")
     
-    return render_template('predictRisk.html', diseases_risk = diseases_risk)
+    import numpy as np
+    def make_serializable(obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        elif isinstance(obj, np.generic):
+            return obj.item()
+        elif isinstance(obj, dict):
+            return {k: make_serializable(v) for k, v in obj.items()}
+        elif isinstance(obj, (list, tuple)):
+            return [make_serializable(i) for i in obj]
+        return obj
+
+    serializable_risk = make_serializable(diseases_risk)
+    
+    return jsonify({"diseases_risk": serializable_risk})
 
 if __name__  == '__main__': 
     app.run(host="0.0.0.0", port=5000) 
