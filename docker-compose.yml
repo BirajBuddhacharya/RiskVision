@@ -1,4 +1,3 @@
-version: '3'
 services:
   streamlit:
     image: riskvision-base:latest
@@ -19,3 +18,11 @@ services:
       - "5000:5000"
     working_dir: /RiskVision
     command: ["python", "app.py"]  
+  frontend:
+    image: riskvision-frontend:latest
+    build:
+      context: frontend
+      dockerfile: Dockerfile  
+    ports:
+      - "3000:3000"
+    working_dir: /RiskVision/frontend
