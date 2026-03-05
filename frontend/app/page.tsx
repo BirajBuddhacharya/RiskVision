@@ -15,6 +15,8 @@ const diseaseImages: Record<string, string> = {
 
 const defaultImage = "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&q=80";
 
+import { API_ROUTES } from '@/lib/api-routes';
+
 export default function Home() {
   const [selectedDiseases, setSelectedDiseases] = useState<string[]>([]);
   const router = useRouter();
@@ -22,7 +24,7 @@ export default function Home() {
   const { data: diseasesData, isLoading, isError } = useQuery({
     queryKey: ['diseases'],
     queryFn: async () => {
-      const res = await fetch('http://localhost:5000/api/diseases');
+      const res = await fetch(API_ROUTES.DISEASES);
       if (!res.ok) throw new Error('Failed to fetch');
       return res.json();
     }

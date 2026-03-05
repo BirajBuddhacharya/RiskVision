@@ -8,6 +8,8 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { ArrowLeft, ArrowRight, CheckCircle2, Circle, Info, Activity } from 'lucide-react';
 
+import { API_ROUTES } from '@/lib/api-routes';
+
 type Feature = {
   label: string;
   desc?: string;
@@ -39,7 +41,7 @@ export default function Questioneres() {
   const { data: questionGroup, isLoading, isError } = useQuery({
     queryKey: ['questions', selectedDiseases],
     queryFn: async () => {
-      const res = await fetch('http://localhost:5000/api/questionere', {
+      const res = await fetch(API_ROUTES.QUESTIONNAIRE, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ selectedDiseases })
@@ -53,7 +55,7 @@ export default function Questioneres() {
 
   const predictMutation = useMutation({
     mutationFn: async (payload: { selectedDiseases: string[], form_data: Record<string, string> }) => {
-      const res = await fetch('http://localhost:5000/api/predictRisk', {
+      const res = await fetch(API_ROUTES.PREDICT_RISK, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
