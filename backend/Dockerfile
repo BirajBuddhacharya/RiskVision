@@ -1,11 +1,19 @@
-# Use an official Python runtime as a parent image
-FROM python:3.9
+FROM python:3.11-slim
 
-# Set the working directory
+# Prevents Python from writing pyc files and buffers stdout/stderr
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
 WORKDIR /RiskVision
 
-# Copy the current directory contents into the container at /RiskVision
+# Install dependencies first for better caching
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the app
 COPY . .
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+EXPOSE 5000 8501
+
+# Default command (can be overridden by compose)
+CMD ["gunicorn", "app:app", "-b", "0.0.0.0:5000", "-w", "4"]

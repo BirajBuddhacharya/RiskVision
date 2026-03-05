@@ -13,6 +13,5 @@ COPY next.config.ts /RiskVision/frontend/next.config.ts
 COPY package.json /RiskVision/frontend/package.json
 COPY public /RiskVision/frontend/public
 
-
 EXPOSE 3000
 CMD ["npm", "start"]

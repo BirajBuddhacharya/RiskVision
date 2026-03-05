@@ -17,7 +17,6 @@ services:
     ports:
       - "5000:5000"
     working_dir: /RiskVision
-    command: ["python", "app.py"]  
   frontend:
     image: riskvision-frontend:latest
     build:
